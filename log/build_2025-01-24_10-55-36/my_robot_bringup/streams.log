@@ -1,0 +1,59 @@
+[0.014s] Invoking command in '/home/jack/ros2_ws/build/my_robot_bringup': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/jack/ros2_ws/src/my_robot_bringup -DCMAKE_INSTALL_PREFIX=/home/jack/ros2_ws/install/my_robot_bringup
+[0.111s] -- The C compiler identification is GNU 13.3.0
+[0.183s] -- The CXX compiler identification is GNU 13.3.0
+[0.201s] -- Detecting C compiler ABI info
+[0.288s] -- Detecting C compiler ABI info - done
+[0.299s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.299s] -- Detecting C compile features
+[0.300s] -- Detecting C compile features - done
+[0.314s] -- Detecting CXX compiler ABI info
+[0.412s] -- Detecting CXX compiler ABI info - done
+[0.421s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.421s] -- Detecting CXX compile features
+[0.422s] -- Detecting CXX compile features - done
+[0.426s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.573s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.776s] Error parsing '/home/jack/ros2_ws/src/my_robot_bringup/package.xml':
+[2.079s] Traceback (most recent call last):
+[2.080s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 610, in parse_package_string
+[2.080s]     root = dom.parseString(data)
+[2.080s]            ^^^^^^^^^^^^^^^^^^^^^
+[2.080s]   File "/usr/lib/python3.12/xml/dom/minidom.py", line 2000, in parseString
+[2.080s]     return expatbuilder.parseString(string)
+[2.080s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2.080s]   File "/usr/lib/python3.12/xml/dom/expatbuilder.py", line 922, in parseString
+[2.080s]     return builder.parseString(string)
+[2.081s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2.081s]   File "/usr/lib/python3.12/xml/dom/expatbuilder.py", line 220, in parseString
+[2.081s]     parser.Parse(string, True)
+[2.081s] xml.parsers.expat.ExpatError: not well-formed (invalid token): line 7, column 21
+[2.081s] 
+[2.081s] During handling of the above exception, another exception occurred:
+[2.081s] 
+[2.081s] Traceback (most recent call last):
+[2.081s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[2.081s]     main()
+[2.081s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[2.081s]     raise e
+[2.081s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[2.081s]     package = parse_package_string(
+[2.081s]               ^^^^^^^^^^^^^^^^^^^^^
+[2.082s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 612, in parse_package_string
+[2.082s]     raise InvalidPackage('The manifest contains invalid XML:\n%s' % ex, filename)
+[2.082s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/jack/ros2_ws/src/my_robot_bringup/package.xml':
+[2.082s] The manifest contains invalid XML:
+[2.082s] not well-formed (invalid token): line 7, column 21
+[2.124s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[2.124s]   execute_process(/usr/bin/python3
+[2.124s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[2.124s]   /home/jack/ros2_ws/src/my_robot_bringup/package.xml
+[2.124s]   /home/jack/ros2_ws/build/my_robot_bringup/ament_cmake_core/package.cmake)
+[2.124s]   returned error code 1
+[2.124s] Call Stack (most recent call first):
+[2.124s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[2.124s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:63 (ament_package_xml)
+[2.125s]   CMakeLists.txt:16 (ament_package)
+[2.125s] 
+[2.125s] [0m
+[2.125s] -- Configuring incomplete, errors occurred!
+[2.129s] Invoked command in '/home/jack/ros2_ws/build/my_robot_bringup' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/jack/ros2_ws/src/my_robot_bringup -DCMAKE_INSTALL_PREFIX=/home/jack/ros2_ws/install/my_robot_bringup
