@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: turtle-move
+Version: 0.0.0
+Summary: ROS 2 package for controlling my robot
+Maintainer: jack
+Maintainer-email: jackerick0212@gmail.com
+License: Apache-2.0
