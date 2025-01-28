@@ -1,0 +1,49 @@
+[2.649s] Invoking command in '/home/jack/ros2_ws/src/my_robot_controller': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/jack/ros2_ws/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jack/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_robot_controller build --build-base /home/jack/ros2_ws/build/my_robot_controller/build install --record /home/jack/ros2_ws/build/my_robot_controller/install.log --single-version-externally-managed install_data
+[3.233s] running egg_info
+[3.233s] creating ../../build/my_robot_controller/my_robot_controller.egg-info
+[3.278s] writing ../../build/my_robot_controller/my_robot_controller.egg-info/PKG-INFO
+[3.279s] writing dependency_links to ../../build/my_robot_controller/my_robot_controller.egg-info/dependency_links.txt
+[3.280s] writing entry points to ../../build/my_robot_controller/my_robot_controller.egg-info/entry_points.txt
+[3.280s] writing requirements to ../../build/my_robot_controller/my_robot_controller.egg-info/requires.txt
+[3.280s] writing top-level names to ../../build/my_robot_controller/my_robot_controller.egg-info/top_level.txt
+[3.280s] writing manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[3.376s] reading manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[3.377s] writing manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[3.377s] running build
+[3.378s] running build_py
+[3.378s] creating /home/jack/ros2_ws/build/my_robot_controller/build
+[3.378s] creating /home/jack/ros2_ws/build/my_robot_controller/build/lib
+[3.378s] creating /home/jack/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller
+[3.379s] copying my_robot_controller/draw_circle.py -> /home/jack/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller
+[3.379s] copying my_robot_controller/__init__.py -> /home/jack/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller
+[3.379s] copying my_robot_controller/turtle_controller.py -> /home/jack/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller
+[3.380s] copying my_robot_controller/pose_subscriber.py -> /home/jack/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller
+[3.380s] copying my_robot_controller/my_first_node.py -> /home/jack/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller
+[3.380s] running install
+[3.391s] running install_lib
+[3.440s] creating /home/jack/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages/my_robot_controller
+[3.440s] copying /home/jack/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller/draw_circle.py -> /home/jack/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages/my_robot_controller
+[3.440s] copying /home/jack/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller/__init__.py -> /home/jack/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages/my_robot_controller
+[3.440s] copying /home/jack/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller/turtle_controller.py -> /home/jack/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages/my_robot_controller
+[3.441s] copying /home/jack/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller/pose_subscriber.py -> /home/jack/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages/my_robot_controller
+[3.441s] copying /home/jack/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller/my_first_node.py -> /home/jack/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages/my_robot_controller
+[3.441s] byte-compiling /home/jack/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages/my_robot_controller/draw_circle.py to draw_circle.cpython-312.pyc
+[3.442s] byte-compiling /home/jack/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages/my_robot_controller/__init__.py to __init__.cpython-312.pyc
+[3.443s] byte-compiling /home/jack/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages/my_robot_controller/turtle_controller.py to turtle_controller.cpython-312.pyc
+[3.444s] byte-compiling /home/jack/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages/my_robot_controller/pose_subscriber.py to pose_subscriber.cpython-312.pyc
+[3.445s] byte-compiling /home/jack/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages/my_robot_controller/my_first_node.py to my_first_node.cpython-312.pyc
+[3.445s] running install_data
+[3.446s] creating /home/jack/ros2_ws/install/my_robot_controller/share/ament_index
+[3.446s] creating /home/jack/ros2_ws/install/my_robot_controller/share/ament_index/resource_index
+[3.446s] creating /home/jack/ros2_ws/install/my_robot_controller/share/ament_index/resource_index/packages
+[3.446s] copying resource/my_robot_controller -> /home/jack/ros2_ws/install/my_robot_controller/share/ament_index/resource_index/packages
+[3.447s] copying package.xml -> /home/jack/ros2_ws/install/my_robot_controller/share/my_robot_controller
+[3.447s] running install_egg_info
+[3.496s] Copying ../../build/my_robot_controller/my_robot_controller.egg-info to /home/jack/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages/my_robot_controller-0.0.0-py3.12.egg-info
+[3.498s] running install_scripts
+[3.810s] Installing draw_circle script to /home/jack/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[3.810s] Installing pose_subscriber script to /home/jack/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[3.811s] Installing test_node script to /home/jack/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[3.811s] Installing turtle_controller script to /home/jack/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[3.811s] writing list of installed files to '/home/jack/ros2_ws/build/my_robot_controller/install.log'
+[3.859s] Invoked command in '/home/jack/ros2_ws/src/my_robot_controller' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/jack/ros2_ws/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jack/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_robot_controller build --build-base /home/jack/ros2_ws/build/my_robot_controller/build install --record /home/jack/ros2_ws/build/my_robot_controller/install.log --single-version-externally-managed install_data
