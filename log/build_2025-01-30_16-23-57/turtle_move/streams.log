@@ -1,0 +1,24 @@
+[2.204s] Invoking command in '/home/jack/ros2_ws/src/turtle_move': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/jack/ros2_ws/build/turtle_move/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jack/ros2_ws/install/turtle_move/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtle_move build --build-base /home/jack/ros2_ws/build/turtle_move/build install --record /home/jack/ros2_ws/build/turtle_move/install.log --single-version-externally-managed install_data
+[2.784s] running egg_info
+[2.832s] writing ../../build/turtle_move/turtle_move.egg-info/PKG-INFO
+[2.832s] writing dependency_links to ../../build/turtle_move/turtle_move.egg-info/dependency_links.txt
+[2.832s] writing entry points to ../../build/turtle_move/turtle_move.egg-info/entry_points.txt
+[2.833s] writing requirements to ../../build/turtle_move/turtle_move.egg-info/requires.txt
+[2.833s] writing top-level names to ../../build/turtle_move/turtle_move.egg-info/top_level.txt
+[2.929s] reading manifest file '../../build/turtle_move/turtle_move.egg-info/SOURCES.txt'
+[2.930s] writing manifest file '../../build/turtle_move/turtle_move.egg-info/SOURCES.txt'
+[2.930s] running build
+[2.931s] running build_py
+[2.931s] copying turtle_move/turtle_node.py -> /home/jack/ros2_ws/build/turtle_move/build/lib/turtle_move
+[2.931s] running install
+[2.944s] running install_lib
+[2.994s] copying /home/jack/ros2_ws/build/turtle_move/build/lib/turtle_move/turtle_node.py -> /home/jack/ros2_ws/install/turtle_move/lib/python3.12/site-packages/turtle_move
+[2.995s] byte-compiling /home/jack/ros2_ws/install/turtle_move/lib/python3.12/site-packages/turtle_move/turtle_node.py to turtle_node.cpython-312.pyc
+[2.996s] running install_data
+[2.997s] running install_egg_info
+[3.048s] removing '/home/jack/ros2_ws/install/turtle_move/lib/python3.12/site-packages/turtle_move-0.0.0-py3.12.egg-info' (and everything under it)
+[3.048s] Copying ../../build/turtle_move/turtle_move.egg-info to /home/jack/ros2_ws/install/turtle_move/lib/python3.12/site-packages/turtle_move-0.0.0-py3.12.egg-info
+[3.050s] running install_scripts
+[3.347s] Installing turtle_node script to /home/jack/ros2_ws/install/turtle_move/lib/turtle_move
+[3.347s] writing list of installed files to '/home/jack/ros2_ws/build/turtle_move/install.log'
+[3.401s] Invoked command in '/home/jack/ros2_ws/src/turtle_move' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/jack/ros2_ws/build/turtle_move/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jack/ros2_ws/install/turtle_move/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtle_move build --build-base /home/jack/ros2_ws/build/turtle_move/build install --record /home/jack/ros2_ws/build/turtle_move/install.log --single-version-externally-managed install_data
