@@ -10,7 +10,7 @@ class TurtleNode(Node):
 
     def __init__(self):
         super().__init__("turtle_node")
-        self.pub_ = self.create_publisher(Twist, "/turtle1/cmd_vel", 10)
+        self.pub_ = self.create_publisher(Twist, "cmd_vel", 10)
         self.timer_ = self.create_timer(time_period, self.send_velocity_command)
         self.get_logger().info("This is the turtle_node")
 
