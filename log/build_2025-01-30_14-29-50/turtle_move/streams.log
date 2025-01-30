@@ -1,0 +1,19 @@
+[2.237s] Invoking command in '/home/jack/ros2_ws/build/turtle_move': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/jack/ros2_ws/build/turtle_move/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jack/ros2_ws/install/turtle_move/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jack/ros2_ws/build/turtle_move/build --no-deps symlink_data --force
+[2.941s] running develop
+[3.409s] running egg_info
+[3.454s] writing turtle_move.egg-info/PKG-INFO
+[3.454s] writing dependency_links to turtle_move.egg-info/dependency_links.txt
+[3.455s] writing entry points to turtle_move.egg-info/entry_points.txt
+[3.455s] writing requirements to turtle_move.egg-info/requires.txt
+[3.456s] writing top-level names to turtle_move.egg-info/top_level.txt
+[3.553s] reading manifest file 'turtle_move.egg-info/SOURCES.txt'
+[3.554s] writing manifest file 'turtle_move.egg-info/SOURCES.txt'
+[3.604s] running build_ext
+[3.604s] Creating /home/jack/ros2_ws/install/turtle_move/lib/python3.12/site-packages/turtle-move.egg-link (link to .)
+[3.605s] Installing turtle_node script to /home/jack/ros2_ws/install/turtle_move/lib/turtle_move
+[3.606s] 
+[3.606s] Installed /home/jack/ros2_ws/build/turtle_move
+[3.606s] running symlink_data
+[3.606s] symbolically linking /home/jack/ros2_ws/build/turtle_move/resource/turtle_move -> /home/jack/ros2_ws/install/turtle_move/share/ament_index/resource_index/packages
+[3.606s] symbolically linking /home/jack/ros2_ws/build/turtle_move/package.xml -> /home/jack/ros2_ws/install/turtle_move/share/turtle_move
+[3.688s] Invoked command in '/home/jack/ros2_ws/build/turtle_move' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/jack/ros2_ws/build/turtle_move/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jack/ros2_ws/install/turtle_move/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jack/ros2_ws/build/turtle_move/build --no-deps symlink_data --force

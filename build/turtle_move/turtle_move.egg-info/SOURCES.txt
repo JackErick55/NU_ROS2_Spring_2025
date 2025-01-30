@@ -9,8 +9,12 @@ setup.py
 ../../build/turtle_move/turtle_move.egg-info/top_level.txt
 ../../build/turtle_move/turtle_move.egg-info/zip-safe
 resource/turtle_move
-test/test_copyright.py
-test/test_flake8.py
-test/test_pep257.py
 turtle_move/__init__.py
 turtle_move/turtle_node.py
+turtle_move.egg-info/PKG-INFO
+turtle_move.egg-info/SOURCES.txt
+turtle_move.egg-info/dependency_links.txt
+turtle_move.egg-info/entry_points.txt
+turtle_move.egg-info/requires.txt
+turtle_move.egg-info/top_level.txt
+turtle_move.egg-info/zip-safe
