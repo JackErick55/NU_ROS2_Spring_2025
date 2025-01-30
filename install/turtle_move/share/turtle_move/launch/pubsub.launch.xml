@@ -1,7 +1,1 @@
-<launch>
-  <node pkg="turtlesim" exec="turtlesim_node" />
-  <node pkg="turtle_move" exec="turtle_node">
-    <remap from="cmd_vel" to="turtle1/cmd_vel" />
-    <remap from="Pose" to="turtlesim/msg/Pose" />
-  </node>
-</launch>
+/home/jack/ros2_ws/build/turtle_move/launch/pubsub.launch.xml

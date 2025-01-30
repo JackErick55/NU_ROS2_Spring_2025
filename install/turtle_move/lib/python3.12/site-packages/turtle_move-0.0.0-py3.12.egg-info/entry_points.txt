@@ -1,2 +1,0 @@
-[console_scripts]
-turtle_node = turtle_move.turtle_node:main
