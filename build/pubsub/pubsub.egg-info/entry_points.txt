@@ -1,0 +1,2 @@
+[console_scripts]
+Pubsub_node = pubsub.pubsub:main

@@ -1,0 +1,37 @@
+[2.552s] Invoking command in '/home/jack/ros2_ws/src/pubsub': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/jack/ros2_ws/build/turtle_move/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jack/ros2_ws/install/turtle_move/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtle_move build --build-base /home/jack/ros2_ws/build/turtle_move/build install --record /home/jack/ros2_ws/build/turtle_move/install.log --single-version-externally-managed install_data
+[3.164s] running egg_info
+[3.164s] creating ../../build/turtle_move/pubsub.egg-info
+[3.212s] writing ../../build/turtle_move/pubsub.egg-info/PKG-INFO
+[3.212s] writing dependency_links to ../../build/turtle_move/pubsub.egg-info/dependency_links.txt
+[3.213s] writing entry points to ../../build/turtle_move/pubsub.egg-info/entry_points.txt
+[3.213s] writing requirements to ../../build/turtle_move/pubsub.egg-info/requires.txt
+[3.213s] writing top-level names to ../../build/turtle_move/pubsub.egg-info/top_level.txt
+[3.213s] writing manifest file '../../build/turtle_move/pubsub.egg-info/SOURCES.txt'
+[3.308s] reading manifest file '../../build/turtle_move/pubsub.egg-info/SOURCES.txt'
+[3.309s] writing manifest file '../../build/turtle_move/pubsub.egg-info/SOURCES.txt'
+[3.310s] running build
+[3.310s] running build_py
+[3.310s] creating /home/jack/ros2_ws/build/turtle_move/build
+[3.310s] creating /home/jack/ros2_ws/build/turtle_move/build/lib
+[3.311s] creating /home/jack/ros2_ws/build/turtle_move/build/lib/pubsub
+[3.311s] copying pubsub/__init__.py -> /home/jack/ros2_ws/build/turtle_move/build/lib/pubsub
+[3.311s] copying pubsub/pubsub.py -> /home/jack/ros2_ws/build/turtle_move/build/lib/pubsub
+[3.311s] running install
+[3.323s] running install_lib
+[3.371s] creating /home/jack/ros2_ws/install/turtle_move/lib/python3.12/site-packages/pubsub
+[3.371s] copying /home/jack/ros2_ws/build/turtle_move/build/lib/pubsub/__init__.py -> /home/jack/ros2_ws/install/turtle_move/lib/python3.12/site-packages/pubsub
+[3.371s] copying /home/jack/ros2_ws/build/turtle_move/build/lib/pubsub/pubsub.py -> /home/jack/ros2_ws/install/turtle_move/lib/python3.12/site-packages/pubsub
+[3.372s] byte-compiling /home/jack/ros2_ws/install/turtle_move/lib/python3.12/site-packages/pubsub/__init__.py to __init__.cpython-312.pyc
+[3.372s] byte-compiling /home/jack/ros2_ws/install/turtle_move/lib/python3.12/site-packages/pubsub/pubsub.py to pubsub.cpython-312.pyc
+[3.374s] running install_data
+[3.374s] copying resource/pubsub -> /home/jack/ros2_ws/install/turtle_move/share/ament_index/resource_index/packages
+[3.374s] creating /home/jack/ros2_ws/install/turtle_move/share/pubsub
+[3.374s] copying package.xml -> /home/jack/ros2_ws/install/turtle_move/share/pubsub
+[3.375s] creating /home/jack/ros2_ws/install/turtle_move/share/pubsub/launch
+[3.375s] copying launch/pubsub.launch.xml -> /home/jack/ros2_ws/install/turtle_move/share/pubsub/launch
+[3.375s] running install_egg_info
+[3.424s] Copying ../../build/turtle_move/pubsub.egg-info to /home/jack/ros2_ws/install/turtle_move/lib/python3.12/site-packages/pubsub-0.0.0-py3.12.egg-info
+[3.425s] running install_scripts
+[3.724s] Installing Pubsub_node script to /home/jack/ros2_ws/install/turtle_move/lib/pubsub
+[3.724s] writing list of installed files to '/home/jack/ros2_ws/build/turtle_move/install.log'
+[3.776s] Invoked command in '/home/jack/ros2_ws/src/pubsub' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/jack/ros2_ws/build/turtle_move/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jack/ros2_ws/install/turtle_move/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtle_move build --build-base /home/jack/ros2_ws/build/turtle_move/build install --record /home/jack/ros2_ws/build/turtle_move/install.log --single-version-externally-managed install_data
