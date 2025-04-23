@@ -1,1 +1,1 @@
-demo_nodes_cpp:demo_nodes_py
+my_cpp_pkg:my_py_pkg:turtle_controller:turtlesim

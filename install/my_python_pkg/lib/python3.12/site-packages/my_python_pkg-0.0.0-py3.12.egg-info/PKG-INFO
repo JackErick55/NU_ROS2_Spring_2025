@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: my-python-pkg
+Version: 0.0.0
+Summary: my python package
+Maintainer: jack
+Maintainer-email: <jackerick0212@gmail.com>
+License: Apache-2.0

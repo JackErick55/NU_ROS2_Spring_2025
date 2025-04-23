@@ -1,0 +1,65 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found example_interfaces: 0.12.0 (/opt/ros/jazzy/share/example_interfaces/cmake)
+-- Found my_robot_interfaces: 0.0.0 (/home/jack/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake)
+-- Configuring done (1.1s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/jack/ros2_ws/build/my_cpp_pkg
+[ 12%] [32mBuilding CXX object CMakeFiles/test_node.dir/src/my_first_node.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/number_counter.dir/src/number_counter.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/number_publisher.dir/src/number_publisher.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/reset_counter_client.dir/src/reset_counter_client.cpp.o[0m
+[ 62%] [32m[1mLinking CXX executable test_node[0m
+[ 62%] Built target test_node
+[ 75%] [32m[1mLinking CXX executable reset_counter_client[0m
+[ 75%] Built target reset_counter_client
+[ 87%] [32m[1mLinking CXX executable number_publisher[0m
+[ 87%] Built target number_publisher
+[100%] [32m[1mLinking CXX executable number_counter[0m
+[100%] Built target number_counter
+-- Install configuration: ""
+-- Installing: /home/jack/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/test_node
+-- Set non-toolchain portion of runtime path of "/home/jack/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/test_node" to ""
+-- Installing: /home/jack/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/number_publisher
+-- Set non-toolchain portion of runtime path of "/home/jack/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/number_publisher" to ""
+-- Installing: /home/jack/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/number_counter
+-- Set non-toolchain portion of runtime path of "/home/jack/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/number_counter" to ""
+-- Installing: /home/jack/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/reset_counter_client
+-- Set non-toolchain portion of runtime path of "/home/jack/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/reset_counter_client" to ""
+-- Installing: /home/jack/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+-- Installing: /home/jack/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+-- Installing: /home/jack/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+-- Installing: /home/jack/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+-- Installing: /home/jack/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+-- Installing: /home/jack/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+-- Installing: /home/jack/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+-- Installing: /home/jack/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+-- Installing: /home/jack/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+-- Installing: /home/jack/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+-- Installing: /home/jack/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+-- Installing: /home/jack/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+-- Installing: /home/jack/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+-- Installing: /home/jack/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+-- Installing: /home/jack/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml

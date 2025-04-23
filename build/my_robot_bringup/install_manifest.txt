@@ -1,4 +1,8 @@
-/home/jack/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/launch/launch/demo.launch.py
+/home/jack/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//launch/number_app.launch.xml
+/home/jack/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//launch/number_app.launch.py
+/home/jack/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//launch/turtlesim_control.launch.xml
+/home/jack/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//config/turtle_params.yaml
+/home/jack/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//config/number_params.yaml
 /home/jack/ros2_ws/install/my_robot_bringup/share/ament_index/resource_index/package_run_dependencies/my_robot_bringup
 /home/jack/ros2_ws/install/my_robot_bringup/share/ament_index/resource_index/parent_prefix_path/my_robot_bringup
 /home/jack/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/environment/ament_prefix_path.sh

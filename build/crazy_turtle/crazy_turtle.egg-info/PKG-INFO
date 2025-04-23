@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: crazy-turtle
+Version: 0.0.0
+Summary: Drive a turtle on a crazy path
+Maintainer: elwin
+Maintainer-email: elwin@northwestern.edu
+License: MIT
+License-File: LICENSE

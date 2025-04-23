@@ -1,0 +1,8 @@
+setup.py
+crazy_turtle_interfaces/__init__.py
+crazy_turtle_interfaces.egg-info/PKG-INFO
+crazy_turtle_interfaces.egg-info/SOURCES.txt
+crazy_turtle_interfaces.egg-info/dependency_links.txt
+crazy_turtle_interfaces.egg-info/top_level.txt
+crazy_turtle_interfaces/srv/__init__.py
+crazy_turtle_interfaces/srv/_switch.py

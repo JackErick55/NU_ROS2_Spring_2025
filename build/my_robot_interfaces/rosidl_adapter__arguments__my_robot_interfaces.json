@@ -1,0 +1,8 @@
+{
+  "package_name": "my_robot_interfaces",
+  "non_idl_tuples": [
+    "/home/jack/ros2_ws/src/my_robot_interfaces:msg/HardwareStatus.msg",
+    "/home/jack/ros2_ws/src/my_robot_interfaces:srv/ResetCounter.srv",
+    "/home/jack/ros2_ws/src/my_robot_interfaces:srv/ActivateTurtle.srv"
+  ]
+}

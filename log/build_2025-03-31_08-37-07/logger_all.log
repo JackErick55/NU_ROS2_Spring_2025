@@ -1,0 +1,923 @@
+[0.096s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.096s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x71c7b1523aa0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x71c7b15237d0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x71c7b15237d0>>, mixin_verb=('build',))
+[0.120s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.120s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.120s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.120s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.120s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.120s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.120s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jack/ros2_ws'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazy_turtle) by extensions ['ignore', 'ignore_ament_install']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazy_turtle) by extension 'ignore'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazy_turtle) by extension 'ignore_ament_install'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazy_turtle) by extensions ['colcon_pkg']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazy_turtle) by extension 'colcon_pkg'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazy_turtle) by extensions ['colcon_meta']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazy_turtle) by extension 'colcon_meta'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazy_turtle) by extensions ['ros']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazy_turtle) by extension 'ros'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazy_turtle) by extensions ['cmake', 'python']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazy_turtle) by extension 'cmake'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazy_turtle) by extension 'python'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazy_turtle) by extensions ['python_setup_py']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazy_turtle) by extension 'python_setup_py'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazy_turtle/crazy_turtle) by extensions ['ignore', 'ignore_ament_install']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazy_turtle/crazy_turtle) by extension 'ignore'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazy_turtle/crazy_turtle) by extension 'ignore_ament_install'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazy_turtle/crazy_turtle) by extensions ['colcon_pkg']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazy_turtle/crazy_turtle) by extension 'colcon_pkg'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazy_turtle/crazy_turtle) by extensions ['colcon_meta']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazy_turtle/crazy_turtle) by extension 'colcon_meta'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazy_turtle/crazy_turtle) by extensions ['ros']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazy_turtle/crazy_turtle) by extension 'ros'
+[0.140s] DEBUG:colcon.colcon_core.package_identification:Package 'src/crazy_turtle/crazy_turtle' with type 'ros.ament_python' and name 'crazy_turtle'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazy_turtle/crazy_turtle_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazy_turtle/crazy_turtle_interfaces) by extension 'ignore'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazy_turtle/crazy_turtle_interfaces) by extension 'ignore_ament_install'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazy_turtle/crazy_turtle_interfaces) by extensions ['colcon_pkg']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazy_turtle/crazy_turtle_interfaces) by extension 'colcon_pkg'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazy_turtle/crazy_turtle_interfaces) by extensions ['colcon_meta']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazy_turtle/crazy_turtle_interfaces) by extension 'colcon_meta'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazy_turtle/crazy_turtle_interfaces) by extensions ['ros']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazy_turtle/crazy_turtle_interfaces) by extension 'ros'
+[0.140s] DEBUG:colcon.colcon_core.package_identification:Package 'src/crazy_turtle/crazy_turtle_interfaces' with type 'ros.ament_cmake' and name 'crazy_turtle_interfaces'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/homework1) by extensions ['ignore', 'ignore_ament_install']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/homework1) by extension 'ignore'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/homework1) by extension 'ignore_ament_install'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/homework1) by extensions ['colcon_pkg']
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/homework1) by extension 'colcon_pkg'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/homework1) by extensions ['colcon_meta']
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/homework1) by extension 'colcon_meta'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/homework1) by extensions ['ros']
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/homework1) by extension 'ros'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/homework1) by extensions ['cmake', 'python']
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/homework1) by extension 'cmake'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/homework1) by extension 'python'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/homework1) by extensions ['python_setup_py']
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/homework1) by extension 'python_setup_py'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/homework1/turtle_control) by extensions ['ignore', 'ignore_ament_install']
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/homework1/turtle_control) by extension 'ignore'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/homework1/turtle_control) by extension 'ignore_ament_install'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/homework1/turtle_control) by extensions ['colcon_pkg']
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/homework1/turtle_control) by extension 'colcon_pkg'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/homework1/turtle_control) by extensions ['colcon_meta']
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/homework1/turtle_control) by extension 'colcon_meta'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/homework1/turtle_control) by extensions ['ros']
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/homework1/turtle_control) by extension 'ros'
+[0.141s] DEBUG:colcon.colcon_core.package_identification:Package 'src/homework1/turtle_control' with type 'ros.ament_python' and name 'turtle_control'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/homework1/turtle_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/homework1/turtle_interfaces) by extension 'ignore'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/homework1/turtle_interfaces) by extension 'ignore_ament_install'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/homework1/turtle_interfaces) by extensions ['colcon_pkg']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/homework1/turtle_interfaces) by extension 'colcon_pkg'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/homework1/turtle_interfaces) by extensions ['colcon_meta']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/homework1/turtle_interfaces) by extension 'colcon_meta'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/homework1/turtle_interfaces) by extensions ['ros']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/homework1/turtle_interfaces) by extension 'ros'
+[0.143s] DEBUG:colcon.colcon_core.package_identification:Package 'src/homework1/turtle_interfaces' with type 'ros.ament_cmake' and name 'turtle_interfaces'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cpp_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cpp_pkg) by extension 'ignore'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cpp_pkg) by extension 'ignore_ament_install'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cpp_pkg) by extensions ['colcon_pkg']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cpp_pkg) by extension 'colcon_pkg'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cpp_pkg) by extensions ['colcon_meta']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cpp_pkg) by extension 'colcon_meta'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cpp_pkg) by extensions ['ros']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cpp_pkg) by extension 'ros'
+[0.143s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_cpp_pkg' with type 'ros.ament_cmake' and name 'my_cpp_pkg'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extension 'ignore'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extension 'ignore_ament_install'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extensions ['colcon_pkg']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extension 'colcon_pkg'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extensions ['colcon_meta']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extension 'colcon_meta'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extensions ['ros']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extension 'ros'
+[0.144s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_py_pkg' with type 'ros.ament_python' and name 'my_py_pkg'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_python_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_python_pkg) by extension 'ignore'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_python_pkg) by extension 'ignore_ament_install'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_python_pkg) by extensions ['colcon_pkg']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_python_pkg) by extension 'colcon_pkg'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_python_pkg) by extensions ['colcon_meta']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_python_pkg) by extension 'colcon_meta'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_python_pkg) by extensions ['ros']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_python_pkg) by extension 'ros'
+[0.144s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_python_pkg' with type 'ros.ament_python' and name 'my_python_pkg'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_python_pkg1) by extensions ['ignore', 'ignore_ament_install']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_python_pkg1) by extension 'ignore'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_python_pkg1) by extension 'ignore_ament_install'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_python_pkg1) by extensions ['colcon_pkg']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_python_pkg1) by extension 'colcon_pkg'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_python_pkg1) by extensions ['colcon_meta']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_python_pkg1) by extension 'colcon_meta'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_python_pkg1) by extensions ['ros']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_python_pkg1) by extension 'ros'
+[0.145s] DEBUG:colcon.colcon_core.package_identification:Failed to parse potential ROS package manifest in'src/my_python_pkg1': Error(s) in package 'src/my_python_pkg1/package.xml':
+The manifest contains invalid XML:
+not well-formed (invalid token): line 7, column 21
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_python_pkg1) by extensions ['cmake', 'python']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_python_pkg1) by extension 'cmake'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_python_pkg1) by extension 'python'
+[0.145s] DEBUG:colcon.colcon_core.package_identification:Python package in 'src/my_python_pkg1' passes arguments to the setup() function which requires a different identification extension than 'python'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_python_pkg1) by extensions ['python_setup_py']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_python_pkg1) by extension 'python_setup_py'
+[0.307s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_python_pkg1' with type 'python' and name 'my_python_pkg1'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extension 'ignore'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extension 'ignore_ament_install'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extensions ['colcon_pkg']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extension 'colcon_pkg'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extensions ['colcon_meta']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extension 'colcon_meta'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extensions ['ros']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extension 'ros'
+[0.307s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_robot_bringup' with type 'ros.ament_cmake' and name 'my_robot_bringup'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_controller) by extension 'ignore'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_controller) by extension 'ignore_ament_install'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_controller) by extensions ['colcon_pkg']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_controller) by extension 'colcon_pkg'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_controller) by extensions ['colcon_meta']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_controller) by extension 'colcon_meta'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_controller) by extensions ['ros']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_controller) by extension 'ros'
+[0.308s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_robot_controller' with type 'ros.ament_python' and name 'my_robot_controller'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extension 'ignore'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extension 'ignore_ament_install'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extensions ['colcon_pkg']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extension 'colcon_pkg'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extensions ['colcon_meta']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extension 'colcon_meta'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extensions ['ros']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extension 'ros'
+[0.309s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_robot_interfaces' with type 'ros.ament_cmake' and name 'my_robot_interfaces'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/pubsub) by extensions ['ignore', 'ignore_ament_install']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/pubsub) by extension 'ignore'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/pubsub) by extension 'ignore_ament_install'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/pubsub) by extensions ['colcon_pkg']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/pubsub) by extension 'colcon_pkg'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/pubsub) by extensions ['colcon_meta']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/pubsub) by extension 'colcon_meta'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/pubsub) by extensions ['ros']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/pubsub) by extension 'ros'
+[0.309s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pubsub' with type 'ros.ament_python' and name 'pubsub'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extensions ['ignore', 'ignore_ament_install']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extension 'ignore'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extension 'ignore_ament_install'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extensions ['colcon_pkg']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extension 'colcon_pkg'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extensions ['colcon_meta']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extension 'colcon_meta'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extensions ['ros']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extension 'ros'
+[0.310s] DEBUG:colcon.colcon_core.package_identification:Package 'src/py_srvcli' with type 'ros.ament_python' and name 'py_srvcli'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_controller) by extension 'ignore'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_controller) by extension 'ignore_ament_install'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_controller) by extensions ['colcon_pkg']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_controller) by extension 'colcon_pkg'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_controller) by extensions ['colcon_meta']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_controller) by extension 'colcon_meta'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_controller) by extensions ['ros']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_controller) by extension 'ros'
+[0.310s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtle_controller' with type 'ros.ament_python' and name 'turtle_controller'
+[0.310s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.310s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.310s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.310s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.310s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.324s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.324s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.325s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 14 installed packages in /home/jack/ros2_ws/install
+[0.326s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 393 installed packages in /opt/ros/jazzy
+[0.327s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.371s] Level 5:colcon.colcon_core.verb:set package 'crazy_turtle_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.371s] Level 5:colcon.colcon_core.verb:set package 'crazy_turtle_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.371s] Level 5:colcon.colcon_core.verb:set package 'crazy_turtle_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.371s] Level 5:colcon.colcon_core.verb:set package 'crazy_turtle_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.371s] Level 5:colcon.colcon_core.verb:set package 'crazy_turtle_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.371s] Level 5:colcon.colcon_core.verb:set package 'crazy_turtle_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.371s] Level 5:colcon.colcon_core.verb:set package 'crazy_turtle_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.371s] Level 5:colcon.colcon_core.verb:set package 'crazy_turtle_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.371s] Level 5:colcon.colcon_core.verb:set package 'crazy_turtle_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.371s] DEBUG:colcon.colcon_core.verb:Building package 'crazy_turtle_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jack/ros2_ws/build/crazy_turtle_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jack/ros2_ws/install/crazy_turtle_interfaces', 'merge_install': False, 'path': '/home/jack/ros2_ws/src/crazy_turtle/crazy_turtle_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.371s] Level 5:colcon.colcon_core.verb:set package 'my_python_pkg' build argument 'cmake_args' from command line to 'None'
+[0.371s] Level 5:colcon.colcon_core.verb:set package 'my_python_pkg' build argument 'cmake_target' from command line to 'None'
+[0.371s] Level 5:colcon.colcon_core.verb:set package 'my_python_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.371s] Level 5:colcon.colcon_core.verb:set package 'my_python_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.371s] Level 5:colcon.colcon_core.verb:set package 'my_python_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.371s] Level 5:colcon.colcon_core.verb:set package 'my_python_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.371s] Level 5:colcon.colcon_core.verb:set package 'my_python_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.371s] Level 5:colcon.colcon_core.verb:set package 'my_python_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.371s] Level 5:colcon.colcon_core.verb:set package 'my_python_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.371s] DEBUG:colcon.colcon_core.verb:Building package 'my_python_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jack/ros2_ws/build/my_python_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jack/ros2_ws/install/my_python_pkg', 'merge_install': False, 'path': '/home/jack/ros2_ws/src/my_python_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.371s] Level 5:colcon.colcon_core.verb:set package 'my_python_pkg1' build argument 'cmake_args' from command line to 'None'
+[0.371s] Level 5:colcon.colcon_core.verb:set package 'my_python_pkg1' build argument 'cmake_target' from command line to 'None'
+[0.371s] Level 5:colcon.colcon_core.verb:set package 'my_python_pkg1' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.371s] Level 5:colcon.colcon_core.verb:set package 'my_python_pkg1' build argument 'cmake_clean_cache' from command line to 'False'
+[0.371s] Level 5:colcon.colcon_core.verb:set package 'my_python_pkg1' build argument 'cmake_clean_first' from command line to 'False'
+[0.371s] Level 5:colcon.colcon_core.verb:set package 'my_python_pkg1' build argument 'cmake_force_configure' from command line to 'False'
+[0.371s] Level 5:colcon.colcon_core.verb:set package 'my_python_pkg1' build argument 'ament_cmake_args' from command line to 'None'
+[0.371s] Level 5:colcon.colcon_core.verb:set package 'my_python_pkg1' build argument 'catkin_cmake_args' from command line to 'None'
+[0.371s] Level 5:colcon.colcon_core.verb:set package 'my_python_pkg1' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.371s] DEBUG:colcon.colcon_core.verb:Building package 'my_python_pkg1' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jack/ros2_ws/build/my_python_pkg1', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jack/ros2_ws/install/my_python_pkg1', 'merge_install': False, 'path': '/home/jack/ros2_ws/src/my_python_pkg1', 'symlink_install': False, 'test_result_base': None}
+[0.372s] Level 5:colcon.colcon_core.verb:set package 'my_robot_controller' build argument 'cmake_args' from command line to 'None'
+[0.372s] Level 5:colcon.colcon_core.verb:set package 'my_robot_controller' build argument 'cmake_target' from command line to 'None'
+[0.372s] Level 5:colcon.colcon_core.verb:set package 'my_robot_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.372s] Level 5:colcon.colcon_core.verb:set package 'my_robot_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.372s] Level 5:colcon.colcon_core.verb:set package 'my_robot_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.372s] Level 5:colcon.colcon_core.verb:set package 'my_robot_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.372s] Level 5:colcon.colcon_core.verb:set package 'my_robot_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.372s] Level 5:colcon.colcon_core.verb:set package 'my_robot_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.372s] Level 5:colcon.colcon_core.verb:set package 'my_robot_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.372s] DEBUG:colcon.colcon_core.verb:Building package 'my_robot_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jack/ros2_ws/build/my_robot_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jack/ros2_ws/install/my_robot_controller', 'merge_install': False, 'path': '/home/jack/ros2_ws/src/my_robot_controller', 'symlink_install': False, 'test_result_base': None}
+[0.372s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.372s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.372s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.372s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.372s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.372s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.372s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.372s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.372s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.372s] DEBUG:colcon.colcon_core.verb:Building package 'my_robot_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jack/ros2_ws/build/my_robot_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jack/ros2_ws/install/my_robot_interfaces', 'merge_install': False, 'path': '/home/jack/ros2_ws/src/my_robot_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.372s] Level 5:colcon.colcon_core.verb:set package 'pubsub' build argument 'cmake_args' from command line to 'None'
+[0.372s] Level 5:colcon.colcon_core.verb:set package 'pubsub' build argument 'cmake_target' from command line to 'None'
+[0.372s] Level 5:colcon.colcon_core.verb:set package 'pubsub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.372s] Level 5:colcon.colcon_core.verb:set package 'pubsub' build argument 'cmake_clean_cache' from command line to 'False'
+[0.372s] Level 5:colcon.colcon_core.verb:set package 'pubsub' build argument 'cmake_clean_first' from command line to 'False'
+[0.372s] Level 5:colcon.colcon_core.verb:set package 'pubsub' build argument 'cmake_force_configure' from command line to 'False'
+[0.372s] Level 5:colcon.colcon_core.verb:set package 'pubsub' build argument 'ament_cmake_args' from command line to 'None'
+[0.372s] Level 5:colcon.colcon_core.verb:set package 'pubsub' build argument 'catkin_cmake_args' from command line to 'None'
+[0.372s] Level 5:colcon.colcon_core.verb:set package 'pubsub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.372s] DEBUG:colcon.colcon_core.verb:Building package 'pubsub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jack/ros2_ws/build/pubsub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jack/ros2_ws/install/pubsub', 'merge_install': False, 'path': '/home/jack/ros2_ws/src/pubsub', 'symlink_install': False, 'test_result_base': None}
+[0.372s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'cmake_args' from command line to 'None'
+[0.372s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'cmake_target' from command line to 'None'
+[0.372s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.372s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'cmake_clean_cache' from command line to 'False'
+[0.372s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'cmake_clean_first' from command line to 'False'
+[0.372s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'cmake_force_configure' from command line to 'False'
+[0.372s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'ament_cmake_args' from command line to 'None'
+[0.372s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'catkin_cmake_args' from command line to 'None'
+[0.372s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.372s] DEBUG:colcon.colcon_core.verb:Building package 'py_srvcli' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jack/ros2_ws/build/py_srvcli', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jack/ros2_ws/install/py_srvcli', 'merge_install': False, 'path': '/home/jack/ros2_ws/src/py_srvcli', 'symlink_install': False, 'test_result_base': None}
+[0.373s] Level 5:colcon.colcon_core.verb:set package 'turtle_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.373s] Level 5:colcon.colcon_core.verb:set package 'turtle_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.373s] Level 5:colcon.colcon_core.verb:set package 'turtle_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.373s] Level 5:colcon.colcon_core.verb:set package 'turtle_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.373s] Level 5:colcon.colcon_core.verb:set package 'turtle_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.373s] Level 5:colcon.colcon_core.verb:set package 'turtle_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.373s] Level 5:colcon.colcon_core.verb:set package 'turtle_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.373s] Level 5:colcon.colcon_core.verb:set package 'turtle_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.373s] Level 5:colcon.colcon_core.verb:set package 'turtle_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.373s] DEBUG:colcon.colcon_core.verb:Building package 'turtle_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jack/ros2_ws/build/turtle_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jack/ros2_ws/install/turtle_interfaces', 'merge_install': False, 'path': '/home/jack/ros2_ws/src/homework1/turtle_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.373s] Level 5:colcon.colcon_core.verb:set package 'crazy_turtle' build argument 'cmake_args' from command line to 'None'
+[0.373s] Level 5:colcon.colcon_core.verb:set package 'crazy_turtle' build argument 'cmake_target' from command line to 'None'
+[0.373s] Level 5:colcon.colcon_core.verb:set package 'crazy_turtle' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.373s] Level 5:colcon.colcon_core.verb:set package 'crazy_turtle' build argument 'cmake_clean_cache' from command line to 'False'
+[0.373s] Level 5:colcon.colcon_core.verb:set package 'crazy_turtle' build argument 'cmake_clean_first' from command line to 'False'
+[0.373s] Level 5:colcon.colcon_core.verb:set package 'crazy_turtle' build argument 'cmake_force_configure' from command line to 'False'
+[0.373s] Level 5:colcon.colcon_core.verb:set package 'crazy_turtle' build argument 'ament_cmake_args' from command line to 'None'
+[0.373s] Level 5:colcon.colcon_core.verb:set package 'crazy_turtle' build argument 'catkin_cmake_args' from command line to 'None'
+[0.373s] Level 5:colcon.colcon_core.verb:set package 'crazy_turtle' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.373s] DEBUG:colcon.colcon_core.verb:Building package 'crazy_turtle' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jack/ros2_ws/build/crazy_turtle', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jack/ros2_ws/install/crazy_turtle', 'merge_install': False, 'path': '/home/jack/ros2_ws/src/crazy_turtle/crazy_turtle', 'symlink_install': False, 'test_result_base': None}
+[0.373s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_pkg' build argument 'cmake_args' from command line to 'None'
+[0.373s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_pkg' build argument 'cmake_target' from command line to 'None'
+[0.373s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.373s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.373s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.373s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.373s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.373s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.373s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.373s] DEBUG:colcon.colcon_core.verb:Building package 'my_cpp_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jack/ros2_ws/build/my_cpp_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jack/ros2_ws/install/my_cpp_pkg', 'merge_install': False, 'path': '/home/jack/ros2_ws/src/my_cpp_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.373s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'cmake_args' from command line to 'None'
+[0.373s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'cmake_target' from command line to 'None'
+[0.373s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.373s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.373s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.373s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.373s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.373s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.373s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.373s] DEBUG:colcon.colcon_core.verb:Building package 'my_py_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jack/ros2_ws/build/my_py_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jack/ros2_ws/install/my_py_pkg', 'merge_install': False, 'path': '/home/jack/ros2_ws/src/my_py_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.374s] Level 5:colcon.colcon_core.verb:set package 'turtle_control' build argument 'cmake_args' from command line to 'None'
+[0.374s] Level 5:colcon.colcon_core.verb:set package 'turtle_control' build argument 'cmake_target' from command line to 'None'
+[0.374s] Level 5:colcon.colcon_core.verb:set package 'turtle_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.374s] Level 5:colcon.colcon_core.verb:set package 'turtle_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.374s] Level 5:colcon.colcon_core.verb:set package 'turtle_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.374s] Level 5:colcon.colcon_core.verb:set package 'turtle_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.374s] Level 5:colcon.colcon_core.verb:set package 'turtle_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.374s] Level 5:colcon.colcon_core.verb:set package 'turtle_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.374s] Level 5:colcon.colcon_core.verb:set package 'turtle_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.374s] DEBUG:colcon.colcon_core.verb:Building package 'turtle_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jack/ros2_ws/build/turtle_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jack/ros2_ws/install/turtle_control', 'merge_install': False, 'path': '/home/jack/ros2_ws/src/homework1/turtle_control', 'symlink_install': False, 'test_result_base': None}
+[0.374s] Level 5:colcon.colcon_core.verb:set package 'turtle_controller' build argument 'cmake_args' from command line to 'None'
+[0.374s] Level 5:colcon.colcon_core.verb:set package 'turtle_controller' build argument 'cmake_target' from command line to 'None'
+[0.374s] Level 5:colcon.colcon_core.verb:set package 'turtle_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.374s] Level 5:colcon.colcon_core.verb:set package 'turtle_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.374s] Level 5:colcon.colcon_core.verb:set package 'turtle_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.374s] Level 5:colcon.colcon_core.verb:set package 'turtle_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.374s] Level 5:colcon.colcon_core.verb:set package 'turtle_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.374s] Level 5:colcon.colcon_core.verb:set package 'turtle_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.374s] Level 5:colcon.colcon_core.verb:set package 'turtle_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.374s] DEBUG:colcon.colcon_core.verb:Building package 'turtle_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jack/ros2_ws/build/turtle_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jack/ros2_ws/install/turtle_controller', 'merge_install': False, 'path': '/home/jack/ros2_ws/src/turtle_controller', 'symlink_install': False, 'test_result_base': None}
+[0.374s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_args' from command line to 'None'
+[0.374s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_target' from command line to 'None'
+[0.374s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.374s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.374s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.374s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.374s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.374s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.374s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.374s] DEBUG:colcon.colcon_core.verb:Building package 'my_robot_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jack/ros2_ws/build/my_robot_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jack/ros2_ws/install/my_robot_bringup', 'merge_install': False, 'path': '/home/jack/ros2_ws/src/my_robot_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.374s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.375s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.375s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jack/ros2_ws/src/my_robot_interfaces' with build type 'ament_cmake'
+[0.375s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jack/ros2_ws/src/my_robot_interfaces'
+[0.377s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.377s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.377s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.380s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jack/ros2_ws/src/crazy_turtle/crazy_turtle_interfaces' with build type 'ament_cmake'
+[0.380s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jack/ros2_ws/src/crazy_turtle/crazy_turtle_interfaces'
+[0.380s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.380s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.383s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jack/ros2_ws/src/homework1/turtle_interfaces' with build type 'ament_cmake'
+[0.383s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jack/ros2_ws/src/homework1/turtle_interfaces'
+[0.383s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.383s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.386s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jack/ros2_ws/src/my_python_pkg' with build type 'ament_python'
+[0.386s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_python_pkg', 'ament_prefix_path')
+[0.386s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jack/ros2_ws/install/my_python_pkg/share/my_python_pkg/hook/ament_prefix_path.ps1'
+[0.386s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jack/ros2_ws/install/my_python_pkg/share/my_python_pkg/hook/ament_prefix_path.dsv'
+[0.387s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jack/ros2_ws/install/my_python_pkg/share/my_python_pkg/hook/ament_prefix_path.sh'
+[0.387s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.387s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.389s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jack/ros2_ws/src/my_python_pkg1'
+[0.389s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.390s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.392s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jack/ros2_ws/src/my_robot_controller' with build type 'ament_python'
+[0.392s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_controller', 'ament_prefix_path')
+[0.392s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jack/ros2_ws/install/my_robot_controller/share/my_robot_controller/hook/ament_prefix_path.ps1'
+[0.392s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jack/ros2_ws/install/my_robot_controller/share/my_robot_controller/hook/ament_prefix_path.dsv'
+[0.392s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jack/ros2_ws/install/my_robot_controller/share/my_robot_controller/hook/ament_prefix_path.sh'
+[0.393s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.393s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.395s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jack/ros2_ws/src/pubsub' with build type 'ament_python'
+[0.395s] Level 1:colcon.colcon_core.shell:create_environment_hook('pubsub', 'ament_prefix_path')
+[0.395s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jack/ros2_ws/install/pubsub/share/pubsub/hook/ament_prefix_path.ps1'
+[0.395s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jack/ros2_ws/install/pubsub/share/pubsub/hook/ament_prefix_path.dsv'
+[0.396s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jack/ros2_ws/install/pubsub/share/pubsub/hook/ament_prefix_path.sh'
+[0.396s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.396s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.399s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jack/ros2_ws/src/py_srvcli' with build type 'ament_python'
+[0.399s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_srvcli', 'ament_prefix_path')
+[0.399s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jack/ros2_ws/install/py_srvcli/share/py_srvcli/hook/ament_prefix_path.ps1'
+[0.399s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jack/ros2_ws/install/py_srvcli/share/py_srvcli/hook/ament_prefix_path.dsv'
+[0.400s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jack/ros2_ws/install/py_srvcli/share/py_srvcli/hook/ament_prefix_path.sh'
+[0.400s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.400s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.406s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jack/ros2_ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jack/ros2_ws/install/turtle_control:/home/jack/ros2_ws/install/turtle_controller:/home/jack/ros2_ws/install/py_srvcli:/home/jack/ros2_ws/install/pubsub:/home/jack/ros2_ws/install/my_py_pkg:/home/jack/ros2_ws/install/my_robot_controller:/home/jack/ros2_ws/install/my_python_pkg:/home/jack/ros2_ws/install/crazy_turtle:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jack/ros2_ws/build/my_robot_interfaces -- -j8 -l8
+[0.407s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jack/ros2_ws/build/crazy_turtle_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jack/ros2_ws/install/turtle_control:/home/jack/ros2_ws/install/turtle_controller:/home/jack/ros2_ws/install/py_srvcli:/home/jack/ros2_ws/install/pubsub:/home/jack/ros2_ws/install/my_py_pkg:/home/jack/ros2_ws/install/my_robot_controller:/home/jack/ros2_ws/install/my_python_pkg:/home/jack/ros2_ws/install/crazy_turtle:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jack/ros2_ws/build/crazy_turtle_interfaces -- -j8 -l8
+[0.409s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jack/ros2_ws/build/turtle_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jack/ros2_ws/install/turtle_control:/home/jack/ros2_ws/install/turtle_controller:/home/jack/ros2_ws/install/py_srvcli:/home/jack/ros2_ws/install/pubsub:/home/jack/ros2_ws/install/my_py_pkg:/home/jack/ros2_ws/install/my_robot_controller:/home/jack/ros2_ws/install/my_python_pkg:/home/jack/ros2_ws/install/crazy_turtle:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jack/ros2_ws/build/turtle_interfaces -- -j8 -l8
+[0.695s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jack/ros2_ws/src/my_python_pkg'
+[0.695s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.695s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.059s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jack/ros2_ws/src/my_robot_controller'
+[1.059s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.059s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.234s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jack/ros2_ws/src/pubsub'
+[1.234s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.234s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.417s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jack/ros2_ws/src/py_srvcli'
+[1.417s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.417s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.420s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jack/ros2_ws/build/my_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jack/ros2_ws/install/turtle_control:/home/jack/ros2_ws/install/turtle_controller:/home/jack/ros2_ws/install/py_srvcli:/home/jack/ros2_ws/install/pubsub:/home/jack/ros2_ws/install/my_py_pkg:/home/jack/ros2_ws/install/my_robot_controller:/home/jack/ros2_ws/install/my_python_pkg:/home/jack/ros2_ws/install/crazy_turtle:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jack/ros2_ws/build/my_robot_interfaces -- -j8 -l8
+[1.427s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jack/ros2_ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jack/ros2_ws/install/turtle_control:/home/jack/ros2_ws/install/turtle_controller:/home/jack/ros2_ws/install/py_srvcli:/home/jack/ros2_ws/install/pubsub:/home/jack/ros2_ws/install/my_py_pkg:/home/jack/ros2_ws/install/my_robot_controller:/home/jack/ros2_ws/install/my_python_pkg:/home/jack/ros2_ws/install/crazy_turtle:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jack/ros2_ws/build/my_robot_interfaces
+[1.428s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jack/ros2_ws/build/crazy_turtle_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jack/ros2_ws/install/turtle_control:/home/jack/ros2_ws/install/turtle_controller:/home/jack/ros2_ws/install/py_srvcli:/home/jack/ros2_ws/install/pubsub:/home/jack/ros2_ws/install/my_py_pkg:/home/jack/ros2_ws/install/my_robot_controller:/home/jack/ros2_ws/install/my_python_pkg:/home/jack/ros2_ws/install/crazy_turtle:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jack/ros2_ws/build/crazy_turtle_interfaces -- -j8 -l8
+[1.428s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jack/ros2_ws/build/crazy_turtle_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jack/ros2_ws/install/turtle_control:/home/jack/ros2_ws/install/turtle_controller:/home/jack/ros2_ws/install/py_srvcli:/home/jack/ros2_ws/install/pubsub:/home/jack/ros2_ws/install/my_py_pkg:/home/jack/ros2_ws/install/my_robot_controller:/home/jack/ros2_ws/install/my_python_pkg:/home/jack/ros2_ws/install/crazy_turtle:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jack/ros2_ws/build/crazy_turtle_interfaces
+[1.429s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jack/ros2_ws/build/turtle_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jack/ros2_ws/install/turtle_control:/home/jack/ros2_ws/install/turtle_controller:/home/jack/ros2_ws/install/py_srvcli:/home/jack/ros2_ws/install/pubsub:/home/jack/ros2_ws/install/my_py_pkg:/home/jack/ros2_ws/install/my_robot_controller:/home/jack/ros2_ws/install/my_python_pkg:/home/jack/ros2_ws/install/crazy_turtle:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jack/ros2_ws/build/turtle_interfaces -- -j8 -l8
+[1.429s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jack/ros2_ws/build/turtle_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jack/ros2_ws/install/turtle_control:/home/jack/ros2_ws/install/turtle_controller:/home/jack/ros2_ws/install/py_srvcli:/home/jack/ros2_ws/install/pubsub:/home/jack/ros2_ws/install/my_py_pkg:/home/jack/ros2_ws/install/my_robot_controller:/home/jack/ros2_ws/install/my_python_pkg:/home/jack/ros2_ws/install/crazy_turtle:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jack/ros2_ws/build/turtle_interfaces
+[1.433s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jack/ros2_ws/src/my_python_pkg1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/jack/ros2_ws/build/my_python_pkg1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jack/ros2_ws/install/my_python_pkg1/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_python_pkg1 build --build-base /home/jack/ros2_ws/build/my_python_pkg1/build install --record /home/jack/ros2_ws/build/my_python_pkg1/install.log --single-version-externally-managed install_data
+[1.502s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(crazy_turtle_interfaces)
+[1.506s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/crazy_turtle_interfaces' for CMake module files
+[1.507s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/crazy_turtle_interfaces' for CMake config files
+[1.507s] Level 1:colcon.colcon_core.shell:create_environment_hook('crazy_turtle_interfaces', 'cmake_prefix_path')
+[1.507s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jack/ros2_ws/install/crazy_turtle_interfaces/share/crazy_turtle_interfaces/hook/cmake_prefix_path.ps1'
+[1.508s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jack/ros2_ws/install/crazy_turtle_interfaces/share/crazy_turtle_interfaces/hook/cmake_prefix_path.dsv'
+[1.509s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jack/ros2_ws/build/crazy_turtle_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jack/ros2_ws/install/turtle_control:/home/jack/ros2_ws/install/turtle_controller:/home/jack/ros2_ws/install/py_srvcli:/home/jack/ros2_ws/install/pubsub:/home/jack/ros2_ws/install/my_py_pkg:/home/jack/ros2_ws/install/my_robot_controller:/home/jack/ros2_ws/install/my_python_pkg:/home/jack/ros2_ws/install/crazy_turtle:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jack/ros2_ws/build/crazy_turtle_interfaces
+[1.509s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jack/ros2_ws/install/crazy_turtle_interfaces/share/crazy_turtle_interfaces/hook/cmake_prefix_path.sh'
+[1.510s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/crazy_turtle_interfaces/lib'
+[1.510s] Level 1:colcon.colcon_core.shell:create_environment_hook('crazy_turtle_interfaces', 'ld_library_path_lib')
+[1.510s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jack/ros2_ws/install/crazy_turtle_interfaces/share/crazy_turtle_interfaces/hook/ld_library_path_lib.ps1'
+[1.510s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jack/ros2_ws/install/crazy_turtle_interfaces/share/crazy_turtle_interfaces/hook/ld_library_path_lib.dsv'
+[1.511s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jack/ros2_ws/install/crazy_turtle_interfaces/share/crazy_turtle_interfaces/hook/ld_library_path_lib.sh'
+[1.511s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/crazy_turtle_interfaces/bin'
+[1.511s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/crazy_turtle_interfaces/lib/pkgconfig/crazy_turtle_interfaces.pc'
+[1.511s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/crazy_turtle_interfaces/lib/python3.12/site-packages'
+[1.511s] Level 1:colcon.colcon_core.shell:create_environment_hook('crazy_turtle_interfaces', 'pythonpath')
+[1.512s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jack/ros2_ws/install/crazy_turtle_interfaces/share/crazy_turtle_interfaces/hook/pythonpath.ps1'
+[1.512s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jack/ros2_ws/install/crazy_turtle_interfaces/share/crazy_turtle_interfaces/hook/pythonpath.dsv'
+[1.512s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jack/ros2_ws/install/crazy_turtle_interfaces/share/crazy_turtle_interfaces/hook/pythonpath.sh'
+[1.513s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/crazy_turtle_interfaces/bin'
+[1.513s] INFO:colcon.colcon_core.shell:Creating package script '/home/jack/ros2_ws/install/crazy_turtle_interfaces/share/crazy_turtle_interfaces/package.ps1'
+[1.514s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jack/ros2_ws/install/crazy_turtle_interfaces/share/crazy_turtle_interfaces/package.dsv'
+[1.515s] INFO:colcon.colcon_core.shell:Creating package script '/home/jack/ros2_ws/install/crazy_turtle_interfaces/share/crazy_turtle_interfaces/package.sh'
+[1.515s] INFO:colcon.colcon_core.shell:Creating package script '/home/jack/ros2_ws/install/crazy_turtle_interfaces/share/crazy_turtle_interfaces/package.bash'
+[1.516s] INFO:colcon.colcon_core.shell:Creating package script '/home/jack/ros2_ws/install/crazy_turtle_interfaces/share/crazy_turtle_interfaces/package.zsh'
+[1.516s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jack/ros2_ws/install/crazy_turtle_interfaces/share/colcon-core/packages/crazy_turtle_interfaces)
+[1.517s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(crazy_turtle_interfaces)
+[1.517s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/crazy_turtle_interfaces' for CMake module files
+[1.518s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/crazy_turtle_interfaces' for CMake config files
+[1.518s] Level 1:colcon.colcon_core.shell:create_environment_hook('crazy_turtle_interfaces', 'cmake_prefix_path')
+[1.518s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jack/ros2_ws/install/crazy_turtle_interfaces/share/crazy_turtle_interfaces/hook/cmake_prefix_path.ps1'
+[1.519s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jack/ros2_ws/install/crazy_turtle_interfaces/share/crazy_turtle_interfaces/hook/cmake_prefix_path.dsv'
+[1.519s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jack/ros2_ws/install/crazy_turtle_interfaces/share/crazy_turtle_interfaces/hook/cmake_prefix_path.sh'
+[1.520s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/crazy_turtle_interfaces/lib'
+[1.520s] Level 1:colcon.colcon_core.shell:create_environment_hook('crazy_turtle_interfaces', 'ld_library_path_lib')
+[1.520s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jack/ros2_ws/install/crazy_turtle_interfaces/share/crazy_turtle_interfaces/hook/ld_library_path_lib.ps1'
+[1.520s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jack/ros2_ws/install/crazy_turtle_interfaces/share/crazy_turtle_interfaces/hook/ld_library_path_lib.dsv'
+[1.521s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jack/ros2_ws/install/crazy_turtle_interfaces/share/crazy_turtle_interfaces/hook/ld_library_path_lib.sh'
+[1.521s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/crazy_turtle_interfaces/bin'
+[1.521s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/crazy_turtle_interfaces/lib/pkgconfig/crazy_turtle_interfaces.pc'
+[1.522s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/crazy_turtle_interfaces/lib/python3.12/site-packages'
+[1.522s] Level 1:colcon.colcon_core.shell:create_environment_hook('crazy_turtle_interfaces', 'pythonpath')
+[1.522s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jack/ros2_ws/install/crazy_turtle_interfaces/share/crazy_turtle_interfaces/hook/pythonpath.ps1'
+[1.522s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jack/ros2_ws/install/crazy_turtle_interfaces/share/crazy_turtle_interfaces/hook/pythonpath.dsv'
+[1.523s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jack/ros2_ws/install/crazy_turtle_interfaces/share/crazy_turtle_interfaces/hook/pythonpath.sh'
+[1.523s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/crazy_turtle_interfaces/bin'
+[1.524s] INFO:colcon.colcon_core.shell:Creating package script '/home/jack/ros2_ws/install/crazy_turtle_interfaces/share/crazy_turtle_interfaces/package.ps1'
+[1.524s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jack/ros2_ws/install/crazy_turtle_interfaces/share/crazy_turtle_interfaces/package.dsv'
+[1.525s] INFO:colcon.colcon_core.shell:Creating package script '/home/jack/ros2_ws/install/crazy_turtle_interfaces/share/crazy_turtle_interfaces/package.sh'
+[1.525s] INFO:colcon.colcon_core.shell:Creating package script '/home/jack/ros2_ws/install/crazy_turtle_interfaces/share/crazy_turtle_interfaces/package.bash'
+[1.525s] INFO:colcon.colcon_core.shell:Creating package script '/home/jack/ros2_ws/install/crazy_turtle_interfaces/share/crazy_turtle_interfaces/package.zsh'
+[1.526s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jack/ros2_ws/install/crazy_turtle_interfaces/share/colcon-core/packages/crazy_turtle_interfaces)
+[1.526s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jack/ros2_ws/src/crazy_turtle/crazy_turtle' with build type 'ament_python'
+[1.527s] Level 1:colcon.colcon_core.shell:create_environment_hook('crazy_turtle', 'ament_prefix_path')
+[1.527s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jack/ros2_ws/install/crazy_turtle/share/crazy_turtle/hook/ament_prefix_path.ps1'
+[1.528s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jack/ros2_ws/install/crazy_turtle/share/crazy_turtle/hook/ament_prefix_path.dsv'
+[1.528s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jack/ros2_ws/install/crazy_turtle/share/crazy_turtle/hook/ament_prefix_path.sh'
+[1.529s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.529s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.534s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtle_interfaces)
+[1.535s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/turtle_interfaces' for CMake module files
+[1.535s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/turtle_interfaces' for CMake config files
+[1.536s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jack/ros2_ws/build/turtle_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jack/ros2_ws/install/turtle_control:/home/jack/ros2_ws/install/turtle_controller:/home/jack/ros2_ws/install/py_srvcli:/home/jack/ros2_ws/install/pubsub:/home/jack/ros2_ws/install/my_py_pkg:/home/jack/ros2_ws/install/my_robot_controller:/home/jack/ros2_ws/install/my_python_pkg:/home/jack/ros2_ws/install/crazy_turtle:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jack/ros2_ws/build/turtle_interfaces
+[1.536s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_interfaces', 'cmake_prefix_path')
+[1.536s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jack/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/hook/cmake_prefix_path.ps1'
+[1.537s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jack/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/hook/cmake_prefix_path.dsv'
+[1.537s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jack/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/hook/cmake_prefix_path.sh'
+[1.538s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/turtle_interfaces/lib'
+[1.538s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_interfaces', 'ld_library_path_lib')
+[1.538s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jack/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/hook/ld_library_path_lib.ps1'
+[1.538s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jack/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/hook/ld_library_path_lib.dsv'
+[1.539s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jack/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/hook/ld_library_path_lib.sh'
+[1.539s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/turtle_interfaces/bin'
+[1.539s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/turtle_interfaces/lib/pkgconfig/turtle_interfaces.pc'
+[1.539s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/turtle_interfaces/lib/python3.12/site-packages'
+[1.539s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_interfaces', 'pythonpath')
+[1.540s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jack/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/hook/pythonpath.ps1'
+[1.540s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jack/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/hook/pythonpath.dsv'
+[1.540s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jack/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/hook/pythonpath.sh'
+[1.541s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/turtle_interfaces/bin'
+[1.541s] INFO:colcon.colcon_core.shell:Creating package script '/home/jack/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/package.ps1'
+[1.542s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jack/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/package.dsv'
+[1.542s] INFO:colcon.colcon_core.shell:Creating package script '/home/jack/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/package.sh'
+[1.543s] INFO:colcon.colcon_core.shell:Creating package script '/home/jack/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/package.bash'
+[1.543s] INFO:colcon.colcon_core.shell:Creating package script '/home/jack/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/package.zsh'
+[1.543s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jack/ros2_ws/install/turtle_interfaces/share/colcon-core/packages/turtle_interfaces)
+[1.544s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtle_interfaces)
+[1.544s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/turtle_interfaces' for CMake module files
+[1.545s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/turtle_interfaces' for CMake config files
+[1.545s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_interfaces', 'cmake_prefix_path')
+[1.545s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jack/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/hook/cmake_prefix_path.ps1'
+[1.546s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jack/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/hook/cmake_prefix_path.dsv'
+[1.546s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jack/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/hook/cmake_prefix_path.sh'
+[1.547s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/turtle_interfaces/lib'
+[1.547s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_interfaces', 'ld_library_path_lib')
+[1.547s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jack/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/hook/ld_library_path_lib.ps1'
+[1.547s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jack/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/hook/ld_library_path_lib.dsv'
+[1.547s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jack/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/hook/ld_library_path_lib.sh'
+[1.548s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/turtle_interfaces/bin'
+[1.548s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/turtle_interfaces/lib/pkgconfig/turtle_interfaces.pc'
+[1.548s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/turtle_interfaces/lib/python3.12/site-packages'
+[1.548s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_interfaces', 'pythonpath')
+[1.548s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jack/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/hook/pythonpath.ps1'
+[1.549s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jack/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/hook/pythonpath.dsv'
+[1.549s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jack/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/hook/pythonpath.sh'
+[1.549s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/turtle_interfaces/bin'
+[1.550s] INFO:colcon.colcon_core.shell:Creating package script '/home/jack/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/package.ps1'
+[1.550s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jack/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/package.dsv'
+[1.551s] INFO:colcon.colcon_core.shell:Creating package script '/home/jack/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/package.sh'
+[1.551s] INFO:colcon.colcon_core.shell:Creating package script '/home/jack/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/package.bash'
+[1.552s] INFO:colcon.colcon_core.shell:Creating package script '/home/jack/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/package.zsh'
+[1.552s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jack/ros2_ws/install/turtle_interfaces/share/colcon-core/packages/turtle_interfaces)
+[1.552s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_interfaces)
+[1.552s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/my_robot_interfaces' for CMake module files
+[1.554s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/my_robot_interfaces' for CMake config files
+[1.554s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jack/ros2_ws/build/my_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jack/ros2_ws/install/turtle_control:/home/jack/ros2_ws/install/turtle_controller:/home/jack/ros2_ws/install/py_srvcli:/home/jack/ros2_ws/install/pubsub:/home/jack/ros2_ws/install/my_py_pkg:/home/jack/ros2_ws/install/my_robot_controller:/home/jack/ros2_ws/install/my_python_pkg:/home/jack/ros2_ws/install/crazy_turtle:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jack/ros2_ws/build/my_robot_interfaces
+[1.554s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_interfaces', 'cmake_prefix_path')
+[1.555s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jack/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/cmake_prefix_path.ps1'
+[1.555s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jack/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/cmake_prefix_path.dsv'
+[1.555s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jack/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/cmake_prefix_path.sh'
+[1.556s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/my_robot_interfaces/lib'
+[1.556s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_interfaces', 'ld_library_path_lib')
+[1.556s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jack/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/ld_library_path_lib.ps1'
+[1.556s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jack/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/ld_library_path_lib.dsv'
+[1.557s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jack/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/ld_library_path_lib.sh'
+[1.557s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/my_robot_interfaces/bin'
+[1.557s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/my_robot_interfaces/lib/pkgconfig/my_robot_interfaces.pc'
+[1.557s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages'
+[1.557s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_interfaces', 'pythonpath')
+[1.558s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jack/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/pythonpath.ps1'
+[1.558s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jack/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/pythonpath.dsv'
+[1.558s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jack/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/pythonpath.sh'
+[1.559s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/my_robot_interfaces/bin'
+[1.559s] INFO:colcon.colcon_core.shell:Creating package script '/home/jack/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.ps1'
+[1.559s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jack/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.dsv'
+[1.560s] INFO:colcon.colcon_core.shell:Creating package script '/home/jack/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.sh'
+[1.560s] INFO:colcon.colcon_core.shell:Creating package script '/home/jack/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.bash'
+[1.561s] INFO:colcon.colcon_core.shell:Creating package script '/home/jack/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.zsh'
+[1.561s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jack/ros2_ws/install/my_robot_interfaces/share/colcon-core/packages/my_robot_interfaces)
+[1.561s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_interfaces)
+[1.562s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/my_robot_interfaces' for CMake module files
+[1.562s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/my_robot_interfaces' for CMake config files
+[1.563s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_interfaces', 'cmake_prefix_path')
+[1.563s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jack/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/cmake_prefix_path.ps1'
+[1.563s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jack/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/cmake_prefix_path.dsv'
+[1.563s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jack/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/cmake_prefix_path.sh'
+[1.564s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/my_robot_interfaces/lib'
+[1.564s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_interfaces', 'ld_library_path_lib')
+[1.564s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jack/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/ld_library_path_lib.ps1'
+[1.565s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jack/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/ld_library_path_lib.dsv'
+[1.565s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jack/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/ld_library_path_lib.sh'
+[1.565s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/my_robot_interfaces/bin'
+[1.565s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/my_robot_interfaces/lib/pkgconfig/my_robot_interfaces.pc'
+[1.565s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages'
+[1.566s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_interfaces', 'pythonpath')
+[1.566s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jack/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/pythonpath.ps1'
+[1.566s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jack/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/pythonpath.dsv'
+[1.566s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jack/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/pythonpath.sh'
+[1.567s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/my_robot_interfaces/bin'
+[1.567s] INFO:colcon.colcon_core.shell:Creating package script '/home/jack/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.ps1'
+[1.568s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jack/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.dsv'
+[1.568s] INFO:colcon.colcon_core.shell:Creating package script '/home/jack/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.sh'
+[1.569s] INFO:colcon.colcon_core.shell:Creating package script '/home/jack/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.bash'
+[1.569s] INFO:colcon.colcon_core.shell:Creating package script '/home/jack/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.zsh'
+[1.570s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jack/ros2_ws/install/my_robot_interfaces/share/colcon-core/packages/my_robot_interfaces)
+[1.571s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jack/ros2_ws/src/my_cpp_pkg' with build type 'ament_cmake'
+[1.571s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jack/ros2_ws/src/my_cpp_pkg'
+[1.571s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.571s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.576s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jack/ros2_ws/src/my_py_pkg' with build type 'ament_python'
+[1.576s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_py_pkg', 'ament_prefix_path')
+[1.576s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jack/ros2_ws/install/my_py_pkg/share/my_py_pkg/hook/ament_prefix_path.ps1'
+[1.577s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jack/ros2_ws/install/my_py_pkg/share/my_py_pkg/hook/ament_prefix_path.dsv'
+[1.577s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jack/ros2_ws/install/my_py_pkg/share/my_py_pkg/hook/ament_prefix_path.sh'
+[1.577s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.577s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.885s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jack/ros2_ws/src/crazy_turtle/crazy_turtle'
+[1.885s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.885s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.892s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jack/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=/home/jack/ros2_ws/install/my_robot_interfaces:/home/jack/ros2_ws/install/turtle_interfaces:/home/jack/ros2_ws/install/my_robot_bringup:/home/jack/ros2_ws/install/my_cpp_pkg:/home/jack/ros2_ws/install/crazy_turtle_interfaces:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/jack/ros2_ws/install/turtle_control:/home/jack/ros2_ws/install/turtle_controller:/home/jack/ros2_ws/install/py_srvcli:/home/jack/ros2_ws/install/pubsub:/home/jack/ros2_ws/install/my_py_pkg:/home/jack/ros2_ws/install/my_robot_controller:/home/jack/ros2_ws/install/my_python_pkg:/home/jack/ros2_ws/install/crazy_turtle:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/jack/ros2_ws/install/my_robot_interfaces/lib:/home/jack/ros2_ws/install/turtle_interfaces/lib:/home/jack/ros2_ws/install/crazy_turtle_interfaces/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/jack/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/jack/ros2_ws/install/turtle_control/lib/python3.12/site-packages:/home/jack/ros2_ws/install/turtle_interfaces/lib/python3.12/site-packages:/home/jack/ros2_ws/install/turtle_controller/lib/python3.12/site-packages:/home/jack/ros2_ws/install/py_srvcli/lib/python3.12/site-packages:/home/jack/ros2_ws/install/pubsub/lib/python3.12/site-packages:/home/jack/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/jack/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages:/home/jack/ros2_ws/install/my_python_pkg1/lib/python3.12/site-packages:/home/jack/ros2_ws/install/my_python_pkg/lib/python3.12/site-packages:/home/jack/ros2_ws/install/crazy_turtle/lib/python3.12/site-packages:/home/jack/ros2_ws/install/crazy_turtle_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/jack/ros2_ws/build/my_cpp_pkg -- -j8 -l8
+[2.185s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jack/ros2_ws/src/my_py_pkg'
+[2.185s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.185s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.192s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jack/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/home/jack/ros2_ws/install/my_robot_interfaces:/home/jack/ros2_ws/install/turtle_interfaces:/home/jack/ros2_ws/install/my_robot_bringup:/home/jack/ros2_ws/install/my_cpp_pkg:/home/jack/ros2_ws/install/crazy_turtle_interfaces:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/jack/ros2_ws/install/turtle_control:/home/jack/ros2_ws/install/turtle_controller:/home/jack/ros2_ws/install/py_srvcli:/home/jack/ros2_ws/install/pubsub:/home/jack/ros2_ws/install/my_py_pkg:/home/jack/ros2_ws/install/my_robot_controller:/home/jack/ros2_ws/install/my_python_pkg:/home/jack/ros2_ws/install/crazy_turtle:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/jack/ros2_ws/install/my_robot_interfaces/lib:/home/jack/ros2_ws/install/turtle_interfaces/lib:/home/jack/ros2_ws/install/crazy_turtle_interfaces/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/jack/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/jack/ros2_ws/install/turtle_control/lib/python3.12/site-packages:/home/jack/ros2_ws/install/turtle_interfaces/lib/python3.12/site-packages:/home/jack/ros2_ws/install/turtle_controller/lib/python3.12/site-packages:/home/jack/ros2_ws/install/py_srvcli/lib/python3.12/site-packages:/home/jack/ros2_ws/install/pubsub/lib/python3.12/site-packages:/home/jack/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/jack/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages:/home/jack/ros2_ws/install/my_python_pkg1/lib/python3.12/site-packages:/home/jack/ros2_ws/install/my_python_pkg/lib/python3.12/site-packages:/home/jack/ros2_ws/install/crazy_turtle/lib/python3.12/site-packages:/home/jack/ros2_ws/install/crazy_turtle_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/jack/ros2_ws/build/my_cpp_pkg -- -j8 -l8
+[2.193s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jack/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=/home/jack/ros2_ws/install/my_robot_interfaces:/home/jack/ros2_ws/install/turtle_interfaces:/home/jack/ros2_ws/install/my_robot_bringup:/home/jack/ros2_ws/install/my_cpp_pkg:/home/jack/ros2_ws/install/crazy_turtle_interfaces:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/jack/ros2_ws/install/turtle_control:/home/jack/ros2_ws/install/turtle_controller:/home/jack/ros2_ws/install/py_srvcli:/home/jack/ros2_ws/install/pubsub:/home/jack/ros2_ws/install/my_py_pkg:/home/jack/ros2_ws/install/my_robot_controller:/home/jack/ros2_ws/install/my_python_pkg:/home/jack/ros2_ws/install/crazy_turtle:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/jack/ros2_ws/install/my_robot_interfaces/lib:/home/jack/ros2_ws/install/turtle_interfaces/lib:/home/jack/ros2_ws/install/crazy_turtle_interfaces/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/jack/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/jack/ros2_ws/install/turtle_control/lib/python3.12/site-packages:/home/jack/ros2_ws/install/turtle_interfaces/lib/python3.12/site-packages:/home/jack/ros2_ws/install/turtle_controller/lib/python3.12/site-packages:/home/jack/ros2_ws/install/py_srvcli/lib/python3.12/site-packages:/home/jack/ros2_ws/install/pubsub/lib/python3.12/site-packages:/home/jack/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/jack/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages:/home/jack/ros2_ws/install/my_python_pkg1/lib/python3.12/site-packages:/home/jack/ros2_ws/install/my_python_pkg/lib/python3.12/site-packages:/home/jack/ros2_ws/install/crazy_turtle/lib/python3.12/site-packages:/home/jack/ros2_ws/install/crazy_turtle_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --install /home/jack/ros2_ws/build/my_cpp_pkg
+[2.195s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jack/ros2_ws/src/my_python_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/jack/ros2_ws/build/my_python_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jack/ros2_ws/install/my_python_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_python_pkg build --build-base /home/jack/ros2_ws/build/my_python_pkg/build install --record /home/jack/ros2_ws/build/my_python_pkg/install.log --single-version-externally-managed install_data
+[2.196s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/my_python_pkg1' for CMake module files
+[2.197s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jack/ros2_ws/src/my_python_pkg1' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/jack/ros2_ws/build/my_python_pkg1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jack/ros2_ws/install/my_python_pkg1/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_python_pkg1 build --build-base /home/jack/ros2_ws/build/my_python_pkg1/build install --record /home/jack/ros2_ws/build/my_python_pkg1/install.log --single-version-externally-managed install_data
+[2.197s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/my_python_pkg1' for CMake config files
+[2.197s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/my_python_pkg1/lib'
+[2.197s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/my_python_pkg1/bin'
+[2.198s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/my_python_pkg1/lib/pkgconfig/my_python_pkg1.pc'
+[2.198s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/my_python_pkg1/lib/python3.12/site-packages'
+[2.198s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_python_pkg1', 'pythonpath')
+[2.198s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jack/ros2_ws/install/my_python_pkg1/share/my_python_pkg1/hook/pythonpath.ps1'
+[2.199s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jack/ros2_ws/install/my_python_pkg1/share/my_python_pkg1/hook/pythonpath.dsv'
+[2.199s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jack/ros2_ws/install/my_python_pkg1/share/my_python_pkg1/hook/pythonpath.sh'
+[2.199s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/my_python_pkg1/bin'
+[2.200s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_python_pkg1)
+[2.200s] INFO:colcon.colcon_core.shell:Creating package script '/home/jack/ros2_ws/install/my_python_pkg1/share/my_python_pkg1/package.ps1'
+[2.201s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jack/ros2_ws/install/my_python_pkg1/share/my_python_pkg1/package.dsv'
+[2.202s] INFO:colcon.colcon_core.shell:Creating package script '/home/jack/ros2_ws/install/my_python_pkg1/share/my_python_pkg1/package.sh'
+[2.203s] INFO:colcon.colcon_core.shell:Creating package script '/home/jack/ros2_ws/install/my_python_pkg1/share/my_python_pkg1/package.bash'
+[2.203s] INFO:colcon.colcon_core.shell:Creating package script '/home/jack/ros2_ws/install/my_python_pkg1/share/my_python_pkg1/package.zsh'
+[2.203s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jack/ros2_ws/install/my_python_pkg1/share/colcon-core/packages/my_python_pkg1)
+[2.204s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jack/ros2_ws/src/turtle_controller' with build type 'ament_python'
+[2.205s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_controller', 'ament_prefix_path')
+[2.205s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jack/ros2_ws/install/turtle_controller/share/turtle_controller/hook/ament_prefix_path.ps1'
+[2.205s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jack/ros2_ws/install/turtle_controller/share/turtle_controller/hook/ament_prefix_path.dsv'
+[2.205s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jack/ros2_ws/install/turtle_controller/share/turtle_controller/hook/ament_prefix_path.sh'
+[2.206s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.206s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.213s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jack/ros2_ws/src/pubsub': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/jack/ros2_ws/build/pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jack/ros2_ws/install/pubsub/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pubsub build --build-base /home/jack/ros2_ws/build/pubsub/build install --record /home/jack/ros2_ws/build/pubsub/install.log --single-version-externally-managed install_data
+[2.217s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_cpp_pkg)
+[2.217s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/my_cpp_pkg' for CMake module files
+[2.218s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jack/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/home/jack/ros2_ws/install/my_robot_interfaces:/home/jack/ros2_ws/install/turtle_interfaces:/home/jack/ros2_ws/install/my_robot_bringup:/home/jack/ros2_ws/install/my_cpp_pkg:/home/jack/ros2_ws/install/crazy_turtle_interfaces:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/jack/ros2_ws/install/turtle_control:/home/jack/ros2_ws/install/turtle_controller:/home/jack/ros2_ws/install/py_srvcli:/home/jack/ros2_ws/install/pubsub:/home/jack/ros2_ws/install/my_py_pkg:/home/jack/ros2_ws/install/my_robot_controller:/home/jack/ros2_ws/install/my_python_pkg:/home/jack/ros2_ws/install/crazy_turtle:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/jack/ros2_ws/install/my_robot_interfaces/lib:/home/jack/ros2_ws/install/turtle_interfaces/lib:/home/jack/ros2_ws/install/crazy_turtle_interfaces/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/jack/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/jack/ros2_ws/install/turtle_control/lib/python3.12/site-packages:/home/jack/ros2_ws/install/turtle_interfaces/lib/python3.12/site-packages:/home/jack/ros2_ws/install/turtle_controller/lib/python3.12/site-packages:/home/jack/ros2_ws/install/py_srvcli/lib/python3.12/site-packages:/home/jack/ros2_ws/install/pubsub/lib/python3.12/site-packages:/home/jack/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/jack/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages:/home/jack/ros2_ws/install/my_python_pkg1/lib/python3.12/site-packages:/home/jack/ros2_ws/install/my_python_pkg/lib/python3.12/site-packages:/home/jack/ros2_ws/install/crazy_turtle/lib/python3.12/site-packages:/home/jack/ros2_ws/install/crazy_turtle_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --install /home/jack/ros2_ws/build/my_cpp_pkg
+[2.219s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/my_cpp_pkg' for CMake config files
+[2.219s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_cpp_pkg', 'cmake_prefix_path')
+[2.219s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jack/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/hook/cmake_prefix_path.ps1'
+[2.220s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jack/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/hook/cmake_prefix_path.dsv'
+[2.220s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jack/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/hook/cmake_prefix_path.sh'
+[2.221s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/my_cpp_pkg/lib'
+[2.221s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/my_cpp_pkg/bin'
+[2.221s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/my_cpp_pkg/lib/pkgconfig/my_cpp_pkg.pc'
+[2.221s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/my_cpp_pkg/lib/python3.12/site-packages'
+[2.221s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/my_cpp_pkg/bin'
+[2.222s] INFO:colcon.colcon_core.shell:Creating package script '/home/jack/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.ps1'
+[2.222s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jack/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv'
+[2.222s] INFO:colcon.colcon_core.shell:Creating package script '/home/jack/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.sh'
+[2.223s] INFO:colcon.colcon_core.shell:Creating package script '/home/jack/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.bash'
+[2.223s] INFO:colcon.colcon_core.shell:Creating package script '/home/jack/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.zsh'
+[2.223s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jack/ros2_ws/install/my_cpp_pkg/share/colcon-core/packages/my_cpp_pkg)
+[2.224s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_cpp_pkg)
+[2.224s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/my_cpp_pkg' for CMake module files
+[2.225s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/my_cpp_pkg' for CMake config files
+[2.225s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_cpp_pkg', 'cmake_prefix_path')
+[2.225s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jack/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/hook/cmake_prefix_path.ps1'
+[2.225s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jack/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/hook/cmake_prefix_path.dsv'
+[2.226s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jack/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/hook/cmake_prefix_path.sh'
+[2.226s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/my_cpp_pkg/lib'
+[2.226s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/my_cpp_pkg/bin'
+[2.226s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/my_cpp_pkg/lib/pkgconfig/my_cpp_pkg.pc'
+[2.227s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/my_cpp_pkg/lib/python3.12/site-packages'
+[2.227s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/my_cpp_pkg/bin'
+[2.227s] INFO:colcon.colcon_core.shell:Creating package script '/home/jack/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.ps1'
+[2.228s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jack/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv'
+[2.228s] INFO:colcon.colcon_core.shell:Creating package script '/home/jack/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.sh'
+[2.229s] INFO:colcon.colcon_core.shell:Creating package script '/home/jack/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.bash'
+[2.229s] INFO:colcon.colcon_core.shell:Creating package script '/home/jack/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.zsh'
+[2.229s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jack/ros2_ws/install/my_cpp_pkg/share/colcon-core/packages/my_cpp_pkg)
+[2.230s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jack/ros2_ws/src/homework1/turtle_control' with build type 'ament_python'
+[2.230s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_control', 'ament_prefix_path')
+[2.230s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jack/ros2_ws/install/turtle_control/share/turtle_control/hook/ament_prefix_path.ps1'
+[2.231s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jack/ros2_ws/install/turtle_control/share/turtle_control/hook/ament_prefix_path.dsv'
+[2.232s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jack/ros2_ws/install/turtle_control/share/turtle_control/hook/ament_prefix_path.sh'
+[2.232s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.232s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.458s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jack/ros2_ws/src/turtle_controller'
+[2.458s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.458s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.463s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jack/ros2_ws/src/my_robot_controller': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/jack/ros2_ws/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jack/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_robot_controller build --build-base /home/jack/ros2_ws/build/my_robot_controller/build install --record /home/jack/ros2_ws/build/my_robot_controller/install.log --single-version-externally-managed install_data
+[2.464s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jack/ros2_ws/src/py_srvcli': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/jack/ros2_ws/build/py_srvcli/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jack/ros2_ws/install/py_srvcli/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/jack/ros2_ws/build/py_srvcli/build install --record /home/jack/ros2_ws/build/py_srvcli/install.log --single-version-externally-managed install_data
+[2.765s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jack/ros2_ws/src/homework1/turtle_control'
+[2.766s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.766s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.830s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/my_python_pkg' for CMake module files
+[2.831s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/my_python_pkg' for CMake config files
+[2.831s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/my_python_pkg/lib'
+[2.831s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/my_python_pkg/bin'
+[2.831s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/my_python_pkg/lib/pkgconfig/my_python_pkg.pc'
+[2.832s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/my_python_pkg/lib/python3.12/site-packages'
+[2.832s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_python_pkg', 'pythonpath')
+[2.832s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jack/ros2_ws/install/my_python_pkg/share/my_python_pkg/hook/pythonpath.ps1'
+[2.832s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jack/ros2_ws/install/my_python_pkg/share/my_python_pkg/hook/pythonpath.dsv'
+[2.833s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jack/ros2_ws/install/my_python_pkg/share/my_python_pkg/hook/pythonpath.sh'
+[2.833s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/my_python_pkg/bin'
+[2.834s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jack/ros2_ws/src/my_python_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/jack/ros2_ws/build/my_python_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jack/ros2_ws/install/my_python_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_python_pkg build --build-base /home/jack/ros2_ws/build/my_python_pkg/build install --record /home/jack/ros2_ws/build/my_python_pkg/install.log --single-version-externally-managed install_data
+[2.834s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_python_pkg)
+[2.834s] INFO:colcon.colcon_core.shell:Creating package script '/home/jack/ros2_ws/install/my_python_pkg/share/my_python_pkg/package.ps1'
+[2.835s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jack/ros2_ws/install/my_python_pkg/share/my_python_pkg/package.dsv'
+[2.835s] INFO:colcon.colcon_core.shell:Creating package script '/home/jack/ros2_ws/install/my_python_pkg/share/my_python_pkg/package.sh'
+[2.835s] INFO:colcon.colcon_core.shell:Creating package script '/home/jack/ros2_ws/install/my_python_pkg/share/my_python_pkg/package.bash'
+[2.836s] INFO:colcon.colcon_core.shell:Creating package script '/home/jack/ros2_ws/install/my_python_pkg/share/my_python_pkg/package.zsh'
+[2.836s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jack/ros2_ws/install/my_python_pkg/share/colcon-core/packages/my_python_pkg)
+[2.845s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/pubsub' for CMake module files
+[2.846s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jack/ros2_ws/src/pubsub' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/jack/ros2_ws/build/pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jack/ros2_ws/install/pubsub/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pubsub build --build-base /home/jack/ros2_ws/build/pubsub/build install --record /home/jack/ros2_ws/build/pubsub/install.log --single-version-externally-managed install_data
+[2.846s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/pubsub' for CMake config files
+[2.847s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/pubsub/lib'
+[2.847s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/pubsub/bin'
+[2.847s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/pubsub/lib/pkgconfig/pubsub.pc'
+[2.847s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/pubsub/lib/python3.12/site-packages'
+[2.847s] Level 1:colcon.colcon_core.shell:create_environment_hook('pubsub', 'pythonpath')
+[2.848s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jack/ros2_ws/install/pubsub/share/pubsub/hook/pythonpath.ps1'
+[2.848s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jack/ros2_ws/install/pubsub/share/pubsub/hook/pythonpath.dsv'
+[2.848s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jack/ros2_ws/install/pubsub/share/pubsub/hook/pythonpath.sh'
+[2.849s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/pubsub/bin'
+[2.849s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pubsub)
+[2.849s] INFO:colcon.colcon_core.shell:Creating package script '/home/jack/ros2_ws/install/pubsub/share/pubsub/package.ps1'
+[2.850s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jack/ros2_ws/install/pubsub/share/pubsub/package.dsv'
+[2.850s] INFO:colcon.colcon_core.shell:Creating package script '/home/jack/ros2_ws/install/pubsub/share/pubsub/package.sh'
+[2.850s] INFO:colcon.colcon_core.shell:Creating package script '/home/jack/ros2_ws/install/pubsub/share/pubsub/package.bash'
+[2.851s] INFO:colcon.colcon_core.shell:Creating package script '/home/jack/ros2_ws/install/pubsub/share/pubsub/package.zsh'
+[2.851s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jack/ros2_ws/install/pubsub/share/colcon-core/packages/pubsub)
+[3.087s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jack/ros2_ws/src/crazy_turtle/crazy_turtle': CMAKE_PREFIX_PATH=/home/jack/ros2_ws/install/crazy_turtle_interfaces:/home/jack/ros2_ws/install/turtle_interfaces:/home/jack/ros2_ws/install/my_robot_bringup:/home/jack/ros2_ws/install/my_cpp_pkg:/home/jack/ros2_ws/install/my_robot_interfaces:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/jack/ros2_ws/install/crazy_turtle_interfaces/lib:/home/jack/ros2_ws/install/turtle_interfaces/lib:/home/jack/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/jack/ros2_ws/build/crazy_turtle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jack/ros2_ws/install/crazy_turtle/lib/python3.12/site-packages:/home/jack/ros2_ws/install/crazy_turtle_interfaces/lib/python3.12/site-packages:/home/jack/ros2_ws/install/turtle_control/lib/python3.12/site-packages:/home/jack/ros2_ws/install/turtle_interfaces/lib/python3.12/site-packages:/home/jack/ros2_ws/install/turtle_controller/lib/python3.12/site-packages:/home/jack/ros2_ws/install/py_srvcli/lib/python3.12/site-packages:/home/jack/ros2_ws/install/pubsub/lib/python3.12/site-packages:/home/jack/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/jack/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/jack/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages:/home/jack/ros2_ws/install/my_python_pkg1/lib/python3.12/site-packages:/home/jack/ros2_ws/install/my_python_pkg/lib/python3.12/site-packages:/home/jack/ros2_ws/install/crazy_turtle/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/crazy_turtle build --build-base /home/jack/ros2_ws/build/crazy_turtle/build install --record /home/jack/ros2_ws/build/crazy_turtle/install.log --single-version-externally-managed install_data
+[3.120s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jack/ros2_ws/src/my_py_pkg': CMAKE_PREFIX_PATH=/home/jack/ros2_ws/install/my_robot_interfaces:/home/jack/ros2_ws/install/turtle_interfaces:/home/jack/ros2_ws/install/my_robot_bringup:/home/jack/ros2_ws/install/my_cpp_pkg:/home/jack/ros2_ws/install/crazy_turtle_interfaces:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/jack/ros2_ws/install/my_robot_interfaces/lib:/home/jack/ros2_ws/install/turtle_interfaces/lib:/home/jack/ros2_ws/install/crazy_turtle_interfaces/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/jack/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jack/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/jack/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/jack/ros2_ws/install/turtle_control/lib/python3.12/site-packages:/home/jack/ros2_ws/install/turtle_interfaces/lib/python3.12/site-packages:/home/jack/ros2_ws/install/turtle_controller/lib/python3.12/site-packages:/home/jack/ros2_ws/install/py_srvcli/lib/python3.12/site-packages:/home/jack/ros2_ws/install/pubsub/lib/python3.12/site-packages:/home/jack/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/jack/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages:/home/jack/ros2_ws/install/my_python_pkg1/lib/python3.12/site-packages:/home/jack/ros2_ws/install/my_python_pkg/lib/python3.12/site-packages:/home/jack/ros2_ws/install/crazy_turtle/lib/python3.12/site-packages:/home/jack/ros2_ws/install/crazy_turtle_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/jack/ros2_ws/build/my_py_pkg/build install --record /home/jack/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data
+[3.142s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/my_robot_controller' for CMake module files
+[3.143s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jack/ros2_ws/src/my_robot_controller' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/jack/ros2_ws/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jack/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_robot_controller build --build-base /home/jack/ros2_ws/build/my_robot_controller/build install --record /home/jack/ros2_ws/build/my_robot_controller/install.log --single-version-externally-managed install_data
+[3.143s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/my_robot_controller' for CMake config files
+[3.143s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/my_robot_controller/lib'
+[3.143s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/my_robot_controller/bin'
+[3.143s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/my_robot_controller/lib/pkgconfig/my_robot_controller.pc'
+[3.143s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages'
+[3.144s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_controller', 'pythonpath')
+[3.144s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jack/ros2_ws/install/my_robot_controller/share/my_robot_controller/hook/pythonpath.ps1'
+[3.144s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jack/ros2_ws/install/my_robot_controller/share/my_robot_controller/hook/pythonpath.dsv'
+[3.144s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jack/ros2_ws/install/my_robot_controller/share/my_robot_controller/hook/pythonpath.sh'
+[3.145s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/my_robot_controller/bin'
+[3.145s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_controller)
+[3.145s] INFO:colcon.colcon_core.shell:Creating package script '/home/jack/ros2_ws/install/my_robot_controller/share/my_robot_controller/package.ps1'
+[3.145s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jack/ros2_ws/install/my_robot_controller/share/my_robot_controller/package.dsv'
+[3.145s] INFO:colcon.colcon_core.shell:Creating package script '/home/jack/ros2_ws/install/my_robot_controller/share/my_robot_controller/package.sh'
+[3.146s] INFO:colcon.colcon_core.shell:Creating package script '/home/jack/ros2_ws/install/my_robot_controller/share/my_robot_controller/package.bash'
+[3.146s] INFO:colcon.colcon_core.shell:Creating package script '/home/jack/ros2_ws/install/my_robot_controller/share/my_robot_controller/package.zsh'
+[3.146s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jack/ros2_ws/install/my_robot_controller/share/colcon-core/packages/my_robot_controller)
+[3.304s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/py_srvcli' for CMake module files
+[3.304s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jack/ros2_ws/src/py_srvcli' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/jack/ros2_ws/build/py_srvcli/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jack/ros2_ws/install/py_srvcli/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/jack/ros2_ws/build/py_srvcli/build install --record /home/jack/ros2_ws/build/py_srvcli/install.log --single-version-externally-managed install_data
+[3.305s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/py_srvcli' for CMake config files
+[3.305s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/py_srvcli/lib'
+[3.305s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/py_srvcli/bin'
+[3.305s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/py_srvcli/lib/pkgconfig/py_srvcli.pc'
+[3.305s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/py_srvcli/lib/python3.12/site-packages'
+[3.305s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_srvcli', 'pythonpath')
+[3.305s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jack/ros2_ws/install/py_srvcli/share/py_srvcli/hook/pythonpath.ps1'
+[3.306s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jack/ros2_ws/install/py_srvcli/share/py_srvcli/hook/pythonpath.dsv'
+[3.306s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jack/ros2_ws/install/py_srvcli/share/py_srvcli/hook/pythonpath.sh'
+[3.306s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/py_srvcli/bin'
+[3.306s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(py_srvcli)
+[3.307s] INFO:colcon.colcon_core.shell:Creating package script '/home/jack/ros2_ws/install/py_srvcli/share/py_srvcli/package.ps1'
+[3.307s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jack/ros2_ws/install/py_srvcli/share/py_srvcli/package.dsv'
+[3.307s] INFO:colcon.colcon_core.shell:Creating package script '/home/jack/ros2_ws/install/py_srvcli/share/py_srvcli/package.sh'
+[3.307s] INFO:colcon.colcon_core.shell:Creating package script '/home/jack/ros2_ws/install/py_srvcli/share/py_srvcli/package.bash'
+[3.307s] INFO:colcon.colcon_core.shell:Creating package script '/home/jack/ros2_ws/install/py_srvcli/share/py_srvcli/package.zsh'
+[3.308s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jack/ros2_ws/install/py_srvcli/share/colcon-core/packages/py_srvcli)
+[3.362s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jack/ros2_ws/src/turtle_controller': CMAKE_PREFIX_PATH=/home/jack/ros2_ws/install/my_robot_interfaces:/home/jack/ros2_ws/install/turtle_interfaces:/home/jack/ros2_ws/install/my_robot_bringup:/home/jack/ros2_ws/install/my_cpp_pkg:/home/jack/ros2_ws/install/crazy_turtle_interfaces:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/jack/ros2_ws/install/my_robot_interfaces/lib:/home/jack/ros2_ws/install/turtle_interfaces/lib:/home/jack/ros2_ws/install/crazy_turtle_interfaces/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/jack/ros2_ws/build/turtle_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jack/ros2_ws/install/turtle_controller/lib/python3.12/site-packages:/home/jack/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/jack/ros2_ws/install/turtle_control/lib/python3.12/site-packages:/home/jack/ros2_ws/install/turtle_interfaces/lib/python3.12/site-packages:/home/jack/ros2_ws/install/turtle_controller/lib/python3.12/site-packages:/home/jack/ros2_ws/install/py_srvcli/lib/python3.12/site-packages:/home/jack/ros2_ws/install/pubsub/lib/python3.12/site-packages:/home/jack/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/jack/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages:/home/jack/ros2_ws/install/my_python_pkg1/lib/python3.12/site-packages:/home/jack/ros2_ws/install/my_python_pkg/lib/python3.12/site-packages:/home/jack/ros2_ws/install/crazy_turtle/lib/python3.12/site-packages:/home/jack/ros2_ws/install/crazy_turtle_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtle_controller build --build-base /home/jack/ros2_ws/build/turtle_controller/build install --record /home/jack/ros2_ws/build/turtle_controller/install.log --single-version-externally-managed install_data
+[3.523s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jack/ros2_ws/src/homework1/turtle_control': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/jack/ros2_ws/build/turtle_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jack/ros2_ws/install/turtle_control/lib/python3.12/site-packages:/home/jack/ros2_ws/install/turtle_interfaces/lib/python3.12/site-packages:/home/jack/ros2_ws/install/turtle_control/lib/python3.12/site-packages:/home/jack/ros2_ws/install/turtle_controller/lib/python3.12/site-packages:/home/jack/ros2_ws/install/py_srvcli/lib/python3.12/site-packages:/home/jack/ros2_ws/install/pubsub/lib/python3.12/site-packages:/home/jack/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/jack/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/jack/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages:/home/jack/ros2_ws/install/my_python_pkg1/lib/python3.12/site-packages:/home/jack/ros2_ws/install/my_python_pkg/lib/python3.12/site-packages:/home/jack/ros2_ws/install/crazy_turtle/lib/python3.12/site-packages:/home/jack/ros2_ws/install/crazy_turtle_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/turtle_control build --build-base /home/jack/ros2_ws/build/turtle_control/build install --record /home/jack/ros2_ws/build/turtle_control/install.log --single-version-externally-managed install_data
+[3.720s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/crazy_turtle' for CMake module files
+[3.721s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jack/ros2_ws/src/crazy_turtle/crazy_turtle' returned '0': CMAKE_PREFIX_PATH=/home/jack/ros2_ws/install/crazy_turtle_interfaces:/home/jack/ros2_ws/install/turtle_interfaces:/home/jack/ros2_ws/install/my_robot_bringup:/home/jack/ros2_ws/install/my_cpp_pkg:/home/jack/ros2_ws/install/my_robot_interfaces:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/jack/ros2_ws/install/crazy_turtle_interfaces/lib:/home/jack/ros2_ws/install/turtle_interfaces/lib:/home/jack/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/jack/ros2_ws/build/crazy_turtle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jack/ros2_ws/install/crazy_turtle/lib/python3.12/site-packages:/home/jack/ros2_ws/install/crazy_turtle_interfaces/lib/python3.12/site-packages:/home/jack/ros2_ws/install/turtle_control/lib/python3.12/site-packages:/home/jack/ros2_ws/install/turtle_interfaces/lib/python3.12/site-packages:/home/jack/ros2_ws/install/turtle_controller/lib/python3.12/site-packages:/home/jack/ros2_ws/install/py_srvcli/lib/python3.12/site-packages:/home/jack/ros2_ws/install/pubsub/lib/python3.12/site-packages:/home/jack/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/jack/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/jack/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages:/home/jack/ros2_ws/install/my_python_pkg1/lib/python3.12/site-packages:/home/jack/ros2_ws/install/my_python_pkg/lib/python3.12/site-packages:/home/jack/ros2_ws/install/crazy_turtle/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/crazy_turtle build --build-base /home/jack/ros2_ws/build/crazy_turtle/build install --record /home/jack/ros2_ws/build/crazy_turtle/install.log --single-version-externally-managed install_data
+[3.721s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/crazy_turtle' for CMake config files
+[3.722s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/crazy_turtle/lib'
+[3.722s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/crazy_turtle/bin'
+[3.722s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/crazy_turtle/lib/pkgconfig/crazy_turtle.pc'
+[3.722s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/crazy_turtle/lib/python3.12/site-packages'
+[3.722s] Level 1:colcon.colcon_core.shell:create_environment_hook('crazy_turtle', 'pythonpath')
+[3.722s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jack/ros2_ws/install/crazy_turtle/share/crazy_turtle/hook/pythonpath.ps1'
+[3.723s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jack/ros2_ws/install/crazy_turtle/share/crazy_turtle/hook/pythonpath.dsv'
+[3.723s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jack/ros2_ws/install/crazy_turtle/share/crazy_turtle/hook/pythonpath.sh'
+[3.724s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/crazy_turtle/bin'
+[3.724s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(crazy_turtle)
+[3.724s] INFO:colcon.colcon_core.shell:Creating package script '/home/jack/ros2_ws/install/crazy_turtle/share/crazy_turtle/package.ps1'
+[3.725s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jack/ros2_ws/install/crazy_turtle/share/crazy_turtle/package.dsv'
+[3.725s] INFO:colcon.colcon_core.shell:Creating package script '/home/jack/ros2_ws/install/crazy_turtle/share/crazy_turtle/package.sh'
+[3.725s] INFO:colcon.colcon_core.shell:Creating package script '/home/jack/ros2_ws/install/crazy_turtle/share/crazy_turtle/package.bash'
+[3.726s] INFO:colcon.colcon_core.shell:Creating package script '/home/jack/ros2_ws/install/crazy_turtle/share/crazy_turtle/package.zsh'
+[3.726s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jack/ros2_ws/install/crazy_turtle/share/colcon-core/packages/crazy_turtle)
+[3.729s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/my_py_pkg' for CMake module files
+[3.730s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jack/ros2_ws/src/my_py_pkg' returned '0': CMAKE_PREFIX_PATH=/home/jack/ros2_ws/install/my_robot_interfaces:/home/jack/ros2_ws/install/turtle_interfaces:/home/jack/ros2_ws/install/my_robot_bringup:/home/jack/ros2_ws/install/my_cpp_pkg:/home/jack/ros2_ws/install/crazy_turtle_interfaces:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/jack/ros2_ws/install/my_robot_interfaces/lib:/home/jack/ros2_ws/install/turtle_interfaces/lib:/home/jack/ros2_ws/install/crazy_turtle_interfaces/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/jack/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jack/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/jack/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/jack/ros2_ws/install/turtle_control/lib/python3.12/site-packages:/home/jack/ros2_ws/install/turtle_interfaces/lib/python3.12/site-packages:/home/jack/ros2_ws/install/turtle_controller/lib/python3.12/site-packages:/home/jack/ros2_ws/install/py_srvcli/lib/python3.12/site-packages:/home/jack/ros2_ws/install/pubsub/lib/python3.12/site-packages:/home/jack/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/jack/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages:/home/jack/ros2_ws/install/my_python_pkg1/lib/python3.12/site-packages:/home/jack/ros2_ws/install/my_python_pkg/lib/python3.12/site-packages:/home/jack/ros2_ws/install/crazy_turtle/lib/python3.12/site-packages:/home/jack/ros2_ws/install/crazy_turtle_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/jack/ros2_ws/build/my_py_pkg/build install --record /home/jack/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data
+[3.730s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/my_py_pkg' for CMake config files
+[3.731s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/my_py_pkg/lib'
+[3.731s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/my_py_pkg/bin'
+[3.731s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/my_py_pkg/lib/pkgconfig/my_py_pkg.pc'
+[3.731s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages'
+[3.731s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_py_pkg', 'pythonpath')
+[3.732s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jack/ros2_ws/install/my_py_pkg/share/my_py_pkg/hook/pythonpath.ps1'
+[3.732s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jack/ros2_ws/install/my_py_pkg/share/my_py_pkg/hook/pythonpath.dsv'
+[3.732s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jack/ros2_ws/install/my_py_pkg/share/my_py_pkg/hook/pythonpath.sh'
+[3.733s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/my_py_pkg/bin'
+[3.733s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_py_pkg)
+[3.733s] INFO:colcon.colcon_core.shell:Creating package script '/home/jack/ros2_ws/install/my_py_pkg/share/my_py_pkg/package.ps1'
+[3.734s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jack/ros2_ws/install/my_py_pkg/share/my_py_pkg/package.dsv'
+[3.734s] INFO:colcon.colcon_core.shell:Creating package script '/home/jack/ros2_ws/install/my_py_pkg/share/my_py_pkg/package.sh'
+[3.734s] INFO:colcon.colcon_core.shell:Creating package script '/home/jack/ros2_ws/install/my_py_pkg/share/my_py_pkg/package.bash'
+[3.735s] INFO:colcon.colcon_core.shell:Creating package script '/home/jack/ros2_ws/install/my_py_pkg/share/my_py_pkg/package.zsh'
+[3.735s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jack/ros2_ws/install/my_py_pkg/share/colcon-core/packages/my_py_pkg)
+[3.862s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/turtle_controller' for CMake module files
+[3.862s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jack/ros2_ws/src/turtle_controller' returned '0': CMAKE_PREFIX_PATH=/home/jack/ros2_ws/install/my_robot_interfaces:/home/jack/ros2_ws/install/turtle_interfaces:/home/jack/ros2_ws/install/my_robot_bringup:/home/jack/ros2_ws/install/my_cpp_pkg:/home/jack/ros2_ws/install/crazy_turtle_interfaces:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/jack/ros2_ws/install/my_robot_interfaces/lib:/home/jack/ros2_ws/install/turtle_interfaces/lib:/home/jack/ros2_ws/install/crazy_turtle_interfaces/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/jack/ros2_ws/build/turtle_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jack/ros2_ws/install/turtle_controller/lib/python3.12/site-packages:/home/jack/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/jack/ros2_ws/install/turtle_control/lib/python3.12/site-packages:/home/jack/ros2_ws/install/turtle_interfaces/lib/python3.12/site-packages:/home/jack/ros2_ws/install/turtle_controller/lib/python3.12/site-packages:/home/jack/ros2_ws/install/py_srvcli/lib/python3.12/site-packages:/home/jack/ros2_ws/install/pubsub/lib/python3.12/site-packages:/home/jack/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/jack/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages:/home/jack/ros2_ws/install/my_python_pkg1/lib/python3.12/site-packages:/home/jack/ros2_ws/install/my_python_pkg/lib/python3.12/site-packages:/home/jack/ros2_ws/install/crazy_turtle/lib/python3.12/site-packages:/home/jack/ros2_ws/install/crazy_turtle_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtle_controller build --build-base /home/jack/ros2_ws/build/turtle_controller/build install --record /home/jack/ros2_ws/build/turtle_controller/install.log --single-version-externally-managed install_data
+[3.863s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/turtle_controller' for CMake config files
+[3.863s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/turtle_controller/lib'
+[3.863s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/turtle_controller/bin'
+[3.863s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/turtle_controller/lib/pkgconfig/turtle_controller.pc'
+[3.864s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/turtle_controller/lib/python3.12/site-packages'
+[3.864s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_controller', 'pythonpath')
+[3.864s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jack/ros2_ws/install/turtle_controller/share/turtle_controller/hook/pythonpath.ps1'
+[3.864s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jack/ros2_ws/install/turtle_controller/share/turtle_controller/hook/pythonpath.dsv'
+[3.865s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jack/ros2_ws/install/turtle_controller/share/turtle_controller/hook/pythonpath.sh'
+[3.865s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/turtle_controller/bin'
+[3.865s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtle_controller)
+[3.866s] INFO:colcon.colcon_core.shell:Creating package script '/home/jack/ros2_ws/install/turtle_controller/share/turtle_controller/package.ps1'
+[3.866s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jack/ros2_ws/install/turtle_controller/share/turtle_controller/package.dsv'
+[3.866s] INFO:colcon.colcon_core.shell:Creating package script '/home/jack/ros2_ws/install/turtle_controller/share/turtle_controller/package.sh'
+[3.867s] INFO:colcon.colcon_core.shell:Creating package script '/home/jack/ros2_ws/install/turtle_controller/share/turtle_controller/package.bash'
+[3.867s] INFO:colcon.colcon_core.shell:Creating package script '/home/jack/ros2_ws/install/turtle_controller/share/turtle_controller/package.zsh'
+[3.867s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jack/ros2_ws/install/turtle_controller/share/colcon-core/packages/turtle_controller)
+[3.868s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jack/ros2_ws/src/my_robot_bringup' with build type 'ament_cmake'
+[3.868s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jack/ros2_ws/src/my_robot_bringup'
+[3.868s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.868s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.879s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jack/ros2_ws/build/my_robot_bringup': AMENT_PREFIX_PATH=/home/jack/ros2_ws/install/turtle_controller:/home/jack/ros2_ws/install/my_py_pkg:/home/jack/ros2_ws/install/turtle_control:/home/jack/ros2_ws/install/turtle_interfaces:/home/jack/ros2_ws/install/my_robot_bringup:/home/jack/ros2_ws/install/py_srvcli:/home/jack/ros2_ws/install/pubsub:/home/jack/ros2_ws/install/my_cpp_pkg:/home/jack/ros2_ws/install/my_robot_interfaces:/home/jack/ros2_ws/install/my_robot_controller:/home/jack/ros2_ws/install/my_python_pkg:/home/jack/ros2_ws/install/crazy_turtle:/home/jack/ros2_ws/install/crazy_turtle_interfaces:/opt/ros/jazzy CMAKE_PREFIX_PATH=/home/jack/ros2_ws/install/my_cpp_pkg:/home/jack/ros2_ws/install/my_robot_interfaces:/home/jack/ros2_ws/install/turtle_interfaces:/home/jack/ros2_ws/install/my_robot_bringup:/home/jack/ros2_ws/install/crazy_turtle_interfaces:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/jack/ros2_ws/install/turtle_control:/home/jack/ros2_ws/install/turtle_controller:/home/jack/ros2_ws/install/py_srvcli:/home/jack/ros2_ws/install/pubsub:/home/jack/ros2_ws/install/my_py_pkg:/home/jack/ros2_ws/install/my_robot_controller:/home/jack/ros2_ws/install/my_python_pkg:/home/jack/ros2_ws/install/crazy_turtle:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/jack/ros2_ws/install/my_robot_interfaces/lib:/home/jack/ros2_ws/install/turtle_interfaces/lib:/home/jack/ros2_ws/install/crazy_turtle_interfaces/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/jack/ros2_ws/install/turtle_controller/lib/python3.12/site-packages:/home/jack/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/jack/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/jack/ros2_ws/install/turtle_control/lib/python3.12/site-packages:/home/jack/ros2_ws/install/turtle_interfaces/lib/python3.12/site-packages:/home/jack/ros2_ws/install/py_srvcli/lib/python3.12/site-packages:/home/jack/ros2_ws/install/pubsub/lib/python3.12/site-packages:/home/jack/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages:/home/jack/ros2_ws/install/my_python_pkg1/lib/python3.12/site-packages:/home/jack/ros2_ws/install/my_python_pkg/lib/python3.12/site-packages:/home/jack/ros2_ws/install/crazy_turtle/lib/python3.12/site-packages:/home/jack/ros2_ws/install/crazy_turtle_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/jack/ros2_ws/build/my_robot_bringup -- -j8 -l8
+[3.906s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jack/ros2_ws/build/my_robot_bringup' returned '0': AMENT_PREFIX_PATH=/home/jack/ros2_ws/install/turtle_controller:/home/jack/ros2_ws/install/my_py_pkg:/home/jack/ros2_ws/install/turtle_control:/home/jack/ros2_ws/install/turtle_interfaces:/home/jack/ros2_ws/install/my_robot_bringup:/home/jack/ros2_ws/install/py_srvcli:/home/jack/ros2_ws/install/pubsub:/home/jack/ros2_ws/install/my_cpp_pkg:/home/jack/ros2_ws/install/my_robot_interfaces:/home/jack/ros2_ws/install/my_robot_controller:/home/jack/ros2_ws/install/my_python_pkg:/home/jack/ros2_ws/install/crazy_turtle:/home/jack/ros2_ws/install/crazy_turtle_interfaces:/opt/ros/jazzy CMAKE_PREFIX_PATH=/home/jack/ros2_ws/install/my_cpp_pkg:/home/jack/ros2_ws/install/my_robot_interfaces:/home/jack/ros2_ws/install/turtle_interfaces:/home/jack/ros2_ws/install/my_robot_bringup:/home/jack/ros2_ws/install/crazy_turtle_interfaces:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/jack/ros2_ws/install/turtle_control:/home/jack/ros2_ws/install/turtle_controller:/home/jack/ros2_ws/install/py_srvcli:/home/jack/ros2_ws/install/pubsub:/home/jack/ros2_ws/install/my_py_pkg:/home/jack/ros2_ws/install/my_robot_controller:/home/jack/ros2_ws/install/my_python_pkg:/home/jack/ros2_ws/install/crazy_turtle:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/jack/ros2_ws/install/my_robot_interfaces/lib:/home/jack/ros2_ws/install/turtle_interfaces/lib:/home/jack/ros2_ws/install/crazy_turtle_interfaces/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/jack/ros2_ws/install/turtle_controller/lib/python3.12/site-packages:/home/jack/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/jack/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/jack/ros2_ws/install/turtle_control/lib/python3.12/site-packages:/home/jack/ros2_ws/install/turtle_interfaces/lib/python3.12/site-packages:/home/jack/ros2_ws/install/py_srvcli/lib/python3.12/site-packages:/home/jack/ros2_ws/install/pubsub/lib/python3.12/site-packages:/home/jack/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages:/home/jack/ros2_ws/install/my_python_pkg1/lib/python3.12/site-packages:/home/jack/ros2_ws/install/my_python_pkg/lib/python3.12/site-packages:/home/jack/ros2_ws/install/crazy_turtle/lib/python3.12/site-packages:/home/jack/ros2_ws/install/crazy_turtle_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/jack/ros2_ws/build/my_robot_bringup -- -j8 -l8
+[3.907s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jack/ros2_ws/build/my_robot_bringup': AMENT_PREFIX_PATH=/home/jack/ros2_ws/install/turtle_controller:/home/jack/ros2_ws/install/my_py_pkg:/home/jack/ros2_ws/install/turtle_control:/home/jack/ros2_ws/install/turtle_interfaces:/home/jack/ros2_ws/install/my_robot_bringup:/home/jack/ros2_ws/install/py_srvcli:/home/jack/ros2_ws/install/pubsub:/home/jack/ros2_ws/install/my_cpp_pkg:/home/jack/ros2_ws/install/my_robot_interfaces:/home/jack/ros2_ws/install/my_robot_controller:/home/jack/ros2_ws/install/my_python_pkg:/home/jack/ros2_ws/install/crazy_turtle:/home/jack/ros2_ws/install/crazy_turtle_interfaces:/opt/ros/jazzy CMAKE_PREFIX_PATH=/home/jack/ros2_ws/install/my_cpp_pkg:/home/jack/ros2_ws/install/my_robot_interfaces:/home/jack/ros2_ws/install/turtle_interfaces:/home/jack/ros2_ws/install/my_robot_bringup:/home/jack/ros2_ws/install/crazy_turtle_interfaces:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/jack/ros2_ws/install/turtle_control:/home/jack/ros2_ws/install/turtle_controller:/home/jack/ros2_ws/install/py_srvcli:/home/jack/ros2_ws/install/pubsub:/home/jack/ros2_ws/install/my_py_pkg:/home/jack/ros2_ws/install/my_robot_controller:/home/jack/ros2_ws/install/my_python_pkg:/home/jack/ros2_ws/install/crazy_turtle:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/jack/ros2_ws/install/my_robot_interfaces/lib:/home/jack/ros2_ws/install/turtle_interfaces/lib:/home/jack/ros2_ws/install/crazy_turtle_interfaces/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/jack/ros2_ws/install/turtle_controller/lib/python3.12/site-packages:/home/jack/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/jack/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/jack/ros2_ws/install/turtle_control/lib/python3.12/site-packages:/home/jack/ros2_ws/install/turtle_interfaces/lib/python3.12/site-packages:/home/jack/ros2_ws/install/py_srvcli/lib/python3.12/site-packages:/home/jack/ros2_ws/install/pubsub/lib/python3.12/site-packages:/home/jack/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages:/home/jack/ros2_ws/install/my_python_pkg1/lib/python3.12/site-packages:/home/jack/ros2_ws/install/my_python_pkg/lib/python3.12/site-packages:/home/jack/ros2_ws/install/crazy_turtle/lib/python3.12/site-packages:/home/jack/ros2_ws/install/crazy_turtle_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --install /home/jack/ros2_ws/build/my_robot_bringup
+[3.914s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_bringup)
+[3.914s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/my_robot_bringup' for CMake module files
+[3.915s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jack/ros2_ws/build/my_robot_bringup' returned '0': AMENT_PREFIX_PATH=/home/jack/ros2_ws/install/turtle_controller:/home/jack/ros2_ws/install/my_py_pkg:/home/jack/ros2_ws/install/turtle_control:/home/jack/ros2_ws/install/turtle_interfaces:/home/jack/ros2_ws/install/my_robot_bringup:/home/jack/ros2_ws/install/py_srvcli:/home/jack/ros2_ws/install/pubsub:/home/jack/ros2_ws/install/my_cpp_pkg:/home/jack/ros2_ws/install/my_robot_interfaces:/home/jack/ros2_ws/install/my_robot_controller:/home/jack/ros2_ws/install/my_python_pkg:/home/jack/ros2_ws/install/crazy_turtle:/home/jack/ros2_ws/install/crazy_turtle_interfaces:/opt/ros/jazzy CMAKE_PREFIX_PATH=/home/jack/ros2_ws/install/my_cpp_pkg:/home/jack/ros2_ws/install/my_robot_interfaces:/home/jack/ros2_ws/install/turtle_interfaces:/home/jack/ros2_ws/install/my_robot_bringup:/home/jack/ros2_ws/install/crazy_turtle_interfaces:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/jack/ros2_ws/install/turtle_control:/home/jack/ros2_ws/install/turtle_controller:/home/jack/ros2_ws/install/py_srvcli:/home/jack/ros2_ws/install/pubsub:/home/jack/ros2_ws/install/my_py_pkg:/home/jack/ros2_ws/install/my_robot_controller:/home/jack/ros2_ws/install/my_python_pkg:/home/jack/ros2_ws/install/crazy_turtle:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/jack/ros2_ws/install/my_robot_interfaces/lib:/home/jack/ros2_ws/install/turtle_interfaces/lib:/home/jack/ros2_ws/install/crazy_turtle_interfaces/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/jack/ros2_ws/install/turtle_controller/lib/python3.12/site-packages:/home/jack/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/jack/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/jack/ros2_ws/install/turtle_control/lib/python3.12/site-packages:/home/jack/ros2_ws/install/turtle_interfaces/lib/python3.12/site-packages:/home/jack/ros2_ws/install/py_srvcli/lib/python3.12/site-packages:/home/jack/ros2_ws/install/pubsub/lib/python3.12/site-packages:/home/jack/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages:/home/jack/ros2_ws/install/my_python_pkg1/lib/python3.12/site-packages:/home/jack/ros2_ws/install/my_python_pkg/lib/python3.12/site-packages:/home/jack/ros2_ws/install/crazy_turtle/lib/python3.12/site-packages:/home/jack/ros2_ws/install/crazy_turtle_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --install /home/jack/ros2_ws/build/my_robot_bringup
+[3.915s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/my_robot_bringup' for CMake config files
+[3.915s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_bringup', 'cmake_prefix_path')
+[3.915s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jack/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/hook/cmake_prefix_path.ps1'
+[3.915s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jack/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/hook/cmake_prefix_path.dsv'
+[3.916s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jack/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/hook/cmake_prefix_path.sh'
+[3.916s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/my_robot_bringup/bin'
+[3.916s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/my_robot_bringup/lib/pkgconfig/my_robot_bringup.pc'
+[3.916s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/my_robot_bringup/lib/python3.12/site-packages'
+[3.916s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/my_robot_bringup/bin'
+[3.916s] INFO:colcon.colcon_core.shell:Creating package script '/home/jack/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/package.ps1'
+[3.917s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jack/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/package.dsv'
+[3.917s] INFO:colcon.colcon_core.shell:Creating package script '/home/jack/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/package.sh'
+[3.917s] INFO:colcon.colcon_core.shell:Creating package script '/home/jack/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/package.bash'
+[3.917s] INFO:colcon.colcon_core.shell:Creating package script '/home/jack/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/package.zsh'
+[3.918s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jack/ros2_ws/install/my_robot_bringup/share/colcon-core/packages/my_robot_bringup)
+[3.918s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_bringup)
+[3.918s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/my_robot_bringup' for CMake module files
+[3.918s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/my_robot_bringup' for CMake config files
+[3.918s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_bringup', 'cmake_prefix_path')
+[3.918s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jack/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/hook/cmake_prefix_path.ps1'
+[3.919s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jack/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/hook/cmake_prefix_path.dsv'
+[3.919s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jack/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/hook/cmake_prefix_path.sh'
+[3.919s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/my_robot_bringup/bin'
+[3.919s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/my_robot_bringup/lib/pkgconfig/my_robot_bringup.pc'
+[3.919s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/my_robot_bringup/lib/python3.12/site-packages'
+[3.919s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/my_robot_bringup/bin'
+[3.920s] INFO:colcon.colcon_core.shell:Creating package script '/home/jack/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/package.ps1'
+[3.920s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jack/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/package.dsv'
+[3.920s] INFO:colcon.colcon_core.shell:Creating package script '/home/jack/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/package.sh'
+[3.920s] INFO:colcon.colcon_core.shell:Creating package script '/home/jack/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/package.bash'
+[3.921s] INFO:colcon.colcon_core.shell:Creating package script '/home/jack/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/package.zsh'
+[3.921s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jack/ros2_ws/install/my_robot_bringup/share/colcon-core/packages/my_robot_bringup)
+[4.027s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/turtle_control' for CMake module files
+[4.028s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jack/ros2_ws/src/homework1/turtle_control' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/jack/ros2_ws/build/turtle_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jack/ros2_ws/install/turtle_control/lib/python3.12/site-packages:/home/jack/ros2_ws/install/turtle_interfaces/lib/python3.12/site-packages:/home/jack/ros2_ws/install/turtle_control/lib/python3.12/site-packages:/home/jack/ros2_ws/install/turtle_controller/lib/python3.12/site-packages:/home/jack/ros2_ws/install/py_srvcli/lib/python3.12/site-packages:/home/jack/ros2_ws/install/pubsub/lib/python3.12/site-packages:/home/jack/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/jack/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/jack/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages:/home/jack/ros2_ws/install/my_python_pkg1/lib/python3.12/site-packages:/home/jack/ros2_ws/install/my_python_pkg/lib/python3.12/site-packages:/home/jack/ros2_ws/install/crazy_turtle/lib/python3.12/site-packages:/home/jack/ros2_ws/install/crazy_turtle_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/turtle_control build --build-base /home/jack/ros2_ws/build/turtle_control/build install --record /home/jack/ros2_ws/build/turtle_control/install.log --single-version-externally-managed install_data
+[4.028s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/turtle_control' for CMake config files
+[4.028s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/turtle_control/lib'
+[4.028s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/turtle_control/bin'
+[4.028s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/turtle_control/lib/pkgconfig/turtle_control.pc'
+[4.029s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/turtle_control/lib/python3.12/site-packages'
+[4.029s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_control', 'pythonpath')
+[4.029s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jack/ros2_ws/install/turtle_control/share/turtle_control/hook/pythonpath.ps1'
+[4.029s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jack/ros2_ws/install/turtle_control/share/turtle_control/hook/pythonpath.dsv'
+[4.029s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jack/ros2_ws/install/turtle_control/share/turtle_control/hook/pythonpath.sh'
+[4.030s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_ws/install/turtle_control/bin'
+[4.030s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtle_control)
+[4.030s] INFO:colcon.colcon_core.shell:Creating package script '/home/jack/ros2_ws/install/turtle_control/share/turtle_control/package.ps1'
+[4.030s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jack/ros2_ws/install/turtle_control/share/turtle_control/package.dsv'
+[4.030s] INFO:colcon.colcon_core.shell:Creating package script '/home/jack/ros2_ws/install/turtle_control/share/turtle_control/package.sh'
+[4.031s] INFO:colcon.colcon_core.shell:Creating package script '/home/jack/ros2_ws/install/turtle_control/share/turtle_control/package.bash'
+[4.031s] INFO:colcon.colcon_core.shell:Creating package script '/home/jack/ros2_ws/install/turtle_control/share/turtle_control/package.zsh'
+[4.031s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jack/ros2_ws/install/turtle_control/share/colcon-core/packages/turtle_control)
+[4.031s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.031s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.031s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.031s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.036s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.036s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.036s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.047s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.047s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jack/ros2_ws/install/local_setup.ps1'
+[4.047s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jack/ros2_ws/install/_local_setup_util_ps1.py'
+[4.048s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jack/ros2_ws/install/setup.ps1'
+[4.049s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jack/ros2_ws/install/local_setup.sh'
+[4.049s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jack/ros2_ws/install/_local_setup_util_sh.py'
+[4.050s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jack/ros2_ws/install/setup.sh'
+[4.050s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jack/ros2_ws/install/local_setup.bash'
+[4.051s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jack/ros2_ws/install/setup.bash'
+[4.051s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jack/ros2_ws/install/local_setup.zsh'
+[4.051s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jack/ros2_ws/install/setup.zsh'

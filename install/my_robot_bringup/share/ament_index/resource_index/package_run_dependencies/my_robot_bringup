@@ -1,1 +1,1 @@
-demo_nodes_cpp;demo_nodes_py;ament_lint_auto;ament_lint_common
+my_py_pkg;my_cpp_pkg;turtlesim;turtle_controller;ament_lint_auto;ament_lint_common

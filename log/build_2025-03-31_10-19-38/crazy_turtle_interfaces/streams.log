@@ -1,0 +1,152 @@
+[0.027s] Invoking command in '/home/jack/ros2_ws/build/crazy_turtle_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jack/ros2_ws/install/turtle_control:/home/jack/ros2_ws/install/turtle_controller:/home/jack/ros2_ws/install/py_srvcli:/home/jack/ros2_ws/install/pubsub:/home/jack/ros2_ws/install/my_py_pkg:/home/jack/ros2_ws/install/my_robot_controller:/home/jack/ros2_ws/install/my_python_pkg:/home/jack/ros2_ws/install/crazy_turtle:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jack/ros2_ws/build/crazy_turtle_interfaces -- -j8 -l8
+[0.854s] [  2%] Built target crazy_turtle_interfaces__rosidl_generator_type_description
+[0.854s] [  2%] Built target ament_cmake_python_copy_crazy_turtle_interfaces
+[0.854s] [  5%] Built target crazy_turtle_interfaces__cpp
+[0.854s] [ 20%] Built target crazy_turtle_interfaces__rosidl_generator_c
+[0.854s] [ 29%] Built target crazy_turtle_interfaces__rosidl_typesupport_introspection_c
+[0.854s] [ 38%] Built target crazy_turtle_interfaces__rosidl_typesupport_fastrtps_c
+[0.854s] [ 47%] Built target crazy_turtle_interfaces__rosidl_typesupport_introspection_cpp
+[0.854s] [ 55%] Built target crazy_turtle_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.854s] [ 64%] Built target crazy_turtle_interfaces__rosidl_typesupport_cpp
+[0.854s] [ 73%] Built target crazy_turtle_interfaces__rosidl_typesupport_c
+[0.854s] [ 73%] Built target crazy_turtle_interfaces
+[0.854s] [ 76%] Built target crazy_turtle_interfaces__py
+[0.855s] [ 82%] Built target crazy_turtle_interfaces__rosidl_generator_py
+[0.855s] [ 88%] Built target crazy_turtle_interfaces_s__rosidl_typesupport_fastrtps_c
+[0.855s] [ 94%] Built target crazy_turtle_interfaces_s__rosidl_typesupport_introspection_c
+[0.855s] [100%] Built target crazy_turtle_interfaces_s__rosidl_typesupport_c
+[0.855s] running egg_info
+[0.855s] writing crazy_turtle_interfaces.egg-info/PKG-INFO
+[0.855s] writing dependency_links to crazy_turtle_interfaces.egg-info/dependency_links.txt
+[0.855s] writing top-level names to crazy_turtle_interfaces.egg-info/top_level.txt
+[0.855s] reading manifest file 'crazy_turtle_interfaces.egg-info/SOURCES.txt'
+[0.855s] writing manifest file 'crazy_turtle_interfaces.egg-info/SOURCES.txt'
+[0.855s] [100%] Built target ament_cmake_python_build_crazy_turtle_interfaces_egg
+[1.039s] Invoked command in '/home/jack/ros2_ws/build/crazy_turtle_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jack/ros2_ws/install/turtle_control:/home/jack/ros2_ws/install/turtle_controller:/home/jack/ros2_ws/install/py_srvcli:/home/jack/ros2_ws/install/pubsub:/home/jack/ros2_ws/install/my_py_pkg:/home/jack/ros2_ws/install/my_robot_controller:/home/jack/ros2_ws/install/my_python_pkg:/home/jack/ros2_ws/install/crazy_turtle:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jack/ros2_ws/build/crazy_turtle_interfaces -- -j8 -l8
+[1.039s] Invoking command in '/home/jack/ros2_ws/build/crazy_turtle_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jack/ros2_ws/install/turtle_control:/home/jack/ros2_ws/install/turtle_controller:/home/jack/ros2_ws/install/py_srvcli:/home/jack/ros2_ws/install/pubsub:/home/jack/ros2_ws/install/my_py_pkg:/home/jack/ros2_ws/install/my_robot_controller:/home/jack/ros2_ws/install/my_python_pkg:/home/jack/ros2_ws/install/crazy_turtle:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jack/ros2_ws/build/crazy_turtle_interfaces
+[1.058s] -- Install configuration: ""
+[1.058s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/share/ament_index/resource_index/rosidl_interfaces/crazy_turtle_interfaces
+[1.058s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/share/crazy_turtle_interfaces/srv/Switch.json
+[1.058s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/include/crazy_turtle_interfaces/crazy_turtle_interfaces
+[1.058s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/include/crazy_turtle_interfaces/crazy_turtle_interfaces/srv
+[1.058s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/include/crazy_turtle_interfaces/crazy_turtle_interfaces/srv/detail
+[1.058s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/include/crazy_turtle_interfaces/crazy_turtle_interfaces/srv/detail/switch__description.c
+[1.068s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/include/crazy_turtle_interfaces/crazy_turtle_interfaces/srv/detail/switch__type_support.c
+[1.068s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/include/crazy_turtle_interfaces/crazy_turtle_interfaces/srv/detail/switch__functions.c
+[1.068s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/include/crazy_turtle_interfaces/crazy_turtle_interfaces/srv/detail/switch__struct.h
+[1.068s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/include/crazy_turtle_interfaces/crazy_turtle_interfaces/srv/detail/switch__functions.h
+[1.069s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/include/crazy_turtle_interfaces/crazy_turtle_interfaces/srv/detail/switch__type_support.h
+[1.069s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/include/crazy_turtle_interfaces/crazy_turtle_interfaces/srv/switch.h
+[1.069s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/include/crazy_turtle_interfaces/crazy_turtle_interfaces/msg
+[1.069s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/include/crazy_turtle_interfaces/crazy_turtle_interfaces/msg/rosidl_generator_c__visibility_control.h
+[1.069s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/share/crazy_turtle_interfaces/environment/library_path.sh
+[1.069s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/share/crazy_turtle_interfaces/environment/library_path.dsv
+[1.069s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/lib/libcrazy_turtle_interfaces__rosidl_generator_c.so
+[1.069s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/include/crazy_turtle_interfaces/crazy_turtle_interfaces
+[1.070s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/include/crazy_turtle_interfaces/crazy_turtle_interfaces/srv
+[1.070s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/include/crazy_turtle_interfaces/crazy_turtle_interfaces/srv/detail
+[1.070s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/include/crazy_turtle_interfaces/crazy_turtle_interfaces/srv/detail/switch__rosidl_typesupport_fastrtps_c.h
+[1.070s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/include/crazy_turtle_interfaces/crazy_turtle_interfaces/msg
+[1.070s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/include/crazy_turtle_interfaces/crazy_turtle_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.070s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/lib/libcrazy_turtle_interfaces__rosidl_typesupport_fastrtps_c.so
+[1.070s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/include/crazy_turtle_interfaces/crazy_turtle_interfaces
+[1.070s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/include/crazy_turtle_interfaces/crazy_turtle_interfaces/srv
+[1.070s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/include/crazy_turtle_interfaces/crazy_turtle_interfaces/srv/detail
+[1.071s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/include/crazy_turtle_interfaces/crazy_turtle_interfaces/srv/detail/switch__type_support.c
+[1.071s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/include/crazy_turtle_interfaces/crazy_turtle_interfaces/srv/detail/switch__rosidl_typesupport_introspection_c.h
+[1.071s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/include/crazy_turtle_interfaces/crazy_turtle_interfaces/msg
+[1.071s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/include/crazy_turtle_interfaces/crazy_turtle_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.071s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/lib/libcrazy_turtle_interfaces__rosidl_typesupport_introspection_c.so
+[1.071s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/lib/libcrazy_turtle_interfaces__rosidl_typesupport_c.so
+[1.071s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/include/crazy_turtle_interfaces/crazy_turtle_interfaces
+[1.071s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/include/crazy_turtle_interfaces/crazy_turtle_interfaces/srv
+[1.071s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/include/crazy_turtle_interfaces/crazy_turtle_interfaces/srv/detail
+[1.071s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/include/crazy_turtle_interfaces/crazy_turtle_interfaces/srv/detail/switch__builder.hpp
+[1.071s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/include/crazy_turtle_interfaces/crazy_turtle_interfaces/srv/detail/switch__type_support.hpp
+[1.071s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/include/crazy_turtle_interfaces/crazy_turtle_interfaces/srv/detail/switch__traits.hpp
+[1.071s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/include/crazy_turtle_interfaces/crazy_turtle_interfaces/srv/detail/switch__struct.hpp
+[1.072s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/include/crazy_turtle_interfaces/crazy_turtle_interfaces/srv/switch.hpp
+[1.072s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/include/crazy_turtle_interfaces/crazy_turtle_interfaces/msg
+[1.072s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/include/crazy_turtle_interfaces/crazy_turtle_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.072s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/include/crazy_turtle_interfaces/crazy_turtle_interfaces
+[1.072s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/include/crazy_turtle_interfaces/crazy_turtle_interfaces/srv
+[1.072s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/include/crazy_turtle_interfaces/crazy_turtle_interfaces/srv/detail
+[1.072s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/include/crazy_turtle_interfaces/crazy_turtle_interfaces/srv/detail/dds_fastrtps
+[1.072s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/include/crazy_turtle_interfaces/crazy_turtle_interfaces/srv/detail/switch__rosidl_typesupport_fastrtps_cpp.hpp
+[1.072s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/include/crazy_turtle_interfaces/crazy_turtle_interfaces/msg
+[1.072s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/include/crazy_turtle_interfaces/crazy_turtle_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.072s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/lib/libcrazy_turtle_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[1.072s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/include/crazy_turtle_interfaces/crazy_turtle_interfaces
+[1.072s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/include/crazy_turtle_interfaces/crazy_turtle_interfaces/srv
+[1.073s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/include/crazy_turtle_interfaces/crazy_turtle_interfaces/srv/detail
+[1.073s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/include/crazy_turtle_interfaces/crazy_turtle_interfaces/srv/detail/switch__rosidl_typesupport_introspection_cpp.hpp
+[1.073s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/include/crazy_turtle_interfaces/crazy_turtle_interfaces/srv/detail/switch__type_support.cpp
+[1.073s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/lib/libcrazy_turtle_interfaces__rosidl_typesupport_introspection_cpp.so
+[1.073s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/lib/libcrazy_turtle_interfaces__rosidl_typesupport_cpp.so
+[1.073s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/share/crazy_turtle_interfaces/environment/pythonpath.sh
+[1.073s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/share/crazy_turtle_interfaces/environment/pythonpath.dsv
+[1.073s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/lib/python3.12/site-packages/crazy_turtle_interfaces-0.0.0-py3.12.egg-info
+[1.073s] -- Installing: /home/jack/ros2_ws/install/crazy_turtle_interfaces/lib/python3.12/site-packages/crazy_turtle_interfaces-0.0.0-py3.12.egg-info/top_level.txt
+[1.073s] -- Installing: /home/jack/ros2_ws/install/crazy_turtle_interfaces/lib/python3.12/site-packages/crazy_turtle_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt
+[1.073s] -- Installing: /home/jack/ros2_ws/install/crazy_turtle_interfaces/lib/python3.12/site-packages/crazy_turtle_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt
+[1.079s] -- Installing: /home/jack/ros2_ws/install/crazy_turtle_interfaces/lib/python3.12/site-packages/crazy_turtle_interfaces-0.0.0-py3.12.egg-info/PKG-INFO
+[1.079s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/lib/python3.12/site-packages/crazy_turtle_interfaces
+[1.080s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/lib/python3.12/site-packages/crazy_turtle_interfaces/crazy_turtle_interfaces_s__rosidl_typesupport_introspection_c.so
+[1.080s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/lib/python3.12/site-packages/crazy_turtle_interfaces/srv
+[1.080s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/lib/python3.12/site-packages/crazy_turtle_interfaces/srv/_switch.py
+[1.080s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/lib/python3.12/site-packages/crazy_turtle_interfaces/srv/__init__.py
+[1.080s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/lib/python3.12/site-packages/crazy_turtle_interfaces/srv/_switch_s.c
+[1.080s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/lib/python3.12/site-packages/crazy_turtle_interfaces/crazy_turtle_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[1.080s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/lib/python3.12/site-packages/crazy_turtle_interfaces/_crazy_turtle_interfaces_s.ep.rosidl_typesupport_c.c
+[1.080s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/lib/python3.12/site-packages/crazy_turtle_interfaces/_crazy_turtle_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[1.080s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/lib/python3.12/site-packages/crazy_turtle_interfaces/__init__.py
+[1.080s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/lib/python3.12/site-packages/crazy_turtle_interfaces/_crazy_turtle_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.080s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/lib/python3.12/site-packages/crazy_turtle_interfaces/crazy_turtle_interfaces_s__rosidl_typesupport_c.so
+[1.095s] Listing '/home/jack/ros2_ws/install/crazy_turtle_interfaces/lib/python3.12/site-packages/crazy_turtle_interfaces'...
+[1.095s] Listing '/home/jack/ros2_ws/install/crazy_turtle_interfaces/lib/python3.12/site-packages/crazy_turtle_interfaces/srv'...
+[1.105s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/lib/python3.12/site-packages/crazy_turtle_interfaces/crazy_turtle_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[1.105s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/lib/python3.12/site-packages/crazy_turtle_interfaces/crazy_turtle_interfaces_s__rosidl_typesupport_introspection_c.so
+[1.110s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/lib/python3.12/site-packages/crazy_turtle_interfaces/crazy_turtle_interfaces_s__rosidl_typesupport_c.so
+[1.110s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/lib/libcrazy_turtle_interfaces__rosidl_generator_py.so
+[1.115s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/share/crazy_turtle_interfaces/srv/Switch.idl
+[1.116s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/share/crazy_turtle_interfaces/srv/Switch.srv
+[1.116s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/share/ament_index/resource_index/package_run_dependencies/crazy_turtle_interfaces
+[1.116s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/share/ament_index/resource_index/parent_prefix_path/crazy_turtle_interfaces
+[1.116s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/share/crazy_turtle_interfaces/environment/ament_prefix_path.sh
+[1.116s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/share/crazy_turtle_interfaces/environment/ament_prefix_path.dsv
+[1.116s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/share/crazy_turtle_interfaces/environment/path.sh
+[1.116s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/share/crazy_turtle_interfaces/environment/path.dsv
+[1.116s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/share/crazy_turtle_interfaces/local_setup.bash
+[1.116s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/share/crazy_turtle_interfaces/local_setup.sh
+[1.116s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/share/crazy_turtle_interfaces/local_setup.zsh
+[1.116s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/share/crazy_turtle_interfaces/local_setup.dsv
+[1.116s] -- Installing: /home/jack/ros2_ws/install/crazy_turtle_interfaces/share/crazy_turtle_interfaces/package.dsv
+[1.117s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/share/ament_index/resource_index/packages/crazy_turtle_interfaces
+[1.117s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/share/crazy_turtle_interfaces/cmake/export_crazy_turtle_interfaces__rosidl_generator_cExport.cmake
+[1.117s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/share/crazy_turtle_interfaces/cmake/export_crazy_turtle_interfaces__rosidl_generator_cExport-noconfig.cmake
+[1.117s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/share/crazy_turtle_interfaces/cmake/export_crazy_turtle_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[1.117s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/share/crazy_turtle_interfaces/cmake/export_crazy_turtle_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.117s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/share/crazy_turtle_interfaces/cmake/crazy_turtle_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[1.117s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/share/crazy_turtle_interfaces/cmake/crazy_turtle_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.117s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/share/crazy_turtle_interfaces/cmake/crazy_turtle_interfaces__rosidl_typesupport_cExport.cmake
+[1.117s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/share/crazy_turtle_interfaces/cmake/crazy_turtle_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[1.117s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/share/crazy_turtle_interfaces/cmake/export_crazy_turtle_interfaces__rosidl_generator_cppExport.cmake
+[1.117s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/share/crazy_turtle_interfaces/cmake/export_crazy_turtle_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.118s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/share/crazy_turtle_interfaces/cmake/export_crazy_turtle_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.119s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/share/crazy_turtle_interfaces/cmake/crazy_turtle_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[1.120s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/share/crazy_turtle_interfaces/cmake/crazy_turtle_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.120s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/share/crazy_turtle_interfaces/cmake/crazy_turtle_interfaces__rosidl_typesupport_cppExport.cmake
+[1.120s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/share/crazy_turtle_interfaces/cmake/crazy_turtle_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[1.121s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/share/crazy_turtle_interfaces/cmake/export_crazy_turtle_interfaces__rosidl_generator_pyExport.cmake
+[1.121s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/share/crazy_turtle_interfaces/cmake/export_crazy_turtle_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[1.122s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/share/crazy_turtle_interfaces/cmake/rosidl_cmake-extras.cmake
+[1.122s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/share/crazy_turtle_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.122s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/share/crazy_turtle_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.122s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/share/crazy_turtle_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[1.122s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/share/crazy_turtle_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[1.122s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/share/crazy_turtle_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.122s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/share/crazy_turtle_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.122s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/share/crazy_turtle_interfaces/cmake/crazy_turtle_interfacesConfig.cmake
+[1.122s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/share/crazy_turtle_interfaces/cmake/crazy_turtle_interfacesConfig-version.cmake
+[1.123s] -- Up-to-date: /home/jack/ros2_ws/install/crazy_turtle_interfaces/share/crazy_turtle_interfaces/package.xml
+[1.151s] Invoked command in '/home/jack/ros2_ws/build/crazy_turtle_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jack/ros2_ws/install/turtle_control:/home/jack/ros2_ws/install/turtle_controller:/home/jack/ros2_ws/install/py_srvcli:/home/jack/ros2_ws/install/pubsub:/home/jack/ros2_ws/install/my_py_pkg:/home/jack/ros2_ws/install/my_robot_controller:/home/jack/ros2_ws/install/my_python_pkg:/home/jack/ros2_ws/install/crazy_turtle:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jack/ros2_ws/build/crazy_turtle_interfaces

@@ -1,0 +1,16 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from turtle_interfaces/srv/Waypoints.srv
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+
+module turtle_interfaces {
+  module srv {
+    struct Waypoints_Request {
+      sequence<geometry_msgs::msg::Point> waypoints;
+    };
+    struct Waypoints_Response {
+      double distance;
+    };
+  };
+};

@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from crazy_turtle_interfaces/srv/Switch.srv
+// generated code does not contain a copyright notice
+
+#include "turtlesim/msg/Pose.idl"
+
+module crazy_turtle_interfaces {
+  module srv {
+    struct Switch_Request {
+      @verbatim (language="comment", text=
+        "use a strange formula to set the new location of the turtle")
+      turtlesim::msg::Pose mixer;
+    };
+    struct Switch_Response {
+      @verbatim (language="comment", text=
+        "the new x position of the new turtle")
+      double x;
+
+      @verbatim (language="comment", text=
+        "the new y position of the new")
+      double y;
+    };
+  };
+};

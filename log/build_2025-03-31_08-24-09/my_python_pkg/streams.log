@@ -1,0 +1,37 @@
+[2.219s] Invoking command in '/home/jack/ros2_ws/src/my_python_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/jack/ros2_ws/build/my_python_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jack/ros2_ws/install/my_python_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_python_pkg build --build-base /home/jack/ros2_ws/build/my_python_pkg/build install --record /home/jack/ros2_ws/build/my_python_pkg/install.log --single-version-externally-managed install_data
+[2.628s] running egg_info
+[2.628s] creating ../../build/my_python_pkg/my_python_pkg.egg-info
+[2.659s] writing ../../build/my_python_pkg/my_python_pkg.egg-info/PKG-INFO
+[2.659s] writing dependency_links to ../../build/my_python_pkg/my_python_pkg.egg-info/dependency_links.txt
+[2.659s] writing entry points to ../../build/my_python_pkg/my_python_pkg.egg-info/entry_points.txt
+[2.659s] writing requirements to ../../build/my_python_pkg/my_python_pkg.egg-info/requires.txt
+[2.659s] writing top-level names to ../../build/my_python_pkg/my_python_pkg.egg-info/top_level.txt
+[2.659s] writing manifest file '../../build/my_python_pkg/my_python_pkg.egg-info/SOURCES.txt'
+[2.726s] reading manifest file '../../build/my_python_pkg/my_python_pkg.egg-info/SOURCES.txt'
+[2.727s] writing manifest file '../../build/my_python_pkg/my_python_pkg.egg-info/SOURCES.txt'
+[2.727s] running build
+[2.727s] running build_py
+[2.727s] creating /home/jack/ros2_ws/build/my_python_pkg/build
+[2.727s] creating /home/jack/ros2_ws/build/my_python_pkg/build/lib
+[2.727s] creating /home/jack/ros2_ws/build/my_python_pkg/build/lib/my_python_pkg
+[2.728s] copying my_python_pkg/my_python_node.py -> /home/jack/ros2_ws/build/my_python_pkg/build/lib/my_python_pkg
+[2.728s] copying my_python_pkg/__init__.py -> /home/jack/ros2_ws/build/my_python_pkg/build/lib/my_python_pkg
+[2.728s] running install
+[2.737s] running install_lib
+[2.771s] creating /home/jack/ros2_ws/install/my_python_pkg/lib/python3.12/site-packages/my_python_pkg
+[2.771s] copying /home/jack/ros2_ws/build/my_python_pkg/build/lib/my_python_pkg/my_python_node.py -> /home/jack/ros2_ws/install/my_python_pkg/lib/python3.12/site-packages/my_python_pkg
+[2.771s] copying /home/jack/ros2_ws/build/my_python_pkg/build/lib/my_python_pkg/__init__.py -> /home/jack/ros2_ws/install/my_python_pkg/lib/python3.12/site-packages/my_python_pkg
+[2.772s] byte-compiling /home/jack/ros2_ws/install/my_python_pkg/lib/python3.12/site-packages/my_python_pkg/my_python_node.py to my_python_node.cpython-312.pyc
+[2.772s] byte-compiling /home/jack/ros2_ws/install/my_python_pkg/lib/python3.12/site-packages/my_python_pkg/__init__.py to __init__.cpython-312.pyc
+[2.772s] running install_data
+[2.773s] creating /home/jack/ros2_ws/install/my_python_pkg/share/ament_index
+[2.774s] creating /home/jack/ros2_ws/install/my_python_pkg/share/ament_index/resource_index
+[2.774s] creating /home/jack/ros2_ws/install/my_python_pkg/share/ament_index/resource_index/packages
+[2.774s] copying resource/my_python_pkg -> /home/jack/ros2_ws/install/my_python_pkg/share/ament_index/resource_index/packages
+[2.774s] copying package.xml -> /home/jack/ros2_ws/install/my_python_pkg/share/my_python_pkg
+[2.774s] running install_egg_info
+[2.809s] Copying ../../build/my_python_pkg/my_python_pkg.egg-info to /home/jack/ros2_ws/install/my_python_pkg/lib/python3.12/site-packages/my_python_pkg-0.0.0-py3.12.egg-info
+[2.810s] running install_scripts
+[3.019s] Installing executable_name script to /home/jack/ros2_ws/install/my_python_pkg/lib/my_python_pkg
+[3.021s] writing list of installed files to '/home/jack/ros2_ws/build/my_python_pkg/install.log'
+[3.075s] Invoked command in '/home/jack/ros2_ws/src/my_python_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/jack/ros2_ws/build/my_python_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jack/ros2_ws/install/my_python_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_python_pkg build --build-base /home/jack/ros2_ws/build/my_python_pkg/build install --record /home/jack/ros2_ws/build/my_python_pkg/install.log --single-version-externally-managed install_data

@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: py-srvcli
+Version: 0.0.0
+Summary: Python client server tutorial
+Maintainer: jack
+Maintainer-email: jackerick0212@gmail.com
+License: Apache-2.0
+License-File: LICENSE

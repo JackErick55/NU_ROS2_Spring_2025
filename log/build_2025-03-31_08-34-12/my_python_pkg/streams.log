@@ -1,0 +1,21 @@
+[2.193s] Invoking command in '/home/jack/ros2_ws/src/my_python_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/jack/ros2_ws/build/my_python_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jack/ros2_ws/install/my_python_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_python_pkg build --build-base /home/jack/ros2_ws/build/my_python_pkg/build install --record /home/jack/ros2_ws/build/my_python_pkg/install.log --single-version-externally-managed install_data
+[2.636s] running egg_info
+[2.673s] writing ../../build/my_python_pkg/my_python_pkg.egg-info/PKG-INFO
+[2.673s] writing dependency_links to ../../build/my_python_pkg/my_python_pkg.egg-info/dependency_links.txt
+[2.673s] writing entry points to ../../build/my_python_pkg/my_python_pkg.egg-info/entry_points.txt
+[2.673s] writing requirements to ../../build/my_python_pkg/my_python_pkg.egg-info/requires.txt
+[2.674s] writing top-level names to ../../build/my_python_pkg/my_python_pkg.egg-info/top_level.txt
+[2.748s] reading manifest file '../../build/my_python_pkg/my_python_pkg.egg-info/SOURCES.txt'
+[2.749s] writing manifest file '../../build/my_python_pkg/my_python_pkg.egg-info/SOURCES.txt'
+[2.749s] running build
+[2.750s] running build_py
+[2.750s] running install
+[2.759s] running install_lib
+[2.797s] running install_data
+[2.797s] running install_egg_info
+[2.837s] removing '/home/jack/ros2_ws/install/my_python_pkg/lib/python3.12/site-packages/my_python_pkg-0.0.0-py3.12.egg-info' (and everything under it)
+[2.838s] Copying ../../build/my_python_pkg/my_python_pkg.egg-info to /home/jack/ros2_ws/install/my_python_pkg/lib/python3.12/site-packages/my_python_pkg-0.0.0-py3.12.egg-info
+[2.839s] running install_scripts
+[3.075s] Installing executable_name script to /home/jack/ros2_ws/install/my_python_pkg/lib/my_python_pkg
+[3.075s] writing list of installed files to '/home/jack/ros2_ws/build/my_python_pkg/install.log'
+[3.145s] Invoked command in '/home/jack/ros2_ws/src/my_python_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/jack/ros2_ws/build/my_python_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jack/ros2_ws/install/my_python_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_python_pkg build --build-base /home/jack/ros2_ws/build/my_python_pkg/build install --record /home/jack/ros2_ws/build/my_python_pkg/install.log --single-version-externally-managed install_data

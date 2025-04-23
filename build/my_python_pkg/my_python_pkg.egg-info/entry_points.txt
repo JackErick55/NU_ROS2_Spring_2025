@@ -1,0 +1,2 @@
+[console_scripts]
+executable_name = my_python_pkg.my_python_node:main

@@ -47,7 +47,7 @@ Notes from Spring Break
 - Thursday - Write week 5
 - Friday - Write week 6
 
-## Table of Cotents
+## Table of Contents
 
 - **Week1 - Introduction and Setup**
   - **Class 1 - Introduction to Course**
@@ -1248,4 +1248,3 @@ source ~/ros2_ws/install/setup.bash
         ```bash
         ros2 run <package_name> <executable_name>
         ```
-# ROS2

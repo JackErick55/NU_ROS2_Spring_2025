@@ -1,0 +1,30 @@
+[1.805s] Invoking command in '/home/jack/ros2_ws/src/learning_tf2_py': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/jack/ros2_ws/build/learning_tf2_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jack/ros2_ws/install/learning_tf2_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/learning_tf2_py build --build-base /home/jack/ros2_ws/build/learning_tf2_py/build install --record /home/jack/ros2_ws/build/learning_tf2_py/install.log --single-version-externally-managed install_data
+[2.403s] running egg_info
+[2.452s] writing ../../build/learning_tf2_py/learning_tf2_py.egg-info/PKG-INFO
+[2.453s] writing dependency_links to ../../build/learning_tf2_py/learning_tf2_py.egg-info/dependency_links.txt
+[2.454s] writing entry points to ../../build/learning_tf2_py/learning_tf2_py.egg-info/entry_points.txt
+[2.454s] writing requirements to ../../build/learning_tf2_py/learning_tf2_py.egg-info/requires.txt
+[2.454s] writing top-level names to ../../build/learning_tf2_py/learning_tf2_py.egg-info/top_level.txt
+[2.563s] reading manifest file '../../build/learning_tf2_py/learning_tf2_py.egg-info/SOURCES.txt'
+[2.563s] adding license file 'LICENSE'
+[2.565s] writing manifest file '../../build/learning_tf2_py/learning_tf2_py.egg-info/SOURCES.txt'
+[2.565s] running build
+[2.565s] running build_py
+[2.565s] copying learning_tf2_py/turtle_tf2_broadcaster.py -> /home/jack/ros2_ws/build/learning_tf2_py/build/lib/learning_tf2_py
+[2.565s] running install
+[2.579s] running install_lib
+[2.635s] copying /home/jack/ros2_ws/build/learning_tf2_py/build/lib/learning_tf2_py/turtle_tf2_broadcaster.py -> /home/jack/ros2_ws/install/learning_tf2_py/lib/python3.12/site-packages/learning_tf2_py
+[2.636s] byte-compiling /home/jack/ros2_ws/install/learning_tf2_py/lib/python3.12/site-packages/learning_tf2_py/turtle_tf2_broadcaster.py to turtle_tf2_broadcaster.cpython-312.pyc
+[2.638s] running install_data
+[2.638s] copying package.xml -> /home/jack/ros2_ws/install/learning_tf2_py/share/learning_tf2_py
+[2.639s] creating /home/jack/ros2_ws/install/learning_tf2_py/share/learning_tf2_py/launch
+[2.639s] copying launch/turtle_tf2_demo_launch.py -> /home/jack/ros2_ws/install/learning_tf2_py/share/learning_tf2_py/launch
+[2.640s] copying launch/static_broadcaster_launch.py -> /home/jack/ros2_ws/install/learning_tf2_py/share/learning_tf2_py/launch
+[2.640s] running install_egg_info
+[2.691s] removing '/home/jack/ros2_ws/install/learning_tf2_py/lib/python3.12/site-packages/learning_tf2_py-0.0.0-py3.12.egg-info' (and everything under it)
+[2.691s] Copying ../../build/learning_tf2_py/learning_tf2_py.egg-info to /home/jack/ros2_ws/install/learning_tf2_py/lib/python3.12/site-packages/learning_tf2_py-0.0.0-py3.12.egg-info
+[2.693s] running install_scripts
+[2.997s] Installing static_turtle_tf2_broadcaster script to /home/jack/ros2_ws/install/learning_tf2_py/lib/learning_tf2_py
+[2.997s] Installing turtle_tf2_broadcaster script to /home/jack/ros2_ws/install/learning_tf2_py/lib/learning_tf2_py
+[2.997s] writing list of installed files to '/home/jack/ros2_ws/build/learning_tf2_py/install.log'
+[3.048s] Invoked command in '/home/jack/ros2_ws/src/learning_tf2_py' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/jack/ros2_ws/build/learning_tf2_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jack/ros2_ws/install/learning_tf2_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/learning_tf2_py build --build-base /home/jack/ros2_ws/build/learning_tf2_py/build install --record /home/jack/ros2_ws/build/learning_tf2_py/install.log --single-version-externally-managed install_data

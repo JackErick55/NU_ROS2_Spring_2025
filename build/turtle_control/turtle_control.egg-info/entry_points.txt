@@ -1,0 +1,2 @@
+[console_scripts]
+waypoint = turtle_control.waypoint:main

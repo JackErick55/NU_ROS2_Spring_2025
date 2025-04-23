@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-62cd3a5445860a0f70d2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "crazy_turtle_interfaces__py",
+					"jsonFile" : "directory-crazy_turtle_interfaces__py-883fcfd536d0cd7db88b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/jack/ros2_ws/build/crazy_turtle_interfaces/crazy_turtle_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "crazy_turtle_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_crazy_turtle_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_crazy_turtle_interfaces_egg-6112c008b2564c3f1162.json",
+					"name" : "ament_cmake_python_build_crazy_turtle_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_crazy_turtle_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_crazy_turtle_interfaces-c38def0b1a89c74fced3.json",
+					"name" : "ament_cmake_python_copy_crazy_turtle_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "crazy_turtle_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-crazy_turtle_interfaces-17b25b67b7c31a90dcbf.json",
+					"name" : "crazy_turtle_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "crazy_turtle_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-crazy_turtle_interfaces__cpp-2bb21fc090195d681b5e.json",
+					"name" : "crazy_turtle_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "crazy_turtle_interfaces__py::@607a6aacf1ae614b6aca",
+					"jsonFile" : "target-crazy_turtle_interfaces__py-0a18410dcb0e96eb6777.json",
+					"name" : "crazy_turtle_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "crazy_turtle_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-crazy_turtle_interfaces__rosidl_generator_c-caa8e0054c576ec0ce53.json",
+					"name" : "crazy_turtle_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "crazy_turtle_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-crazy_turtle_interfaces__rosidl_generator_py-3dbdb4442c058e97ddb3.json",
+					"name" : "crazy_turtle_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "crazy_turtle_interfaces__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-crazy_turtle_interfaces__rosidl_generator_type_description-0c7acf9befbbff9bb129.json",
+					"name" : "crazy_turtle_interfaces__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "crazy_turtle_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-crazy_turtle_interfaces__rosidl_typesupport_c-a3bb43cee812cb157634.json",
+					"name" : "crazy_turtle_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "crazy_turtle_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-crazy_turtle_interfaces__rosidl_typesupport_cpp-2ce0b6b17a96fe193bfa.json",
+					"name" : "crazy_turtle_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "crazy_turtle_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-crazy_turtle_interfaces__rosidl_typesupport_fastrtps_c-c495fade05f552fe12f1.json",
+					"name" : "crazy_turtle_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "crazy_turtle_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-crazy_turtle_interfaces__rosidl_typesupport_fastrtps_cpp-3901a6a2c7b4b59f7524.json",
+					"name" : "crazy_turtle_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "crazy_turtle_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-crazy_turtle_interfaces__rosidl_typesupport_introspection_c-b0f69bacefe7f7a1c155.json",
+					"name" : "crazy_turtle_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "crazy_turtle_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-crazy_turtle_interfaces__rosidl_typesupport_introspection_cpp-6c92b193413f17273dec.json",
+					"name" : "crazy_turtle_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "crazy_turtle_interfaces_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-crazy_turtle_interfaces_s__rosidl_typesupport_c-198c6f809673a965e1cb.json",
+					"name" : "crazy_turtle_interfaces_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "crazy_turtle_interfaces_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-crazy_turtle_interfaces_s__rosidl_typesupport_fastrtps_c-3fce5de5789b5908b175.json",
+					"name" : "crazy_turtle_interfaces_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "crazy_turtle_interfaces_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-crazy_turtle_interfaces_s__rosidl_typesupport_introspection_c-ec3c215ed1f2ac91221b.json",
+					"name" : "crazy_turtle_interfaces_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "crazy_turtle_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-crazy_turtle_interfaces_uninstall-881ba6eeecdec8ee07c4.json",
+					"name" : "crazy_turtle_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-05ea4de66b518e6e56b7.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/jack/ros2_ws/build/crazy_turtle_interfaces",
+		"source" : "/home/jack/ros2_ws/src/crazy_turtle/crazy_turtle_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

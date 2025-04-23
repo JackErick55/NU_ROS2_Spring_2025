@@ -1,0 +1,13 @@
+{
+  "package_name": "crazy_turtle_interfaces",
+  "output_dir": "/home/jack/ros2_ws/build/crazy_turtle_interfaces/rosidl_generator_type_description/crazy_turtle_interfaces",
+  "idl_tuples": [
+    "/home/jack/ros2_ws/build/crazy_turtle_interfaces/rosidl_adapter/crazy_turtle_interfaces:srv/Switch.idl"
+  ],
+  "include_paths": [
+    "turtlesim:/opt/ros/jazzy/share/turtlesim",
+    "service_msgs:/opt/ros/jazzy/share/service_msgs",
+    "action_msgs:/opt/ros/jazzy/share/action_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces"
+  ]
+}

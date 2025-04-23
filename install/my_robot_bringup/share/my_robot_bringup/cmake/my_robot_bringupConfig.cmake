@@ -16,7 +16,7 @@ set(_my_robot_bringup_CONFIG_INCLUDED TRUE)
 
 # output package information
 if(NOT my_robot_bringup_FIND_QUIETLY)
-  message(STATUS "Found my_robot_bringup: 0.0.1 (${my_robot_bringup_DIR})")
+  message(STATUS "Found my_robot_bringup: 0.0.0 (${my_robot_bringup_DIR})")
 endif()
 
 # warn when using a deprecated package

@@ -1,0 +1,21 @@
+[1.959s] Invoking command in '/home/jack/ros2_ws/src/pubsub': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/jack/ros2_ws/build/pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jack/ros2_ws/install/pubsub/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pubsub build --build-base /home/jack/ros2_ws/build/pubsub/build install --record /home/jack/ros2_ws/build/pubsub/install.log --single-version-externally-managed install_data
+[2.392s] running egg_info
+[2.423s] writing ../../build/pubsub/pubsub.egg-info/PKG-INFO
+[2.424s] writing dependency_links to ../../build/pubsub/pubsub.egg-info/dependency_links.txt
+[2.424s] writing entry points to ../../build/pubsub/pubsub.egg-info/entry_points.txt
+[2.424s] writing requirements to ../../build/pubsub/pubsub.egg-info/requires.txt
+[2.424s] writing top-level names to ../../build/pubsub/pubsub.egg-info/top_level.txt
+[2.493s] reading manifest file '../../build/pubsub/pubsub.egg-info/SOURCES.txt'
+[2.494s] writing manifest file '../../build/pubsub/pubsub.egg-info/SOURCES.txt'
+[2.494s] running build
+[2.494s] running build_py
+[2.495s] running install
+[2.504s] running install_lib
+[2.540s] running install_data
+[2.541s] running install_egg_info
+[2.579s] removing '/home/jack/ros2_ws/install/pubsub/lib/python3.12/site-packages/pubsub-0.0.0-py3.12.egg-info' (and everything under it)
+[2.581s] Copying ../../build/pubsub/pubsub.egg-info to /home/jack/ros2_ws/install/pubsub/lib/python3.12/site-packages/pubsub-0.0.0-py3.12.egg-info
+[2.585s] running install_scripts
+[2.805s] Installing Pubsub_node script to /home/jack/ros2_ws/install/pubsub/lib/pubsub
+[2.806s] writing list of installed files to '/home/jack/ros2_ws/build/pubsub/install.log'
+[2.854s] Invoked command in '/home/jack/ros2_ws/src/pubsub' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/jack/ros2_ws/build/pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jack/ros2_ws/install/pubsub/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pubsub build --build-base /home/jack/ros2_ws/build/pubsub/build install --record /home/jack/ros2_ws/build/pubsub/install.log --single-version-externally-managed install_data

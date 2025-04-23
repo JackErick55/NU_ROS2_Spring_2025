@@ -1,0 +1,4 @@
+source;share/crazy_turtle_interfaces/local_setup.bash
+source;share/crazy_turtle_interfaces/local_setup.dsv
+source;share/crazy_turtle_interfaces/local_setup.sh
+source;share/crazy_turtle_interfaces/local_setup.zsh
