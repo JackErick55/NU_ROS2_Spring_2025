@@ -1,170 +1,128 @@
-# MEE ROS2 Jazzy Course with Python
-
-Notes from with Nick
-
-- create a terminal assignment that make you move through a directory
-  - kids need to know how use the terminal
-- Show the tree at the beginning of each lecture. Explain what is does and what each file does.
-- Finish out class 3 with a demonstation of how to use the command line and letting them know exactly what it is and how to use it.
-- Replace Class 4 with a lab to use the command line
-  - Create a homework assignment to exersize moving through a directory
-  - Thoughts download a f1tenth git repo and work through it
-    - cd,ls, move, cp, and find command
-    - verify with by asking questions on a worksheet and verify with pictures
-- can make graph using graphviz and dot (could use this for rqt_graph)
-- Transition 5 class how to explain python and how classes and functions work. Then go into an in class demonstation
-
-- SE(2)  explain SE(2) in one slide (demonstrate and why we care)
-  - Show them the levels to this
-
-- Explain rqt_graph
-
-- Class 6 - ROS2 Overview
-- Class 7 - File structure
-
-- Class 8 - topics what are publishers? what are subscribers?
-- Class 9 - Lab
-
-- Class 10 - server service/client
-- Class 11 - Lab
-
-- Class 13 - Setup Docker and explain what it is
-- Class 14 - Setup Simulator and understand how to use it
-
-- Class 15 - Understand Libraries and required depenencies
-- Class 16 - Drive straight node
-
-Notes from Spring Break
-
-- error with cpp package.xml is most likely in the maintainer file.
-  - What is should look like(`<maintainer email="jackerick0212@gmail.com">jack</maintainer>`)
-  - What it used to look like (`<maintainer email="<jackerick0212@gmail.com>">jack</maintainer>`)
-
-**3/24 Schedule for this week**:
-
-- Tuesday - Make sure that weeks 1 - 3 are good and match the table of contents
-- Wednesday - Write week 4
-- Thursday - Write week 5
-- Friday - Write week 6
+# MEE ROS2 Humble Course with Python
 
 ## Table of Contents
 
-- **Week1 - Introduction and Setup**
-  - **Class 1 - Introduction to Course**
-    - What's ROS2
-    - Where were going **(Update at the end of the Semester)**
-    - What you'll need
-  - **Class 2 - Setup OS, IDE, Terminator, ROS2, and Python**
-    - Virtual Machine with Ubuntu 24.04
-    - Install VS Code and Extentsions
-    - Install Terminator
-    - Install ROS2 Humble
-- **Week 2 - Setup OS and other necesary softwares**
-  - **Class 3 - Crash Course in Basic Bash Commands,Terminator, VS Code, and Python in ROS2**
-    - Basic Bash Commands
-    - Terminator
-    - VS code
-    - In class demonstartion
+### **Week1 - Introduction and Setup**
 
-  - **Class 4 - Terminator Lab**
-    - Overview of last class
-    - Outline Homework Assignment
-      - Time for Questions
+- **Class 1 - Course Overview**
+  - What's ROS2
+  - Where we are going **(Update at the end of the Semester)**
+  - What you'll need
 
-  - **Homework 1**:
-    - Work in Terminator
-      - git clone F1Tenth repo
-      - Work though F1Tenth Github
+- **Class 2 - Setup OS, IDE, Terminator, ROS2, and Python**
+  - Virtual Machine with Ubuntu 24.04
+  - Install VS Code and Extentsions
+  - Install Terminator
+  - Install ROS2 Humble
 
-- **Week 3 - Understanding and Building Python Functions and Classes**
-  - **Class 5 - Basic Understanding of Python Functions and Classes**
-    - What is Python? / Why do we use Python?
-    - Explain Python Functions
-    - Explain Python Classes
-    - Fuction Exercises
-    - Class Exercises
-  - **Class 6 - Python Functions and Classes Lab**
-    - Overview of last class
-    - Outline Homework Assignment
-      - Time for Questions
+- **Homework 1**
+  - Watch video on Python and follow along
+    - [Functions](https://www.youtube.com/watch?v=89cGQjB5R4M)
+    - [Obeject oriented Programming Classes](https://www.youtube.com/watch?v=q2SGW2VgwAM)
 
-  - **Homework 2**:
-    - Python Functions and Classes
+### **Week 2 - Crash Course in Python Functions and Classes**
 
-- **Week 4 - Understanding ROS2 Setup and Structure**
-  - **Class 7 - Overview of ROS2 Jazzy**
-    - Explain File structure
-    - Explain and Setup ...
-      - Workspace
-      - Packages
-      - Nodes
+- **Class 3 - Basic Bash Commands and Understanding of Python Functions and Classes**
+  - Basic Bash Commands
+  - Terminator
+  - What is Python? / Why do we use Python?
+  - Explain Python Functions
+  - Explain Python Classes  
 
-  - **Class 8 - Create Your Own Node**
-    - Overview of `my_python_pkg`
-    - Outline Homework Assignment
-      - Time for Questions
+- **Class 4 - Terminator and Python Lab**
+  - Overview of last class
+  - Function Exercises
+  - Class Exercises
+  - Outline Homework Assignment
+    - Time for Questions
 
-  - **Homework 3**:
-    - Create a Node and fill in comments
+- **Homework 2**:
+  - Work in Terminator
+    - git clone F1Tenth repo
+    - Work though F1Tenth Github
+  - **Python Functions and Classes**
 
-- **Week 5 - ROS2 Comunication using Interfaces**
-  - **Class 9 - Brief Overview of ROS2 Interfaces**
-    - 3 Communications Types
-      1. Topics
-          - `ros2 run demo_nodes_cpp talker`
-          - `ros2 run demo_nodes_cpp listener`
-          - `rqt_graph`
-            - include pic
-      2. Services
-          - `ros2 run demo_nodes_cpp add_two_ints_server`
-          - `ros2 run demo_nodes_cpp add_two_ints_client`
-      3. Actions
-          - Short description on when to use but we won't go into depth on this
+### **Week 3 - Understanding ROS2 Setup and Structure**
 
-  - **Class 10 - Create Basic Publisher and Subscriber**
-    - Overview of Topics
-    - Analogy of Publishers and Subscribers
-    - How to Write a Publisher
-      - What infomation is needed
-        - How to find the info you need
-      - How to structure the code in the node
-    - How to Write a Subsrciber
-      - What infomation is needed
-        - How to find the info you need
-      - How to structure the code in the node
+- **Class 5 - Overview of ROS2 Humble**
+  - Explain File structure
+  - Explain and Setup ...
+    - Workspace
+    - Packages
+    - Nodes
 
-  - **Homework 3**:
-    - Build a Publish Package
-    - Build a Subscriber Package
-    - Setup all the Dependencies
-    - Use `ros2 run` to execute the code
+- **Class 6 - Create Your Own Node**
+  - **Explain Git and Github**
+  - Overview of `my_python_pkg`
+  - Outline Homework Assignment
+    - Time for Questions
 
-- **Week 6 - Understanding ROS2 Setup and Structure**
-  - **Class 11 - Publisher and Subcriber Lab**
-    - Quiz over ROS2 file structure
-    - Review Publisher and Subscriber
-    - Introduce PubSub Project
-    - Give time for questions
+- **Homework 3**:
+  - Create a Node and fill in comments
 
-  - **Class 12 - Create Basic Services - Client/Server**
-    - Overview of What Services are
-    - Analogy Services - Client/Server
-    - How to Write a Custom Service
-    - Writing a service server
-      - What infomation is needed
-        - How to find the info you need
-      - How to structure the code in the node
-    - Writing a service client
-      - What infomation is needed
-        - How to find the info you need
-      - How to structure the code in the node
+### **Week 4 - ROS2 Comunication using Interfaces**
 
+- **Class 7 - Brief Overview of ROS2 Interfaces**
+  - 3 Communications Types
+     1. Topics
+        - `ros2 run demo_nodes_cpp talker`
+        - `ros2 run demo_nodes_cpp listener`
+        - `rqt_graph`
+          - include pic
+     2. Services
+        - `ros2 run demo_nodes_cpp add_two_ints_server`
+        - `ros2 run demo_nodes_cpp add_two_ints_client`
+     3. Actions
+        - Short description on when to use but we won't go into depth on this
+
+- **Class 8 - Create Basic Publisher and Subscriber**
+  - Overview of Topics
+  - Analogy of Publishers and Subscribers
+  - How to Write a Publisher
+    - What infomation is needed
+      - How to find the info you need
+    - How to structure the code in the node
+  - How to Write a Subscriber
+    - What infomation is needed
+      - How to find the info you need
+    - How to structure the code in the node
+
+- **Homework 4**:
+  - Build a Publish Package
+  - Build a Subscriber Package
+  - Setup all the Dependencies
+  - Use `ros2 run` to execute the code
+
+### **Week 5 - Publisher and Subcriber Lab and Simulation Setup**
+
+- **Class 9 - Publisher and Subcriber Lab**
+  - Quiz over ROS2 file structure
+  - Review Publisher and Subscriber
+  - Introduce PubSub Project
+  - Give time for questions
+
+- **Class 10 - Simulation Setup**
+  - Setting Up Docker
+  - Setting up Simulation
+  - Running Keyboard Teleop to control Car in Sim
+
+### **Week 6 - Understanding of How to Operate Car in Sim**
+
+- **Class 11 - Create Drive Forward Package**
+  - Understand how to build ROS2 package in Docker
+
+- **Clas 12 - Lab Day for Drive Forward**
+
+### **Week 7 - Emergency Stopping**
+
+### **Week 8 - PID Wall Follower**
+  
 ## Week 1  - Introduction and Setup
 
-## Class 1 (Date)
+## Class 1 - Course Overview (Date)
 
 - What's ROS2
-- Where were going
+- Where we are going
 - What you'll need
 
 ### What's ROS2
@@ -182,13 +140,13 @@ At its core, ROS 2 provides a set of software libraries and tools that facilitat
 
 ROS 2 is widely used in autonomous vehicles, industrial automation, drones, and research. It helps developers focus on higher-level robotics functionality by handling low-level communication, control, and data management.
 
-### Where were going
+### Where we are going
 
 We will start with setting up the Ubuntu 24.04 OS and other softwares such as ROS2, VS Code, and Terminator. We are then going to go through and understand how to use each software.
 
 We will start with a crash course in the python necessary to understand functiuons and classes used in ROS2 Nodes. Then we will move into how ROS2 works, what commands you need to tourbleshoot, and what we need to run packages.
 
-After gaining this understanding about ROS2 we can move into our fist publisher and subsrcider activity. This activity is a crucial element of understanding how the racecar and simulator operate.
+After gaining this understanding about ROS2 we can move into our fist publisher and subscrider activity. This activity is a crucial element of understanding how the racecar and simulator operate.
 
 The with will transition into the F1tenth simulator, working towards on car testing. To do this we focus on safety with Automatic Emergency Braking and a PID wall follower algorithm. These algorithms with directly transition to the racecar.
 
@@ -206,8 +164,6 @@ The with will transition into the F1tenth simulator, working towards on car test
 - Install VS Code and Extentsions
 - Install Terminator
 - Install ROS2 Humble
-
-### Install Git and put in video
 
 ### Setup Virtual Machine with Ubuntu 24.04
 
@@ -230,127 +186,52 @@ To download and install Visual Studio Code via the command line on Ubuntu 24.04,
 
 Now, you can launch VS Code from the command line using: `code`
 
-### Install Terminator
+**Extensions**:
+There are several extentions that you will want to install in VS code. You can go to the left side bar menu and go to the `Extensions Tab`.
 
-``` bash
-sudo apt install terminator
-```
+Once there install
+
+- **Markdown**
+
+  ![alt text](<README_Pics/Screenshot from 2025-03-28 12-00-01.png>)
+
+- **ROS**
+
+  ![alt text](<README_Pics/Screenshot from 2025-03-28 11-39-09.png>)
+  
+- **Python**
+
+  ![alt text](<README_Pics/Screenshot from 2025-03-28 11-41-29.png>)
+
+- **Python Debuger**
+
+  ![alt text](<README_Pics/Screenshot from 2025-03-28 11-42-18.png>)
+
+- **Pylance**
+
+  ![alt text](<README_Pics/Screenshot from 2025-03-28 12-03-58.png>)
+
+- **C/C++**
+
+  ![alt text](<README_Pics/Screenshot from 2025-03-28 12-01-02.png>)
+
+- **CMake**
+
+  ![alt text](<README_Pics/Screenshot from 2025-03-28 12-01-34.png>)
+
+- **CMake Tools**
+
+  ![alt text](<README_Pics/Screenshot from 2025-03-28 12-02-35.png>)
 
 ### Install ROS2 Humble
 
 To download ROS2 Humble go to [ROS2 Website](https://docs.ros.org/en/humble/Installation/Alternatives/Ubuntu-Development-Setup.html)
 
-## Week 2  - Introduction and Setup
+### Install Terminator
 
-## Class 3 - Crash Course in Basic Bash Commands,Terminator, VS Code, and Python in ROS2 (Date)
-
-- Basic Bash Commands
-- Terminator
-- VS code
-- Explain Python Functions
-- Explain Python Classes
-
-### Basic Bash Commands
-
-Bash (Bourne Again Shell) is a command-line interpreter used in most Linux distributions, including Ubuntu 24.04. Below are some essential Bash commands that will help you navigate and manage your ROS2 development environment.
-
-#### Navigating the File System
-
-- `ls` - List files and directories in the current directory
-
-    ```bash
-    ls
-    ```
-
-- `cd <directory>` - Change directory
-
-    ```bash
-    cd ~/ros2_ws/src
-    ```
-
-- `cd` - Move up one directory level
-
-    ```bash
-    cd <example file>
-    ```
-
-- `cd ..` - Move back one directory level
-
-    ```bash
-    cd ..
-    ```
-
-- `cd` - Go to the home directory
-
-    ```bash
-    cd 
-    ```
-
-#### File and Directory Management
-
-- `mkdir <directory-name>` - Create a new directory
-
-    ```bash
-    mkdir my_ros2_package
-    ```
-
-- `touch <file-name>` - Create an empty file
-
-    ```bash
-    touch example.py
-    ```
-
-- `rm <file-name>` - Delete a File
-
-    ```bash
-    rm example.py
-    ```
-
-- `rm -rf <directory-name>` - Delete a directory and its contents
-
-    ```bash
-    rm -r my_ros2_package
-    ```
-
-- `mv <source> <destination>` - Move or rename a file/directory
-
-    ```bash
-    mv old_name.txt new_name.txt
-    ```
-
-- `cat <file-name>` - Print what's in the file
-
-    ```bash
-    cat example.py
-    ```
-
-#### Permissions and Execution
-
-- `chmod +x <script.sh>` - Make a script executable
-
-    ```bash
-    chmod +x my_script.sh
-    ```
-
-- `./<script.sh>` - Run an executable script
-
-    ```bash
-    ./my_script.sh
-    ```
-
-#### Networking and System Information
-
-- `ifconfig` or `ip a` - Show network interfaces and IP addresses
-
-    ```bash
-    ifconfig
-    ```
-
-- `ping <website>` - Check internet connectivity
-
-    ```bash
-    ping google.com
-    ```
+``` bash
+sudo apt install terminator
+```
 
 ### Using Terminator
 
@@ -364,115 +245,328 @@ Terminator is a powerful terminal emulator that allows you to split windows and 
 - Close a terminal pane: `Ctrl` + `Shift` + `W`
 - Open a new tab: `Ctrl` + `Shift` + `T`
 
-### Using VS Code
+## Homework 1
 
-VS Code is a popular code editor with support for Python, C++, ROS2, and many other development tools.
+- Watch video on Python and follow along. Not expected to fully understand both topics as they will be explained further in the next class.
+  - [Functions](https://www.youtube.com/watch?v=89cGQjB5R4M)
+  - [Obeject oriented Programming Classes](https://www.youtube.com/watch?v=q2SGW2VgwAM)
 
-Refer to Class 2 for installation instructions.
+## Week 2 - Crash Course in Python Functions and Classes
 
-#### Recommended Extensions
+## Class 3 - Basic Bash Commands and Understanding of Python Functions and Classes
 
-To enhance your development experience, install the following extensions:
+- What is a Bash Session
+- Basic Bash Commands
+- Terminator
+- What is Python? / Why do we use Python?
+- Explain Python Functions
+- Explain Python Classes  
 
-- **Python** - Provides IntelliSense, debugging, and other essential features for Python development.
+### What is a Bash Session
 
-- **ROS (from Microsoft)** - Adds support for ROS and ROS2 projects.
+Imagine you’re using your computer, but instead of clicking on icons and using a mouse, you’re typing commands to get things done. That’s basically what a Bash session is—it's a way to interact with your computer using text-based commands.
 
-- **C++** - Required if working with C++ projects.
+**Breakdown**:
 
-- **Readme Preview** - Allows for easy previewing of README files in markdown format.
+1. Bash (short for Bourne Again Shell) is a command-line interface (CLI) that lets you control your computer by typing instructions instead of using a graphical interface.
 
-#### Opening VS Code from the Command Line
+2. A session is just the period of time when you have Bash open and are using it to run commands.
 
-To open VS Code from the terminal:
+**What happens in a Ubuntu Bash session?**
 
-- Open a terminal and navigate to your project directory.
-  
-  Run the following command:
+- You open a terminal (a black window with text).
+
+- You type in commands to navigate files, install programs, or run scripts.
+
+- The system responds with outputs (e.g., lists files, confirms installations, or shows errors).
+
+- You can use Bash to automate tasks by writing scripts.
+
+**Why does this matter?**
+If you're studying robotics, computer science, IT, or even engineering, learning Bash can help you work efficiently with servers, automate tasks, and understand how operating systems work.
+
+### Basic Bash Commands
+
+Bash (Bourne Again Shell) is a command-line interpreter used in most Linux distributions, including Ubuntu 24.04. Below are some essential Bash commands that will help you navigate and manage your ROS2 development environment.
+
+#### Navigating the File System and Understanding Files/Directroy Management
+
+> **Note:** the `tab` key can be used to auto complete a command, directory name, or file name.
+
+### 1. `ls` - List files and directories in the current directory
+
+```bash
+ls
+```
+
+> **Note:** Another helpful list command for the terminal that is not used as ofter is `ls -a`. Which list all of the files in the directroy even the hidden files.
+
+### 2. `mkdir <directory-name>` - Create a new directory (Later this is also how you will create a workspace for ROS)
+
+```bash
+mkdir ros2_ws
+```
+
+### 3. `cd <directory>` - `cd` stands for change directory (Now you can enter the directory you just created)
+
+```bash
+cd ros2_ws
+```
+
+### 4. `cd ..` - Move back one directory level (In this case it will take you back to the home directory)
+
+```bash
+cd ..
+```
+
+### 5. Now go back into the `ros2_ws` by using
+
+```bash
+cd ros2_ws
+```
+
+### 6. `touch <file-name>` - Create an empty file (This will create an example.py file)
+
+```bash
+touch example.py
+```
+
+### 7. `chmod +x <file-name>` - Make file executable (This will allow the example.py file to be executable)
+
+```bash
+chmod +x example.py
+```
+
+### 8. Writing the `example.py` file
+
+- Use a text editor to write the `example.py` file by using the following code.
 
     ```bash
-    code .
+    gedit example.py
     ```
 
-This will open the current directory in VS Code.
+- Inside of the gedit text editor write the following code. Then save and exit.
 
-#### Additional Tips
+    ```python
+    #!/usr/bin/env python3
 
-- Maximize your workspace by toggling the sidebar using `Ctrl` + `B`, which hides or shows the left-side menu.
+    print("Hello and welcome to the example.py file")
+    ```
 
-### Python in ROS2
+**Explanation:**
+
+- `#!/usr/bin/env python3` - Shebang Line Explanation
+
+    This line is called a shebang, and it tells the system how to run the script. Here's what it does:
+
+  - `#!` → This is the shebang syntax. It must be the very first line of the file.
+
+  - `/usr/bin/env` → This is a utility that locates and runs the correct version of a program based on your environment. It's more flexible than hardcoding the path to Python.
+
+  - `python3` → This tells env to look for the python3 interpreter in your system’s PATH.
+
+- `print("Hello and welcome to the example.py file")`
+
+    This line is a **Python statement** that outputs text to the terminal. Let’s break it down:
+
+  - `print(...)` → This is a built-in Python function that displays whatever is inside the parentheses to the terminal.
+
+  - `"Hello and welcome to the example.py file"` → This is a string, a sequence of characters enclosed in quotation marks. It’s the message you want to display.
+
+### 9. Execute the `example.py` file
+
+- When the following command is executed in the terminal the script should return `Hello and welcome to the example.py file`.
+
+    ```bash
+    ./example.py
+    ```
+
+### 10.  Now we will move the `examlpe.py` to the Home directory
+
+- `mv <source> <destination>` - Move or rename a file/directory
+
+    ```bash
+    mv example.py ~/example.py
+    ```
+
+    **Note:**
+
+    `~/`  The ~ (tilde) symbol is a shortcut for your home directory.
+
+    When you use ~/ in a command, it expands to something like /home/your-username/ on most Linux systems.
+
+    **Example:**
+    If your username is f1tenth, then:
+
+    ```bash
+    mv example.py ~/example.py
+    ```
+
+    is the same as:
+
+    ```bash
+    mv example.py /home/f1tenth/example.py
+    ```
+
+### 11. Move to the Home directory
+
+- `cd` - Typing `cd` only will take you back to Home directory
+
+    ```bash
+    cd
+    ```
+
+- `ls` - Will allow you to see the `example.py` in the Home directory.
+
+### 12. Next remove `examlpe.py` file form the Home directory
+
+- `rm <file-name>` - Delete a File
+
+    ```bash
+    rm example.py
+    ```
+
+### 13. Remove `ros2_ws` directory
+
+- `rm -rf <directory-name>` - Delete a directory and its contents
+
+    ```bash
+    rm -rf ros2_ws
+    ```
+
+---
+
+### Networking and System Information
+
+- `ifconfig` or `ip a` - Show network interfaces and IP addresses
+
+    ```bash
+    ifconfig
+    ```
+
+- `ping <website>` - Check internet connectivity
+
+    ```bash
+    ping google.com
+    ```
+
+    **Note:**
+    To use these tools you may have to install the net-tools package by running the following command.
+
+    ```bash
+    sudo apt install net-tools
+    ```
+
+---
+
+### What is Python? / Why do we use Python?
+
+In a robotics class, Python is a crucial programming language because of its simplicity, versatility, and powerful libraries for automation, AI, and hardware control. Let’s break down the key concepts:
+
+Python is a high-level, interpreted programming language known for its readability and ease of use. It is widely used in robotics due to:
+
+- **Simplicity** – Easy to write and understand, making it great for beginners.
+
+- **Large Libraries** – Offers libraries like numpy for math, opencv for computer vision, and ROS (Robot Operating System) for robot programming.
+
+- **Cross-Platform Compatibility** – Works on different operating systems (Windows, macOS, Linux).
+
+- **Integration** – Can communicate with hardware, microcontrollers, and AI models efficiently.
 
 ### Explain Python Functions
 
-Python is one of the primary scripting language used in ROS2 (Robot Operating System 2). If you want to build robots using ROS2, you’ll need to understand Python basics first.
+A function in Python is a block of reusable code that performs a specific task. Functions help make programs modular and efficient.
 
-We'll go over two important concepts today: **functions** and **classes**.
-
-### 1. Python Functions
-
-A **function** is a reusable piece of code that performs a specific task. Instead of writing the same code multiple times, we can create a function and call it whenever needed.
-
-#### Example: A Simple Function
+**Example of a Python function**:
 
 ```python
-def greet(name):  
-    return f"Hello, {name}!"  
+def move_forward(speed):
+    print(f"Moving forward at {speed} m/s")
 
-print(greet("ROS2"))  
+move_forward(1.5)
 ```
 
-**Breaking it Down:**
+- `def move_forward(speed)`: – Defines a function named move_forward that takes an argument speed.
 
-1. `def greet(name)`: → We define (create) a function called `greet`. The word `def` means "define a function."
+- `print(f"Moving forward at {speed} m/s")` – Displays the speed at which the robot moves.
 
-2. `name` → This is a **parameter** (a placeholder) that the function uses when it runs.
+  - The `f` before the string tells Python to use an **f-string**, short for formatted string literal.
 
-3. `return f"Hello, {name}!"` → This makes the function return a string (text) that says **"Hello, [name]!"**
+  - F-strings allow you to embed variables or expressions directly inside a string by placing the variable or expression in curly braces {}.
 
-4. `print(greet("ROS2"))` → We call (run) the function and pass "**ROS2**" as the name. This prints:
+- `move_forward(1.5)` – Calls the function with a speed of 1.5 m/s.
+
+### Explain Python Classes
+
+A class is a blueprint for creating objects. In robotics, classes help structure code by grouping related properties and functions together.
+
+**Example of a Python class**:
 
 ```python
-Hello, ROS2!
+class Robot:
+    def __init__(self, name, speed):
+        self.name = name
+        self.speed = speed
+
+    def move(self):
+        print(f"{self.name} is moving at {self.speed} m/s")
+
+# Creating an object
+robot1 = Robot("RoboX", 2.0)
+robot1.move()
 ```
 
-### 2. Python Classes
+- `class Robot`: – Defines a class named Robot.
 
-A **class** is a blueprint for creating objects. **Objects** are things with properties (data) and behaviors (functions).
+- `__init__(self, name, speed)`: – A constructor that initializes name and speed when an object is created.
 
-#### Example: A Simple Class*
+- `move(self)`: – A method that prints the robot's movement.
 
-```python
-class Robot:  
-    def __init__(self, name):  
-        self.name = name  
+- `robot1 = Robot("RoboX", 2.0)` – Creates a robot named "RoboX" moving at 2.0 m/s.
 
-    def say_hello(self):  
-        print(f"Hello, I am {self.name}!")  
+- `robot1.move()` – Calls the move method to print movement details.
 
-robot1 = Robot("TurtleBot")  
-robot1.say_hello()
-```
+**How Functions and Classes Applies to Robotics**:
 
-**Breaking it Down:**
+Functions help simplify repetitive tasks like moving a robot forward or turning.
 
-1. `class Robot`: → We create a class called `Robot`. Think of it as a blueprint.
+Classes allow us to create structured programs where robots have properties (like speed) and behaviors (like movement).
 
-2. `def __init__(self, name):`
+Python’s simplicity makes it perfect for controlling robotic arms, sensors, and AI-driven automation.
 
-    - `__init__` is a special function called when we create a new object.
-    - self.name = name stores the robot's name inside the object.
+## NEED to add Git integration and GitHub Lecture Notes
 
-3. `def say_hello(self):` → This is a function inside the class. It prints a greeting.
+### Have Nick add his lecture notes here
 
-4. `robot1 = Robot("TurtleBot")` → We create a Robot object called robot1 with the name "TurtleBot".
+## Class 4 - Terminator and Python Lab
 
-5. `robot1.say_hello()` → Calls the function and prints:
+- Overview of last class
+- Function Exercise
+- Class Exercise
+- Outline Homework Assignment
+  - Time for Questions
 
-```bash
-Hello, I am TurtleBot!
-```
+### Overview of last class - Class 3
 
-## Class 4 - Basic Python Exercises
+The previous class introduces students to essential **Bash commands** for navigating and managing a Linux-based system, particularly in a robotics development environment. It also covers **Python fundamentals**, including **functions** and **classes**, which are crucial for writing modular and structured code for robotics applications.
+
+**Key Topics Covered in Class 3**:
+
+- Bash Session & Commands
+
+  - Understanding the Bash shell and its role in system interaction.
+
+  - Basic commands for file navigation, management, and execution.
+
+  - Using Terminator for multitasking in a terminal environment.
+
+- Introduction to Python:
+
+- Why Python is widely used in robotics.
+
+- Writing and using functions for reusability and efficiency.
+
+- Understanding object-oriented programming through classes to model robotic behavior.
 
 ### Function Exercise: Building a Simple Calculator
 
@@ -612,11 +706,199 @@ my_library.display_books()
 my_library.remove_book("The Catcher in the Rye")
 ```
 
-## Homework 1: F1Tenth Working in the Terminal
+## Outline Homework Assignment - Homework 2
 
-## Week 3 - Understand ROS2 Setup and Structure
+### Objective
 
-## Class 5 - Overview of ROS2 Humble for Python
+In this homework, you'll clone the F1Tenth GitHub repository and explore key directories within the f1tenth_system. You'll also learn how to navigate directories, list files, and print file contents using Bash commands. The goal is to familiarize yourself with using the terminal in a ROS2-based environment.
+
+### Part 1: Cloning the F1Tenth Repository and Setting up the F1Tenth Workspace
+
+First, we’ll create a ROS 2 workspace for the F1Tenth driver stack with the following commands. We’ll be using `f1tenth_ws` as the name of our workspace going forward in `Homework 2`.
+
+```bash
+cd $HOME
+mkdir -p f1tenth_ws/src
+```
+
+Then, make this into a ROS 2 workspace by running:
+
+```bash
+cd f1tenth_ws
+colcon build
+```
+
+Next, we’ll clone the repo into the src directory of our workspace:
+
+```bash
+cd src
+git clone https://github.com/f1tenth/f1tenth_system.git
+```
+
+Then use the following commands to use the humble-devel branch from the F1tenth repo
+
+```bash
+cd f1tenth_system
+git checkout humble-devel
+```
+
+**Then due to a dependency error with the `ackermann_mux` directroy you will need to edit the .gitmodules. You can do this by entering the `~/f1tenth_ws/src/f1tenth_system$` directory and running the following commands.**
+
+This command ensures that the .gitmodule is in the correct directory. As you should see `.gitmodules` when this command is executed.
+
+```bash
+ls -a
+```
+
+Next you will edit `.gitmodules` by running the following command.
+
+```bash
+nano .gitmodules 
+```
+
+Then, once in the nano text editor enter the following code. The reason that you are changing the `ackermann-mux` **branch** to `foxy-devel` is because this is the latest ROS2 branch avalible on GitHub.
+
+To save and exit in nano type `ctrl` + `x` to exit and then `y` to say yes to saving the changes.
+
+```bash
+[submodule "vesc"]
+    path = vesc
+    url = https://github.com/f1tenth/vesc.git
+    branch = humble
+[submodule "ackermann_mux"]
+    path = ackermann_mux
+    url = https://github.com/f1tenth/ackermann_mux.git
+    branch = foxy-devel
+[submodule "teleop_tools"]
+    path = teleop_tools
+    url = https://github.com/f1tenth/teleop_tools.git
+    branch = foxy-devel
+```
+
+Then we’ll update the git submodules and pull in all the necessary packages
+
+```bash
+git submodule update --init --force --remote
+```
+
+After git finishes cloning, we can now install all dependencies for our packages with rosdep:
+
+```bash
+cd $HOME/f1tenth_ws
+source /opt/ros/humble/setup.bash
+rosdep update
+rosdep install --from-paths src -i -y
+```
+
+Lastly, after dependencies are installed, we can build our workspace again with the driver stack pacakges:
+
+```bash
+colcon build
+```
+
+You can find more details on how the drivers are set up in the README of the f1tenth_system repo.
+Install colcon If you haven't installed colcon yet, follow the step below:
+
+#### Install Colcon
+
+```bash
+sudo apt install python3-colcon-common-extensions
+```
+
+### Possible Error and Fix
+
+If the following error occurs
+
+``` bash
+CMake Error at /opt/ros/humble/share/io_context/cmake/io_context-extras.cmake:17 (find_package):
+  By not providing "Findasio_cmake_module.cmake" in CMAKE_MODULE_PATH this
+  project has asked CMake to find a package configuration file provided by
+  "asio_cmake_module", but CMake did not find one.
+
+  Could not find a package configuration file provided by "asio_cmake_module"
+  with any of the following names:
+
+    asio_cmake_moduleConfig.cmake
+    asio_cmake_module-config.cmake
+
+  Add the installation prefix of "asio_cmake_module" to CMAKE_PREFIX_PATH or
+  set "asio_cmake_module_DIR" to a directory containing one of the above
+  files.  If "asio_cmake_module" provides a separate development package or
+  SDK, be sure it has been installed.
+Call Stack (most recent call first):
+  /opt/ros/humble/share/io_context/cmake/io_contextConfig.cmake:41 (include)
+  /opt/ros/humble/share/serial_driver/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /opt/ros/humble/share/serial_driver/cmake/serial_driverConfig.cmake:41 (include)
+  /opt/ros/humble/share/ament_cmake_auto/cmake/ament_auto_find_build_dependencies.cmake:67 (find_package)
+  CMakeLists.txt:14 (ament_auto_find_build_dependencies)
+```
+
+Use this command:
+
+```bash
+sudo apt update && sudo apt install ros-humble-asio-cmake-module
+```
+
+**There will be several warnings please use the following commands to midigate these warnings.**
+
+Code format: `find . -type f -exec sed -i 's/old/new/g' {} \;`
+
+```bash
+find . -type f -exec sed -i 's/script-dir/script_dir/g' {} \;
+find . -type f -exec sed -i 's/install-script/install_script/g' {} \;
+```
+
+### Part 2: Exploring Key Directories
+
+- **Question 1**: Navigate to the ackermann_mux directory inside f1tenth_system.
+
+- **Question 2**: Write a brief description of each key directory in f1tenth_system:
+
+  - `ackermann_mux`
+
+  - `f1tenth_stack`
+
+  - `teleop_tools`
+
+  - `VESC`
+
+- **Deliverable**: Provide photographic proof of each directories contents.
+
+#### Part 3: Listing and Printing Files
+
+- **Question 3**: Use the `ls` command to list the files inside the `ackermann_mux` directory.
+
+- **Question 4**: Use the `cat` command to print the contents of specific files in the directories:
+
+  - `ackermann_mux/config.yaml`
+
+  - `f1tenth_stack/script.py`
+
+  - `teleop_tools/launch/teleop.launch`
+
+  - `VESC/config/vesc_config.yaml`
+
+- **Deliverable**: Provide photographic proof of the output for each printed file.
+
+#### Submission Instructions
+
+- Provide answers to each question.
+
+- Attach photographic proof where requested.
+
+- Submit the document as a PDF or markdown file.
+
+Due Date: [Insert Due Date Here]
+
+## Week 3 - Understanding ROS2 Setup and Structure
+
+## Class 5 - Overview of ROS2 Humble for Python**
+  
+- Explain File structure
+- Explain and Setup ...
+  - Workspace
+  - Packages
+  - Nodes
 
 ### Topics
 
@@ -652,12 +934,12 @@ To give a simplified overview of how ROS2 works:
 Everytime you open up a **new bash session** (terminal window) you have to source ROS2 globally if you want to use ROS2. To source ROS2 globally you have to run the following command:
 
 ```bash
-source /opt/ros/jazzy/setup.bash
+source /opt/ros/humble/setup.bash
 ```
 
 ### 2. Setting Up a ROS2 Workspace
 
-#### Step 1: Creating a workspace
+### 2.1 Creating a workspace
 
 Next before we create a ROS2 package, we need to set up a workspace. A ROS2 workspace is just a directory where we store our ROS2 packages.
 
@@ -672,9 +954,15 @@ What does this do?
 
 - `mkdir -p ~/ros2_ws/src` → Creates a workspace folder (ros2_ws) with a src/ directory inside it.
 
+  - `-p` — Parent Option in `mkdir`
+
+    - The `-p` flag stands for "parents".
+    - It creates the entire directory path, including any parent directories that don’t already exist.
+    - It also prevents errors if the directories already exist.
+
 - `cd ~/ros2_ws` → Moves into the workspace directory.
 
-#### **Step 3: Build the Empty Workspace**
+### 2.2 Build the Empty Workspace
 
 Once the workspace is created, use `colcon build` to initialize it. **Ensure you are in the ROS2 workspace directory.**
 
@@ -684,9 +972,15 @@ colcon build
 
 This will create necessary directories such as build/, install/, and log/ in `ros2_ws`.
 
-#### **Step 3: Source ROS2 workspace**
+If the `colcon build` command fails it could be becasue you forgot to install the colcon build dependacies when installing `ROS` use the following command to install the necesary dependencies.
 
-Once you create the workspace you will have to source that particular workspace to let ROS know where you are trying call packages from. You source the workspace be running the following command:
+```bash
+sudo apt install python3-colcon-common-extensions
+```
+
+### 2.3 Source ROS2 workspace
+
+Even though you have source the **Globally** source ROS in for the Ubuntu machine now you have to source the particular workspace that you have just created to let ROS know where you are trying call packages from. You source the workspace be running the following command:
 
 ```bash
 source ~/ros2_ws/install/setup.bash
@@ -703,16 +997,16 @@ source ~/ros2_ws/install/setup.bash
 - `install/` is a subdirectory inside the workspace where built packages and dependencies are installed.
 - `setup.bash` is a script that sets up environment variables needed to use ROS 2.
 
-#### **Step 4: Setup `bashrc`**
+### 2.4 Setup `bashrc`
 
-**What is bashrc**:
+**What is bashrc:**
 
 `bashrc` is a file that is ran everytime a terminal window is opened. This is important because adding to this will save you time from running the **ROS2** commands everytime you open up a new terminal.
 
 **Here are some commands that you should add at the end of your bashrc file**:
 
 ```bash
-source /opt/ros/jazzy/setup.bash
+source /opt/ros/humble/setup.bash
 source ~/ros2_ws/install/setup.bash
 source /usr/share/colcon_argcomplete/hook/colcon-argcomplete.bash
 source /usr/share/colcon_cd/function/colcon_cd.sh
@@ -720,8 +1014,8 @@ source /usr/share/colcon_cd/function/colcon_cd.sh
 
 **Command Breakdown**:
 
-1. `source /opt/ros/jazzy/setup.bash` **Required**
-    - Loads the environment for the Jazzy distribution of ROS 2.
+1. `source /opt/ros/humble/setup.bash` **Required**
+    - Loads the environment for the Humble distribution of ROS 2.
     - This makes ROS 2 core commands available.
 
 2. `source ~/ros2_ws/install/setup.bash`**Required**
@@ -776,7 +1070,7 @@ Shows only 2 levels deep in the directory tree.
 
 A package is where nodes are stored along with basic setup files for ROS2.
 
-#### Step 1: Create a Package
+### 4.1 Create a Package
 
 Navigate to the src/ directory and create a new package:
 
@@ -825,7 +1119,7 @@ The `ls` command should return:
 
 init.py <span style="color: green"> **my_python_node.py** </span>
 
-**It is important that the file name is green because this means that the file is created and executable.**
+**It is important that the `my_python_node.py` file name is green because this means that the file is created and executable.**
 
 ### 6. Building a ROS2 Package with colcon build
 
@@ -838,11 +1132,11 @@ colcon build --packages-select my_python_pkg
 
 `colcon build` → builds everything in the workspace unless specified otherwise.
 
-`--packages-select my_python_pkg` → This selects and builds the `my_python_pkg`
+`--packages-select my_python_pkg` → This selects and builds only the `my_python_pkg`. This can be helpful if you don't want to spend the time to rebuild the whole workspace.
 
 If there are no errors, the package will be built successfully.
 
-#### After running colcon build the workspace has to be sourced again. *You have to do this everytime colcon build is executed*
+**After running colcon build the workspace has to be sourced again. (*You have to do this everytime colcon build is executed.*)**
 
 Run the following commands:
 
@@ -857,11 +1151,13 @@ Using `ros2 run` in ROS 2 is important because it allows you to easily execute n
 
 **To execute a Python node, use the ros2 run command**:
 
-1. Create code to run in the `my_python_node.py`
-2. Edit the `package.xml` file
-3. Edit the `setup.py` file
+**7.1 Create code to run in the `my_python_node.py`**
 
-#### Step 1. Create code to run in the `my_python_node.py`
+**7.2 Edit the `package.xml` file**
+
+**7.3 Edit the `setup.py` file**
+
+### 7.1 Create code to run in the `my_python_node.py`
 
 ```python
 #!/usr/bin/env python3
@@ -891,15 +1187,23 @@ if __name__ == '__main__':
 
 **Code Breakdown**:
 
-**1. Shebang (`#!/usr/bin/env python3`)**:
+#### 7.1.1 Shebang (`#!/usr/bin/env python3`)
 
 ```python
 #!/usr/bin/env python3
 ```
 
-This is called a shebang, and it tells the system which program should run this script. Here, it's telling the system to use Python 3 to run this file.
+- `#!/usr/bin/env python3` - Shebang Line Explanation
 
-**2. Importing Libraries**:
+    This line is called a shebang, and it tells the system how to run the script. Here's what it does:
+
+  - `#!` → This is the shebang syntax. It must be the very first line of the file.
+
+  - `/usr/bin/env` → This is a utility that locates and runs the correct version of a program based on your environment. It's more flexible than hardcoding the path to Python.
+
+  - `python3` → This tells env to look for the python3 interpreter in your system’s PATH.
+
+#### 7.1.2 Importing Libraries
 
 ```python
 import rclpy
@@ -910,7 +1214,7 @@ from rclpy.node import Node
 
 - `from rclpy.node import Node`: This imports the Node class from the rclpy.node module.
 
-**3. Creating a Node Class (`MyNode`)**:
+#### 7.1.3 Creating a Node Class (`MyNode`)
 
 ```python
 class MyNode(Node):
@@ -920,7 +1224,7 @@ class MyNode(Node):
 
 - `MyNode` inherits from the Node class, meaning it gets all the functionality of a normal ROS 2 node.
 
-**4. Initializing the Node**:
+#### 7.1.4 Initializing the Node
 
 ```python
 def __init__(self):
@@ -934,7 +1238,7 @@ def __init__(self):
 - `self.counter_ = 0`: This line creates a counter variable (`counter_`) and sets it to 0. It’s not being used yet, but it’s ready to be used.
 - `self.create_timer(1.0, self.timer_callback)`: This line sets up a `timer` to call the function `timer_callback` every 1.0 seconds (1 second). It's like saying, "Hey, every second, do something."
 
-**5. Timer Callback Function**:
+#### 7.1.5 Timer Callback Function
 
 ```python
 def timer_callback(self):
@@ -944,7 +1248,7 @@ def timer_callback(self):
 - `def timer_callback(self):`: This function is called every time the timer triggers (every second, in this case).
 - `self.get_logger().info("Hello from my_python_node")`: This line prints a message ("Hello from my_python_node") to the terminal. It's like the node is saying, "Hello!" every second.
 
-**6. Main Function**:
+#### 7.1.6 Main Function
 
 ```python
 def main(args=None):
@@ -960,7 +1264,7 @@ def main(args=None):
 - `rclpy.spin(node)`: This keeps the node running and listening for events. It’s like saying, "Let the node keep doing its work (printing 'Hello' every second)."
 - `rclpy.shutdown()`: This shuts down the ROS 2 node when everything is done (when the program exits).
 
-**7. Check if the Script is Being Run Directly**:
+#### 7.1.7 Check if the Script is Being Run Directly
 
 ```python
 if __name__ == '__main__':
@@ -975,7 +1279,7 @@ if __name__ == '__main__':
 - The node prints "**Hello from my_python_node**" every second.
 - It keeps running until **you** stop it (use `crtl` + `c` to stop running node).
 
-#### Step 2. Edit the `package.xml` file
+### 7.2 Edit the `package.xml` file
 
 **Basic Outline**:
 
@@ -1053,7 +1357,7 @@ if __name__ == '__main__':
 </package>
 ```
 
-#### Step 3. Edit the `setup.py` file
+### 7.3 Edit the `setup.py` file
 
 **Basic Outline**:
 
@@ -1085,7 +1389,7 @@ setup(
 )
 ```
 
-**Code Lines the Need Updated**:
+**Code Lines that Need Updated**:
 
 - The description needs to be updated from **1** → **2**
 
@@ -1169,7 +1473,7 @@ setup(
     )
     ```
 
-#### Step 4. Use `ros2 run`
+### 7.4 Use `ros2 run`
 
 Now that you have updated all of your files go to your `ros2_ws` and build all of your packages to update them. (Use the following commands)
 
@@ -1205,46 +1509,357 @@ To stop the node from running use `ctrl` + `c`
 
 Ensure that the workspace is sourced before running nodes:
 
+```bash
 source ~/ros2_ws/install/setup.bash
+```
 
 ### 8. Important ROS2 Commands
 
-1. Basic ROS2 Commands
+**8.1 Basic ROS2 Commands:**
 
-    - Check ROS2 version:
+- Check ROS2 version:
 
-        ```bash
-        ros2 --version
-        ```
+    ```bash
+    ros2 --version
+    ```
 
-    - Check installed ROS2 packages:
+- Check installed ROS2 packages:
 
-        ```bash
-        ros2 pkg list
-        ```
+    ```bash
+    ros2 pkg list
+    ```
 
-    - Get package information:
+- Get package information:
 
-        ```bash
-        ros2 pkg info <package_name>
-        ```
+    ```bash
+    ros2 pkg info <package_name>
+    ```
 
-2. Nodes Management
+**8.2 Nodes Management:**
 
-    - List active nodes:
+- List active nodes:
 
-        ```bash
-        ros2 node list
-        ```
+    ```bash
+    ros2 node list
+    ```
 
-    - Get node information:
+- Get node information:
 
-        ```bash
-        ros2 node info <node_name>
-        ```
+    ```bash
+    ros2 node info <node_name>
+    ```
 
-    - Run a node:
+- Run a node:
 
-        ```bash
-        ros2 run <package_name> <executable_name>
-        ```
+    ```bash
+    ros2 run <package_name> <executable_name>
+    ```
+
+## Class 6 - Create Your Own Node
+
+- **Explain Git and Github**
+- Overview of `my_python_pkg`
+- Outline Homework Assignment
+  - Time for Questions
+
+### What is Git?
+
+**Git** is a version control system that helps track changes in code, collaborate with others, and manage different versions of a project efficiently. It allows developers to:
+
+- **Track changes**: Every modification is recorded, making it easy to revert to previous versions.
+
+- **Branch and merge**: Developers can work on separate branches and merge changes without overwriting each other's work.
+
+- **Collaborate**: Multiple people can work on the same project without conflicts.
+
+### What is GitHub?
+
+GitHub is a **cloud-based platform** that hosts Git repositories and provides additional tools for collaboration. It enables:
+
+- **Remote storage**: Backup your Git repositories online.
+
+- **Team collaboration**: Share code, review pull requests, and track issues.
+
+- **Integration**: Works with  Continuous Integration and Continuous Deployment pipelines, project management tools, and more.
+
+### Why is Git/GitHub a Great Asset?
+
+- **Version Control**: Never lose progress and easily roll back changes.
+
+- **Collaboration**: Teams can work on code together without conflicts.
+
+- **Open Source Contributions**: Developers can contribute to public projects.
+
+- **Automation & Deployment**: Supports continuous integration and deployment.
+
+If you’re working on projects like your F1TENTH car or embedded systems, GitHub is a great way to manage your code, track updates, and collaborate efficiently with your team.
+
+## Add nicks notes here on home to use Git and Github
+
+### Overview of `my_python_pkg`
+
+From the last class, we created a ROS 2 package named `my_python_pkg`. Below are its key components:
+
+Package Structure
+
+```bash
+my_python_pkg/
+│── package.xml  # Package metadata
+│── setup.py     # Python package setup
+│── my_python_pkg/
+│   ├── __init__.py  # Required for Python module
+│   ├── my_python_node.py  # ROS 2 node
+│── resource/  # Used for package identification
+│── setup.cfg  # Configuration file
+```
+
+**Key Files and Their Purpose**:
+
+- `package.xml`: Defines package dependencies.
+
+- `setup.py`: Configures how the package is installed and run.
+
+- `my_python_node.py`: Contains the ROS 2 node implementation.
+
+**Running the Node**:
+
+```bash
+ros2 run my_python_pkg my_node
+```
+
+## Outline Homework Assignment - Homework 3
+
+### Objectives
+
+- Understand the structure of a ROS 2 Python package.
+
+- Create a custom ROS 2 package and configure it correctly.
+
+- Write a ROS 2 node that publishes messages.
+
+- Modify setup.py to ensure proper execution.
+
+- Learn how to manage dependencies using package.xml.
+
+- Build and run your ROS 2 package.
+
+- Submit your work using GitHub.
+
+### Tasks
+
+**Task 1: Create Your Own ROS 2 Python Package:**
+
+- Use the structure of my_python_pkg as a reference.
+
+- Name your package student_pkg.
+
+**Task 2: Write a ROS 2 Node:**
+
+- Create a Python script named `student_node.py`.
+
+- The node should publish a simple message every second. (be creative)
+
+**Task 3: Modify setup.py:**
+
+Ensure your node is added to the `entry_points` section.
+
+**Task 4: Modify package.xml:**
+
+- Define dependencies required for your package (e.g., `rclpy`).
+
+- Ensure that the correct package metadata (name, description, maintainers, etc.) is included.
+
+**Task 5: Run the Node:**
+
+- Build your package.
+
+- source your workspace.
+
+- Use `ros2 run student_pkg student_node` to execute your node.
+
+**Task 6: Making comments:**
+
+- Comments need to be made throughout the code to demostrate your understanding of the code.
+
+**Submission:**
+
+- Push your package to a GitHub repository.
+
+- Submit the repository link for review.
+
+## Week 4 - ROS2 Comunication using Interfaces
+
+## Class 7 - Brief Overview of ROS2 Interfaces
+
+- 3 Communications Types
+    1. Topics
+      - `ros2 run demo_nodes_cpp talker`
+      - `ros2 run demo_nodes_cpp listener`
+      - `rqt_graph`
+    2. Services
+      - `ros2 run demo_nodes_cpp add_two_ints_server`
+      - `ros2 run demo_nodes_cpp add_two_ints_client`
+    3. Actions
+      - Short description on when to use actions
+
+### Learning Objectives
+
+By the end of this class, students will:
+
+- Have a basic understanding of the three main ROS 2 communication interfaces: **Topics, Services, and Actions**.
+- Learn when and why each type is used.
+- Demonstrate basic ROS 2 communication using pre-built demo nodes.
+- Visualize ROS 2 message flow using `rqt_graph`.
+
+---
+
+### Introduction: The Postal Service Analogy
+
+To help conceptualize ROS 2 communication types, imagine a ways information is share in real-world senarios.
+
+1. **Topics → Public Announcements:** Like a radio station broadcasting to anyone who tunes in.
+
+2. **Services → Request and Response:** Like mailing a letter and waiting for a reply.
+
+3. **Actions → Ongoing Delivery:** Like ordering a package and tracking its shipment.
+
+---
+
+### 1. Topics: One-Way Communication
+
+**Concept**:
+
+- Topics are used for continuous, one-way message streams.
+- Publishers send data, and subscribers receive it asynchronously.
+- Ideal for **sensor data** (e.g., a camera streaming images).
+
+**How Topics Work (Step-by-Step):**
+
+1. A **Publisher node** is created and begins sending messages on a named **Topic**.
+2. A **Subscriber node** is created and tells ROS2 it wants to listen to that same **Topic**.
+3. ROS2 automatically **matches** publishers and subscribers based on the **Topic name** and **message type** (e.g., std_msgs/msg/String).
+4. Once matched, **messages flow from the publisher to the subscriber** without any further action needed.
+5. If multiple subscribers exist, the publisher **broadcasts** the message to all subscribers.
+6. If a publisher or subscriber node disconnects or stops, ROS2 **dynamically updates** the connections.
+
+**Why Topics Are Important:**
+
+- **Asynchronous Communication:** Topics allow nodes to **send and receive data independently** without waiting for a response.
+- **Real-Time Data Flow:** Perfect for **sensor data**, **status updates**, and **control commands** that need continuous transmission.
+- **Scalability:** Multiple publishers and multiple subscribers can easily share the same topic, making it easy to build complex robotic systems.
+- **Loose Coupling:** Nodes do not need to know about each other directly — they just agree on the Topic name and message type, making systems **modular and flexible**.
+
+  **Summary:** Topics are the backbone of most robotic communication, enabling different parts of a system to share information in real time and independently.
+
+**Demo: Talker & Listener:**
+
+**1.1 Open a terminal window and run a publisher:**
+
+   ```bash
+   ros2 run demo_nodes_cpp talker
+   ```
+
+**1.2 Open a second terminal window and run a subscriber:**
+
+   ```bash
+   ros2 run demo_nodes_cpp listener
+   ```
+
+**1.3 Observe the messages being published and received.**
+
+**1.4 Visualize the system using:**
+
+   ```bash
+   rqt_graph
+   ```
+
+`rqt_graph` is a visualization tool in ROS2 that displays the communication between nodes by showing how topics, publishers, and subscribers are connected. It should be used to quickly understand, debug, and verify the data flow within a running ROS2 system. `rqt_graph` primarily visualizes **Topics**, but it complements other ROS2 interfaces like **Services** and **Actions** by helping identify what nodes exist and how they interact, but Services and Actions themselves are not fully shown.
+
+![Image of rqt_graph](<README_Pics/Screenshot from 2025-03-31 05-40-30.png>)
+
+---
+
+### 2. Services: Request-Response Communication
+
+**Concept**:
+
+- Services work like a function call: a request is sent, and a response is returned.
+- Useful for tasks like turning a light on or querying a database.
+
+**How Services Work (Step-by-Step):**
+
+1. A **Service Server node** is created and offers a specific service under a **Service name**.
+2. A **Service Client node** is created and requests a service call with **input data** (called a "request").
+3. ROS2 matches the **Client** and **Server** automatically based on the **Service name** and **Service type** (e.g., example_interfaces/srv/AddTwoInts).
+4. The **Client** sends the request to the **Server** and **waits** for a reply (unlike topics, services are synchronous).
+5. The **Server** processes the request and sends back a **response** with the result.
+6. After the interaction, the connection is **closed** — it is not a continuous link like a topic.
+
+**Why Services Are Important:**
+
+- **Synchronous Commands:** Services allow you to send a command and wait for a specific answer (like calling a function).
+- **Reliability:** You can guarantee that a request is either successfully answered or reported as failed.
+- **Controlled Actions:** Perfect for **one time operations** like requesting a robot to take a photo, start a motor, open a gripper, or query a sensor once.
+- **Simplicity:** Services are easier to manage for operations where you don't need continuous communication — just a clear request and answer.
+
+  **Summary:** Services are critical when you need a guaranteed response to a specific single action.
+
+**Demo: Add Two Integers Service** -
+
+**2.1 Open a terminal and run a service server:**
+
+   ```bash
+   ros2 run demo_nodes_cpp add_two_ints_server
+   ```
+
+**2.2 Open another terminal and call the service:**
+
+   ```bash
+   ros2 run demo_nodes_cpp add_two_ints_client 2 3
+   ```
+
+**2.3 Observe the response (sum of 2 and 3 returned).**
+
+---
+
+### 3. Actions: Long-Duration Tasks
+
+**Concept**:
+
+- Actions are like services but can be monitored and canceled mid-execution.
+- Actions manage multiple internal topics with a structure of goal, feedback, and result.
+- Used for tasks like **robot navigation** (move from A to B).
+- We won’t run a demo, but we’ll briefly discuss its use cases.
+
+**How Actions Work (Step-by-Step):**
+
+1. A client node sends a goal request to an action server.
+2. The server accepts the goal and starts working toward completing it.
+3. As the task progresses, the server sends feedback messages back to the client (example: "robot is halfway to the destination").
+4. The client can choose to:
+
+    - Continue monitoring the task,
+    - Cancel the task mid-way,
+    - Or simply wait for the result.
+
+5. When the task completes (successfully or with an error), the server sends a result back to the client.
+
+**Why Actions Are Important:**
+
+- **Monitor Progress:** Unlike Services (one-time reply), Actions let you see ongoing progress with Feedback.
+- **Cancelability:** You can cancel long operations if conditions change (e.g., obstacle detected).
+- **Complex Behavior:** Many real-world robotics tasks are not instant — navigation, picking up objects, docking, etc., need intermediate updates and control.
+
+  **Summary:** Actions bring real-world "work in progress" management into ROS2 systems.
+
+**Example of an Action (Simple Demo):**
+Imagine a robot being asked to move forward 5 meters:
+
+- **Client:** "Move forward 5 meters."
+- **Server:** Starts moving the robot forward.
+- **Feedback:** Every second, the server sends "Moved 1 meter", "Moved 2 meters"...
+- **Result:** After reaching 5 meters, the server replies "Goal completed successfully."
+
+  If at any point the user cancels, the server would respond "Goal canceled after 3 meters moved."
+
+## Class 8 - Create Basic Publisher and Subscriber
